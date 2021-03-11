@@ -106,13 +106,13 @@ Running `gatsby develop` via Docker is optional, but desirable. If you want to d
 
 1. You first have to build the Docker image by running `docker build -t algosite .`. Here, `algosite` will be the name of the image.
 
-2. Then you can run the image with ` docker run --name algosite -p 8000:8000 -v ``pwd``:/usr/src/app algosite `. Here,
+2. Then you can run the image with `docker run --name algosite -p 8000:8000 -v $(pwd):/usr/src/app algosite`. Here,
 
    1. `--name algosite` specifies that the name of the Docker _instance_ of our image is `algosite`.
 
    1. `-p 8000:8000` links port `8000` inside the Docker container to the outside machine, so that you can access port `8000` in your browser, for example.
 
-   1. ` -v ``pwd``:/usr/src/app ` mounts the current folder to the folder `/usr/src/app` inside the Docker container. This makes it so that edits you make are seen inside the container and are thus seen by `gatsby develop`.
+   1. `-v $(pwd):/usr/src/app` mounts the current folder to the folder `/usr/src/app` inside the Docker container. This makes it so that edits you make are seen inside the container and are thus seen by `gatsby develop`.
 
    1. `algosite` at the end is just the name of the image to make an instance of.
 
