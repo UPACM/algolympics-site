@@ -82,13 +82,13 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
 
-## Yearly Structure
+## 🏢 Yearly Structure
 
 This is intended to house the websites for all Algolympics iterations starting from 2021. As such, the files are mostly organized by year. Things outside of the year folders are intended to be reusable across several years.
 
 Currently, there's not much reusable stuff, and that's a shame. That should probably be fixed soon.
 
-## Updating to Include the Latest Year
+## 🎊 Updating to Include the Latest Year
 
 Suppose you want to update the website to include the latest iteration of Algolympics: Algolympics 20XX. Here are the steps you should probably follow:
 
@@ -98,7 +98,7 @@ Suppose you want to update the website to include the latest iteration of Algoly
 
 Note that `src/data/details.json` and `gatsby-node.js` should probably be updated as well.
 
-## Running via Docker
+## 🦆 Running via Docker
 
 Docker is a software that runs so-called "containers". Containers simulate the OS; think of it like running a virtual machine on your computer, except that only the OS is simulated, which makes it lighter than virtual machines. Dockers are used these days to make it easy to maintain exactly the same environments across multiple computers. It is even used in production to ensure that the "machine" that you run locally is the same as the production "machine".
 
