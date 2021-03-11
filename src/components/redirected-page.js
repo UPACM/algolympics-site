@@ -1,0 +1,15 @@
+import React from "react"
+import { navigate } from "gatsby"
+
+import "./redirected-page.scss"
+
+export default function RedirectedPage({ target }) {
+  console.log("Attempting to redirect to", target)
+  navigate(target)
+  // feel free to make this nicer
+  return (
+    <div class="redirect">
+      <a href={target}>Click here to proceed to {target}.</a>
+    </div>
+  )
+}
