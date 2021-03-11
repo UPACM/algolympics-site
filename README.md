@@ -100,24 +100,28 @@ Note that `src/data/details.json` and `gatsby-node.js` should probably be update
 
 ## 🦆 Running via Docker
 
-Docker is a software that runs so-called "containers". Containers simulate the OS; think of it like running a virtual machine on your computer, except that only the OS is simulated, which makes it lighter than virtual machines. Dockers are used these days to make it easy to maintain exactly the same environments across multiple computers. It is even used in production to ensure that the "machine" that you run locally is the same as the production "machine".
+Docker is a software that runs so-called "containers". Containers simulate the OS; think of it like running a virtual machine on your computer, except that only the OS is simulated, which makes it lighter than virtual machines. Docker is widely used everywhere these days, and is used to make it easy to maintain exactly the same environments across multiple computers. It is even used in production to ensure that the "machine" that you run locally is the same as the production "machine".
 
 Running `gatsby develop` via Docker is optional, but desirable. If you want to do so,
 
 1. You first have to build the Docker image by running `docker build -t algosite .`. Here, `algosite` will be the name of the image.
 
-2. Then you can run the image with `docker run --name algosite -p 8000:8000 -v $(pwd):/usr/src/app algosite`. Here,
+2. Then you can run the image with `docker run --name algosite --rm -p 8000:8000 -v $(pwd):/usr/src/app algosite`. Here,
 
-   1. `--name algosite` specifies that the name of the Docker _instance_ of our image is `algosite`.
+   - `--name algosite` specifies that the name of the Docker _instance_ of our image is `algosite`.
 
-   1. `-p 8000:8000` links port `8000` inside the Docker container to the outside machine, so that you can access port `8000` in your browser, for example.
+   - `--rm` specifies that the instance should be deleted after stopping it.
 
-   1. `-v $(pwd):/usr/src/app` mounts the current folder to the folder `/usr/src/app` inside the Docker container. This makes it so that edits you make are seen inside the container and are thus seen by `gatsby develop`.
+   - `-p 8000:8000` links port `8000` outside the Docker container to port `8000` inside the container, so that, for example, you can access port `8000` in your browser.
 
-   1. `algosite` at the end is just the name of the image to make an instance of.
+   - `-v $(pwd):/usr/src/app` mounts the current folder outside the Docker container to the folder `/usr/src/app` inside the container. This makes it so that edits you make are seen inside the container and are thus seen by `gatsby develop`.
 
-3. To restart it, you must run `docker stop algosite && docker rm algosite` (in a different terminal) to stop and remove the container `algosite`, and then run the `docker run` command above again.
+   - `algosite` at the end is just the name of the image to make an instance of.
 
-4. To go _inside_ the Docker container and access a terminal, run `docker exec -it algosite bash`. This will give you access to a terminal _inside_ the container. You can run any available command there.
+3. To restart it, you must run `docker stop algosite` (in a different terminal) to stop the container `algosite`, and then run the `docker run` command above again.
 
-5. You can also run other commands directly via `docker exec`, e.g., `docker exec -it algosite npm run format`. This runs `npm run format` _inside_ the container.
+4. Remember that our `docker run` command above automatically deletes the container, so by stopping it, the container is also removed. If removal fails for any reason (e.g., a forceful shutdown), you may delete it manually via `docker rm algosite`.
+
+5. To go _inside_ the Docker container and access a terminal, run `docker exec -it algosite bash`. This will give you access to a terminal _inside_ the container. You can run any available command there. It should be clear that the commands in your computer are not necessarily available inside the container.
+
+6. You can also run other commands directly via `docker exec`, e.g., `docker exec -it algosite npm run format`. This runs `npm run format` inside the container.
