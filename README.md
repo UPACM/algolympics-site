@@ -60,7 +60,7 @@ Here are the the top-level files and directories. You see most of these in a typ
 
 1.  **`devserver.sh`**: A script that runs `gatsby clean` (clears cache) and then `gatsby develop`. You can run this yourself, but this is mainly used by the Docker container to run the development server.
 
-1.  **`Dockerfile`**: A manifest file for a Docker image to be built for this app. See the "Running via Docker" below for more details.
+1.  **`Dockerfile`**: Used to build a Docker image for this app. See the "Running via Docker" below for more details.
 
 1.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/gatsby-config/) for more detail).
 
