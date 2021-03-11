@@ -8,7 +8,7 @@ export default function RedirectedPage({ target }) {
   navigate(target)
   // feel free to make this nicer
   return (
-    <div class="redirect">
+    <div className="redirect">
       <a href={target}>Click here to proceed to {target}.</a>
     </div>
   )
