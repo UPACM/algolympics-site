@@ -17,7 +17,7 @@ This uses Gatsby and was started via Gatsby's hello-world boilerplate.
     Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-hello-world-starter/
+    cd algolympics-site/
     gatsby develop
     ```
 
@@ -66,7 +66,7 @@ Here are the the top-level files and directories. You see most of these in a typ
 
 1.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-1.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
+1.  **`LICENSE`**: The license details of this code base.
 
 1.  **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 
