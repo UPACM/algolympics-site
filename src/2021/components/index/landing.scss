@@ -1,0 +1,81 @@
+@import "../../styles/var.scss";
+
+img#landing-image {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -9;
+	width: 100%;
+	height: 100%;
+	background: gray;
+	object-fit: cover;
+	object-position: center 0%;
+	transition: opacity 0.2s;
+}
+
+img#landing-image.scrolled {
+	opacity: 25%;
+}
+
+div#landing-text {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -8;
+	width: 100vw;
+	height: 100vh;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	div.wrapper {
+		height: 100%;
+		width: 100%;
+		max-height: calc(1080px);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		h1 {
+			text-align: center;
+			span {
+				font-family: "Montserrat";
+				font-weight: bold;
+			}
+		}
+
+		img {
+			width: 20;
+			object-fit: contain;
+			padding-bottom: 2vh;
+		}
+		
+	}
+	
+}
+
+div#landing-spacer {
+	margin-top: 100vh;
+}
+
+@media (max-width: 768px) {
+	div#landing-text {
+		div.wrapper {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			img {
+				width: 60vw;
+				height: auto;
+			}
+
+			h1 {
+				font-size: 5vw;
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+}

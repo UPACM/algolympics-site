@@ -1,0 +1,14 @@
+{
+  "yearsLinks": [
+    {
+      "year": 2021,
+      "link": "/2021",
+      "external": false
+    },
+    {
+      "year": 2020,
+      "link": "https://algo2020.upacm.net/",
+      "external": true
+    }
+  ]
+}

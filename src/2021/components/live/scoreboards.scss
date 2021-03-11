@@ -1,0 +1,60 @@
+@import "../../styles/var.scss";
+
+#scoreboards-section {
+    color: $dull-white;
+}
+
+.table-title {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.scoreboard {
+    width: 90%;
+    margin: auto;
+    .headers {
+        > * {
+            border-bottom: 1px solid $dull-white;
+            padding: 2% 0;
+            text-align: center;
+        }
+    }
+    .score-entry {
+        > * {
+            padding: 0.25% 14px;
+            border-bottom: 1px solid $acm-dark-gray;
+        }
+        .rank {
+            text-align: right;
+        }
+        .name {
+            text-align: right;
+            .cf-name {
+                padding: 3% 0;
+            }
+            .school {
+                font-size: 0.75em;
+                padding-bottom: 3%;
+            }
+        }
+        .score {
+            text-align: center;
+            .penalty {
+                font-size: 0.75em;
+                color: $acm-dull-red;
+            }
+        }
+        .ac{
+            background: #397d38;
+        }
+        .wa{
+            background: $acm-dull-red;
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .mobile-invisible {
+        display: none;
+    }
+}

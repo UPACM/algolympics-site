@@ -1,0 +1,57 @@
+@import "../../styles/var.scss";
+
+div#sample-problems-section {
+    color: $dull-white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    h1 {
+        text-align: center;
+    }
+    div#samples {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+        a.sample-problem {
+            background: rgba(158, 155, 155, 0.05);
+            border-left: 1px solid rgba(0,0,0,0);
+            border-right: 1px solid rgba(0,0,0,0);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2%;
+            margin: 1%;
+            font-size: 2em;
+            transition: 0.2s ease;
+        }
+        a.sample-problem:hover {
+            background: linear-gradient(270deg, rgba(255,255,255,0.125) 0%, rgba(255,255,255,0.05) 50%, rgba(255,255,255,0.125) 100%);
+            border-left: 1px solid white;
+            border-right: 1px solid white;        }
+        a.sample-problem:active {
+            background: linear-gradient(270deg, rgba(1,130,172,0.25) 0%, rgba(255,255,255,0.05) 50%, rgba(1,130,172,0.25) 100%);
+            border-left: 1px solid $acm-blue;
+            border-right: 1px solid $acm-blue;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    div#sample-problems-section {
+        h1 {
+            margin-bottom: 3vh;
+            font-size: 1.5em;
+        }
+        div#samples {
+            a.sample-problem {
+                font-size: 1em;
+                padding: 7.5%;
+                margin: 5%;
+            }
+        }
+    }
+}

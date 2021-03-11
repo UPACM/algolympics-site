@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+@font-face {
+    font-family: 'DS-Digit';
+    src: url("/fonts/DS-DIGIT.TTF") format('truetype');
+}
+
+$universal-gray: #181818;
+$universal-light-gray: #888;
+
+$dull-white: rgb(200,200,200);
+
+$acm-black: rgb(25,25,25);
+$acm-dark-gray: rgb(35,35,35);
+$acm-gray: rgb(50,50,50);
+$acm-orange: #fc9200;
+$acm-red: rgb(253, 27, 0);
+$acm-yellow: #ffd600;
+$acm-green: #a6bc09;
+$acm-blue: rgb(1, 130, 172);
+
+$acm-dull-blue: #134d78;
+$acm-dull-light-blue: #76b4c5;
+$acm-dull-dark-blue: #173462;
+$acm-dull-yellow: #e0c540;
+$acm-dull-orange: #d19038;
+$acm-dull-red: #c74739;
+$acm-dull-green: #a5b91a;
+/*
+Dull:
+- ACM Orange: #d19038
+- ACM Yellow: #e0c540
+- ACM Red: #c74739
+- ACM Green: #a5b91a
+- ACM Purple: #5b0a60
+- Dark Background: #181818
+*/
+
+$acm-gold: $acm-yellow;
+$acm-gold-dark: #998000;
+$acm-silver: rgb(200,200,200);
+$acm-silver-dark: rgb(100,100,100);
+$acm-bronze: $acm-orange;
+$acm-bronze-dark: #915400;
+
+$hidden-border: 1px solid rgba(0,0,0,0);
+$transparent-bg: rgba(0,0,0,0);
+
+$link-hover-bg: linear-gradient(0deg, rgba(200,200,200,0.125) 0%, rgba(200,200,200,0) 100%);
+$link-hover-bg-left: linear-gradient(90deg, rgba(200,200,200,0.125) 0%, rgba(200,200,200,0) 100%);
+$link-hover-bg-right: linear-gradient(270deg, rgba(200,200,200,0.125) 0%, rgba(200,200,200,0) 100%);
+$link-hover-border: 1px solid white;
+$link-active-bg: linear-gradient(0deg, rgba(1,130,172,0.125) 0%, rgba(200,200,200,0) 100%);
+$link-active-bg-left: linear-gradient(90deg, rgba(1,130,172,0.125) 0%, rgba(200,200,200,0) 100%);
+$link-active-bg-right: linear-gradient(270deg, rgba(1,130,172,0.125) 0%, rgba(200,200,200,0) 100%);
+$link-active-border: 1px solid #0182ac;
+

@@ -1,0 +1,171 @@
+@import "../../styles/var.scss";
+
+div#prizes-section {
+	padding-top: 3vh;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+
+	div.banner {
+		text-align: center;
+		width: 25%;
+		margin: 0 2%;
+		font-size: 1.25em;
+
+		img.trophy-img {
+			width: 50%;
+			object-fit: contain;
+		}
+
+		div.banner-content {
+			width: 100%;
+			margin-top: 1vh;
+			padding-bottom: 25vh;
+			border-radius: 10% 10% 0 0;
+			clip-path: polygon(100% 0, 100% 100%, 50% calc(100% - 50px), 0 100%, 0 0);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+
+			div.prize {
+				color: black;
+				width: 80%;
+				padding-top: 3vh;
+				padding-bottom: 100px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), 50% 100%, 0 calc(100% - 50px));
+				p {
+					margin-top: 1vh;
+				}
+			}
+			h3 {
+				padding: 5%;
+				margin-top: 5%;
+				font-size: 1.5em;
+			}
+			a.winner {
+				padding: 0 5%;
+				padding-top: 5%;
+				border-top: 1px solid rgba(0,0,0,0);
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+
+				img.winner-profile {
+					width: 100%;
+					filter: grayscale(100%);
+					transition: 0.2s;
+					border-radius: 10px;
+				}
+
+				img.team-logo {
+					margin-top: -5vh;
+					width: 10vh;
+					height: 10vh;
+					background: rgba(200,200,200,0.25);
+					object-fit: contain;
+					border-radius: 12.5vh;
+					filter: grayscale(100%);
+					transition: 0.2s;
+				}
+				span.team-name {
+					font-size: 1.0625em;
+					width: 100%;
+					text-align: center;
+					border-bottom: 1px solid white;
+					padding-bottom: 3%;
+				}
+				span.team-univ {
+					height: 0;
+					margin-top: 3%;
+					font-size: 0.8em;
+				}
+			}
+			a.winner:hover {
+				img.winner-profile {
+					filter: grayscale(0%);
+				}
+				img.team-logo {
+					filter: grayscale(0%);
+				}
+			}
+			a.winner:active {
+				background: linear-gradient(0deg, rgba(1,130,172,0) 0%, rgba(255,255,255,0.25) 100%);
+				border-top: 1px solid white;
+				border-radius: 10px 10px 0 0;
+			}
+
+		}
+
+	}
+	
+	div.banner#first {
+
+		div.prize {
+			background: $acm-gold;
+		}
+
+		div.banner-content {
+			background: $acm-gold-dark;
+			padding-bottom: calc(25vh + 100px);
+		}
+	}
+	
+	
+	div.banner#second {
+		div.prize {
+			background: $acm-silver;
+		}
+		div.banner-content {
+			background: $acm-silver-dark;
+			padding-bottom: calc(25vh + 50px);
+		}
+	}
+	
+	div.banner#third {
+		div.prize {
+			background: $acm-bronze;
+		}
+		div.banner-content {
+			background: $acm-bronze-dark;
+		}
+	}
+	
+}
+
+@media (max-width: 768px) {
+
+	div#prizes-section {
+		font-size: 0.5em;
+		div.banner {
+			div.banner-content {
+				a.winner {
+					img.winner-profile {
+						mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
+						border-radius: 0;
+						width: 100%;
+						object-fit: cover;
+						display: none;
+					}
+					img.team-logo {
+						width: 15vw;
+						height: 15vw;
+						margin-top: 3%;
+						border-radius: 7.5vw;
+					}
+					span.team-name {
+						margin-top: 1vh;
+					}
+					span.team-univ {
+						font-size: 1em;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,73 @@
+@import "../../styles/var.scss";
+
+div.content#contact {
+    div#contact-social-section {
+        margin: auto;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            display: none;
+            width: 80%;
+            text-align: center;
+            margin-bottom: 4vh;
+            padding-bottom: 2vh;
+            border-bottom: 1px solid white;
+            font-size: 4em;
+        }
+
+        div#social-list {
+            width: 75%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+    
+            a.social-item {
+                width: 40%;
+                margin: 3%;
+                padding: 2%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: 0.2s;
+                background: rgba(0,0,0,0);
+                border-bottom: 1px solid rgba(0,0,0,0);
+                img {
+                    width: 12.5%;
+                    object-fit: contain;
+                }
+                span {
+                    margin-left: 3%;
+                    font-size: 1.25em;
+                }
+            }
+
+            a.social-item:hover {
+                background: $link-hover-bg;
+                border-bottom: $link-hover-border;
+            }
+
+            a.social-item:active {
+                background: $link-active-bg;
+                border-bottom: $link-active-border;
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    div.content#contact {
+        div#contact-social-section {
+            div#social-list {
+                flex-wrap: nowrap;
+                flex-direction: column;
+                align-items: center;
+                a.social-item {
+                    img {
+                    }
+                }
+            }
+        }
+    }
+}

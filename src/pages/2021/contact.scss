@@ -1,0 +1,14 @@
+@import "../../2021/styles/var.scss";
+
+div.content#contact {
+    width: 75vw;
+    margin: 25vh auto;
+    padding: 10% 3%;
+    background: rgba(0,0,0,0.75);
+}
+
+@media (max-width: 1000px) {
+    div.content#contact {
+        width: 100%;
+    }
+}

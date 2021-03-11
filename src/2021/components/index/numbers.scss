@@ -1,0 +1,120 @@
+@import "../../styles/var.scss";
+
+div#numbers-section {
+
+	padding: 1.5%;
+	color: $dull-white;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	
+	div.number {
+		
+		display: flex;
+		align-items: center;
+		margin: 1vh auto;
+		padding: 2vh;
+		width: 70%;
+		
+		div.val-container {
+			display: flex;
+			align-items: center;
+			img.icon {
+				width: 17.5vh;
+				height: 17.5vh;
+				max-width: 0.175*1080px;
+				max-height: 0.175*1080px;
+				object-fit: contain;
+				object-position: center center;
+			}
+			h1.value {
+				font-size: 5em;
+				margin: 0 15px;
+			}
+		}
+		p.description {
+			font-size: 2em;
+		}
+	}
+	
+	div.number:nth-child(even) {
+		align-self: flex-end;
+		flex-direction: row-reverse;
+		div.val-container {
+			flex-direction: row-reverse;
+		}
+		p.description {
+			text-align: right;
+		}
+	}
+	
+	div.number.special {
+		margin: 0;
+		width: 90%;
+		padding: 5%;
+		color: $dull-white;
+		flex-direction: column;
+		div.val-container {
+			flex-direction: column;
+			img.icon {
+				width: 25vh;
+				height: 25vh;
+			}
+			h1.value {
+				font-size: 5em;
+				text-align: center;
+			}
+		}
+		
+		p.description {
+			font-size: 2em;
+			text-align: center;
+		}
+	}
+	
+}
+
+@media (max-width: 768px) {
+	div#numbers-section {
+		padding: 0;
+		div.number {
+			margin: 0;
+			width: 90%;
+			padding: 5%;
+			flex-direction: column;
+			div.val-container {
+				img.icon {
+					width: 7vh;
+					height: 7vh;
+				}
+				h1.value {
+					font-size: 10vw;
+				}
+			}
+			p.description {
+				font-size: 1em;
+				text-align: center;
+			}
+		}
+		
+		div.number:nth-child(even) {
+			flex-direction: column;
+			div.val-container {
+				flex-direction: row;
+				h1.value {
+					font-size: 10vw;
+				}
+			}
+			p.description {
+				text-align: center;
+			}
+		}
+
+		div.number.special {
+			div.val-container {
+				flex-direction: column;
+			}
+		}
+		
+	}
+}

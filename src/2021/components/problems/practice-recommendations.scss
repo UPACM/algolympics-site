@@ -1,0 +1,43 @@
+@import "../../styles/var.scss";
+
+div#practice-recommendations-section {
+	color: $dull-white;
+	h1 {
+		width: 100%;
+		text-align: center;
+	}
+
+	div#recommendations-md {
+		width: 80%;
+		margin: auto;
+		padding: 3% 0;
+		p {
+			padding: 1% 0;
+		}
+		a {
+			color: $acm-dull-orange;
+		}
+		li {
+			margin-left: 5%;
+		}
+		a:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	div#practice-recommendations-section {
+		font-size: 0.75em;
+		div#recommendations-md {
+			width: 80%;
+			p {
+				margin: 5% 0;
+			}
+			li {
+				font-size: 1.25em;
+				margin-top: 5%;
+			}
+		}
+	}
+}

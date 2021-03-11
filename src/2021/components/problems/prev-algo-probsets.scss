@@ -1,0 +1,87 @@
+@import "../../styles/var.scss";
+
+div#prev-algo-probsets-section {
+    color: $dull-white;
+    padding: 3%;
+    margin-bottom: 5%;
+    h1 {
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    div#probsets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        div.probset {
+            width: 70%;
+            background: linear-gradient(90deg, rgba(200,200,200,0.125) 0%, rgba(200,200,200,0) 100%);
+            padding: 2%;
+            display: flex;
+            align-items: center;
+            h2 {
+                padding-right: 1%;
+                border-right: 1px solid white;
+            }
+            a {
+                background: rgba(255,255,255,0.1);
+                padding: 1%;
+                margin: 0 1%;
+                flex: 1 1 10%;
+            }
+            a:active {
+                background: $acm-black;
+            }
+            a.problems:hover {
+                background: rgba(253, 27, 0,0.5);
+            }
+            a.solution-sketches:hover {
+                background: rgba(255, 214, 0, 0.5);
+            }
+            a.solutions:hover {
+                background: rgba(166, 188, 9, 0.5);
+            }
+            a.code-solutions:hover {
+                background: rgba(1, 130, 172,0.5);
+            }
+            a.unavailable {
+                pointer-events: none;
+                opacity: 0.25;
+                cursor: default;
+            }
+        }
+        div.probset:nth-child(even) {
+            background: linear-gradient(270deg, rgba(1,130,172,0.125) 0%, rgba(255,255,255,0) 100%);
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    div#prev-algo-probsets-section {
+        h1 {
+            margin-bottom: 3vh;
+        }
+        div#probsets {
+            div.probset {
+                width: 100%;
+                flex-direction: column;
+                h2 {
+                    border: 0;
+                    padding: 5% 0;
+                }
+                a {
+                    width: 70%;
+                    text-align: center;
+                    padding: 5%;
+                    margin: 3%;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 400px) {
+    div#prev-algo-probsets-section {
+        font-size: 0.75em;
+    }
+}

@@ -1,0 +1,217 @@
+{
+  "heading": "",
+
+  "eventDeadline": "2021-03-20T23:59:59.999+08:00",
+
+  "landing": {
+    "year": "2021",
+    "algoTheme": "Let your code shine",
+    "staticBgSrc": "/2021/assets/img/background.png",
+    "bigAlgoLogoSrc": "/2021/assets/img/algo-brain.png"
+  },
+
+  "intro": {
+    "staticImageSrc": "/2021/assets/img/algo-intro.png"
+  },
+
+  "numbers": [
+    {
+      "value": "700+",
+      "description": "participants that took the challenge from the past six years",
+      "staticIconSrc": "/2021/assets/img/people-icon-colored.png"
+    },
+    {
+      "value": "23",
+      "description": "teams that made it to the top spots",
+      "staticIconSrc": "/2021/assets/img/leaderboard-icon-colored.png"
+    },
+    {
+      "value": "30+",
+      "description": "universities that joined the competition across Luzon",
+      "staticIconSrc": "/2021/assets/img/location-icon-colored.png"
+    }
+  ],
+
+  "prizes": {
+    "first": "₱ 12,000",
+    "second": "₱ 9,000",
+    "third": "₱ 5,000"
+  },
+
+  "winners": {
+    "first": {
+      "logoSrc": "/2020/assets/img/logo/admu.png",
+      "profileSrc": "/2020/assets/img/winners/bruh-group-photo.png",
+      "name": "bruh",
+      "university": "Ateneo De Manila University",
+      "members": ["Luis Alvarado", "Ivan Castillo", "Tom Binbinon"],
+      "link": "https://codeforces.com"
+    },
+    "second": {
+      "logoSrc": "/2020/assets/img/logo/upd.png",
+      "profileSrc": "/2020/assets/img/winners/dai-gurren-group-photo.png",
+      "name": "Dai-Gurren",
+      "university": "University of the Philippines - Diliman Campus",
+      "members": ["Uzumaki Naruto", "Haruno Sakura", "Uchiha Sasuke"],
+      "link": "https://codeforces.com"
+    },
+    "third": {
+      "logoSrc": "/2020/assets/img/logo/admu.png",
+      "profileSrc": "/2020/assets/img/winners/blossom-group-photo.png",
+      "name": "Blossom",
+      "university": "Ateneo De Manila University",
+      "members": ["Luis Alvarado", "Leandro Paat", "Joana Biado"],
+      "link": "https://codeforces.com"
+    }
+  },
+
+  "sponsors": [
+    {
+      "sponsorName": "Accenture",
+      "staticLogoSrc": "/2021/assets/img/sponsors/accenture/accenture-logo.png",
+      "staticLogoSrcAlt": "/2021/assets/img/sponsors/accenture/accenture-logo-allwhite.png",
+      "sponsorLink": "https://www.accenture.com/ph-en"
+    },
+    {
+      "sponsorName": "Navitaire",
+      "staticLogoSrc": "/2021/assets/img/sponsors/navitaire/navitaire-amadeus-rgb.png",
+      "staticLogoSrcAlt": "/2021/assets/img/sponsors/navitaire/navitaire-amadeus-white.png",
+      "sponsorLink": "https://www.navitaire.com/"
+    },
+    {
+      "sponsorName": "Calibr8",
+      "staticLogoSrc": "/2021/assets/img/sponsors/calibr8/calibr8-full-logo-transparent.png",
+      "staticLogoSrcAlt": "/2021/assets/img/sponsors/calibr8/calibr8-full-logo-white-transparent.png",
+      "sponsorLink": "http://www.calibr8digital.com/"
+    },
+    {
+      "sponsorName": "FlexisourceIT",
+      "staticLogoSrc": "/2021/assets/img/sponsors/flexisourceIT/flexisourceit-color.png",
+      "staticLogoSrcAlt": "/2021/assets/img/sponsors/flexisourceIT/flexisourceit-white-horizontal.png",
+      "sponsorLink": "https://flexisourceit.com.au/"
+    }
+  ],
+
+  "socials": [
+    {
+      "type": "facebook",
+      "link": "https://fb.com/upacm"
+    },
+    {
+      "type": "twitter",
+      "link": "https://twitter.com/upacm"
+    },
+    {
+      "type": "linkedin",
+      "link": "https://ph.linkedin.com/company/upacm"
+    },
+    {
+      "type": "youtube",
+      "link": "https://www.youtube.com/user/upacmYT"
+    }
+  ],
+
+  "contacts": [
+    {
+      "type": "email",
+      "name": "algolympics@upacm.net",
+      "link": "#"
+    },
+    {
+      "type": "location",
+      "name": "Department of Computer Science, University of the Philippines Diliman, Quezon City, Philippines",
+      "link": "https://goo.gl/maps/FfLKMHQvFqMWxh1Q6"
+    },
+    {
+      "type": "mobile",
+      "name": "0920 859 5727 / 0905 301 8482",
+      "link": "#"
+    }
+  ],
+
+  "problems": {
+    "samples": [
+      {
+        "name": "Santa's List",
+        "link": "/2021/problems/sample/santas-list.pdf",
+        "background": "/2021/problems/sample/sample-bg.png"
+      },
+      {
+        "name": "Make an Entrance",
+        "link": "/2021/problems/sample/make-an-entrance.pdf",
+        "background": "/2021/problems/sample/sample-bg.png"
+      },
+      {
+        "name": "Incomplete Model Kits",
+        "link": "/2021/problems/sample/incomplete-model-kits.pdf",
+        "background": "/2021/problems/sample/sample-bg.png"
+      },
+      {
+        "name": "Alien Defense",
+        "link": "/2021/problems/sample/alien-defense.pdf",
+        "background": "/2021/problems/sample/sample-bg.png"
+      },
+      {
+        "name": "Make Gawa This Problem",
+        "link": "/2021/problems/sample/make-gawa-this-problem.pdf",
+        "background": "/2021/problems/sample/sample-bg.png"
+      },
+      {
+        "name": "Guardians of the Lunatics",
+        "link": "/2021/problems/sample/guardians-of-the-lunatics.pdf",
+        "background": "/2021/problems/sample/sample-bg.png"
+      }
+    ],
+    "previous": [
+      {
+        "year": "2021",
+        "problems": "",
+        "solutions": "",
+        "solutionSketches": "",
+        "codeSolutions": ""
+      },
+      {
+        "year": "2020",
+        "problems": "algolympics-2020-problems.pdf",
+        "solutions": "algolympics-2020-solutions.pdf",
+        "solutionSketches": "algolympics-2020-solution-sketches.pdf",
+        "codeSolutions": "algolympics-2020-code-solutions.zip"
+      },
+      {
+        "year": "2019",
+        "problems": "algolympics-2019-problems.pdf",
+        "solutions": "",
+        "solutionSketches": "algolympics-2019-solution-sketches.pdf",
+        "codeSolutions": ""
+      },
+      {
+        "year": "2018",
+        "problems": "algolympics-2018-problems.pdf",
+        "solutions": "",
+        "solutionSketches": "algolympics-2018-solution-sketches.pdf",
+        "codeSolutions": ""
+      },
+      {
+        "year": "2017",
+        "problems": "algolympics-2017-problems.pdf",
+        "solutions": "",
+        "solutionSketches": "algolympics-2017-solution-sketches.pdf",
+        "codeSolutions": ""
+      },
+      {
+        "year": "2016",
+        "problems": "algolympics-2016-problems.pdf",
+        "solutions": "",
+        "solutionSketches": "algolympics-2016-solution-sketches.pdf",
+        "codeSolutions": ""
+      },
+      {
+        "year": "2015",
+        "problems": "algolympics-2015-problems.pdf",
+        "solutions": "algolympics-2015-solutions.pdf",
+        "solutionSketches": "algolympics-2015-solution-sketches.pdf",
+        "codeSolutions": ""
+      }
+    ]
+  }
+}

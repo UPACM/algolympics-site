@@ -1,0 +1,48 @@
+@import "../../styles/var.scss";
+
+.countdown-section {
+    color: white;
+    h1.label {
+        text-align: center;
+    }
+    h1.timer {
+        margin: auto;
+        margin-top: 3%;
+        display: flex;
+        font-size: 6em;
+        text-align: center;
+        width: 50%;
+        justify-content: space-around;
+        span {
+            width: 25%;
+            font-family: "DS-Digit", monospace;
+            span {
+                font-size: 0.2em;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 800px) {
+    div.countdown-section {
+        h1.label {
+            font-size: 1.5em;
+        }
+        h1.timer {
+            font-size: 5em;
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    div.countdown-section {
+        h1.label {
+            font-size: 1.25em;
+        }
+        h1.timer {
+            font-size: 3em;
+        }
+    }
+}
