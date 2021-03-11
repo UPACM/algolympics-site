@@ -104,7 +104,7 @@ Docker is a software that runs so-called "containers". Containers simulate the O
 
 Running `gatsby develop` via Docker is optional, but desirable. If you want to do so,
 
-1. You first have to build the Docker image by running `docker build -t algosite .`. Here, `algosite` will be the name of the image.
+1. You first have to build the Docker image by running `docker build -t algosite .`. Here, `algosite` will be the name of the image. Run this command again if you update `Dockerfile`, or if you want to rebuild the image for any other reason.
 
 2. Then you can run the image with `docker run --name algosite --rm -p 8000:8000 -v $(pwd):/usr/src/app algosite`. Here,
 
