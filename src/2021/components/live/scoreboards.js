@@ -1,8 +1,30 @@
 import React from "react"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faCheck, faTimes } from "@fortawesome/free-solid-svg-icons"
+
 import "./scoreboards.scss"
 
 import elimsData from "../../data/elims-scoreboard.json"
+
+function ScoreBox({ score }) {
+  let checkClass = ""
+  let icon = null
+  if (score === 1) {
+    checkClass = " ac"
+    icon = faCheck
+  } else if (score === 0) {
+    checkClass = " wa"
+    icon = faTimes
+  } else {
+    checkClass = ""
+  }
+  return (
+    <td className={"item-score mobile-invisible" + checkClass}>
+      {icon ? <FontAwesomeIcon icon={icon} /> : ""}
+    </td>
+  )
+}
 
 function Scoreboard({ title, problems, scores }) {
   return (
@@ -37,21 +59,7 @@ function Scoreboard({ title, problems, scores }) {
                   <p className="penalty">{scoreEntry.Penalty}</p>
                 </td>
                 {problems.map(problem => {
-                  let check_class = ""
-                  if (scoreEntry[problem] === 1) {
-                    check_class = " ac"
-                  } else if (scoreEntry[problem] === 0) {
-                    check_class = " wa"
-                  }
-
-                  return (
-                    <td
-                      key={problem}
-                      className={"item-score mobile-invisible" + check_class}
-                    >
-                      {scoreEntry[problem]}
-                    </td>
-                  )
+                  return <ScoreBox key={problem} score={scoreEntry[problem]} />
                 })}
               </tr>
             )

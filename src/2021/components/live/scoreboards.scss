@@ -1,5 +1,10 @@
 @import "../../styles/var.scss";
 
+$good-green: #397d38;
+
+$ac-color: $good-green;
+$wa-color: $acm-dull-red;
+
 #scoreboards-section {
     color: $dull-white;
 }
@@ -44,16 +49,36 @@
                 color: $acm-dull-red;
             }
         }
-        .ac{
-            background: #397d38;
+        .item-score {
+            padding-left: 8px;
+            padding-right: 8px;
         }
-        .wa{
-            background: $acm-dull-red;
+        .ac {
+            color: $ac-color;
+        }
+        .wa {
+            color: $wa-color;
         }
     }
 }
 
+// reduced padding for slightly smaller screens
 @media (max-width: 1280px) {
+    .scoreboard {
+        width: 100%;
+        .score-entry {
+            > * {
+                padding: 0.25% 2px;
+            }
+        }
+        .item-score {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
     .mobile-invisible {
         display: none;
     }
