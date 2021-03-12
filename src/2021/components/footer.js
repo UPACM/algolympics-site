@@ -33,8 +33,7 @@ function Contact({ type, name, link }) {
 }
 
 export default function Footer() {
-  let year = new Date()
-  let year_str = year.getFullYear()
+  let year = new Date().getFullYear()
   return (
     <div className="footer incompressible">
       <div className="top">
@@ -55,7 +54,9 @@ export default function Footer() {
             </a>
           </div>
           <div className="contacts section">
-            <h2><Link to="/contact/">Contact Us</Link></h2>
+            <h2>
+              <Link to="/contact/">Contact Us</Link>
+            </h2>
             {contestDetails.contacts.map(contact => {
               return (
                 <Contact
@@ -85,7 +86,7 @@ export default function Footer() {
       </div>
       <div className="bottom">
         <span className="copyright">
-          © {year_str} Association for Computing Machinery - University of the
+          © {year} Association for Computing Machinery - University of the
           Philippines Diliman Student Chapter, Inc.
         </span>
       </div>
