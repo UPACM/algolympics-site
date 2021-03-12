@@ -8,19 +8,30 @@ div.content#contact {
         color: white;
 
         h1 {
-            display: none;
             width: 80%;
             text-align: center;
             margin-bottom: 4vh;
             padding-bottom: 2vh;
             border-bottom: 1px solid white;
-            font-size: 4em;
+            font-size: 3em;
         }
 
         iframe { 
             width: 50vw;
             height: 500px;
             border-radius: 15px;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    div.content#contact {
+        div#map-section {
+            iframe { 
+                width: 100%;
+                height: 500px;
+                border-radius: 0;
+            }
         }
     }
 }
