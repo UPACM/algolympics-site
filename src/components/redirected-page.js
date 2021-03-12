@@ -13,7 +13,9 @@ export default function RedirectedPage({ target }) {
   // feel free to make this nicer
   return (
     <div className="redirect">
-      <a href={target}>Click here to proceed to {target}.</a>
+      <a href={target}>
+        Redirecting you to {target} ... click here to proceed immediately.
+      </a>
     </div>
   )
 }
