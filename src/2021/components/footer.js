@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import "./footer.scss"
 import contestDetails from "../data/details.json"
@@ -54,7 +55,7 @@ export default function Footer() {
             </a>
           </div>
           <div className="contacts section">
-            <h2>Contact Us</h2>
+            <h2><Link to="/contact/">Contact Us</Link></h2>
             {contestDetails.contacts.map(contact => {
               return (
                 <Contact

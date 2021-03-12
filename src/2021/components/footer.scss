@@ -77,6 +77,11 @@ div.footer {
 			}
 
 			div.contacts.section {
+				h2{
+					a:hover{
+						text-decoration: underline;
+					}
+				}
 				a.contact, div.contact {
 					height: 5vh;
 					display: flex;
