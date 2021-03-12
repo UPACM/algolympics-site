@@ -22,7 +22,7 @@ export default function Map() {
 
   return (
     <div id="map-section">
-      <h1>Location</h1>
+      <h1>Locate us</h1>
       <div
         dangerouslySetInnerHTML={{
           __html: data.allMarkdownRemark.edges[0].node.html,
