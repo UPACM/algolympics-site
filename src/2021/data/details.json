@@ -6,12 +6,12 @@
   "landing": {
     "year": "2021",
     "algoTheme": "Let your code shine",
-    "staticBgSrc": "/2021/assets/img/background.png",
-    "bigAlgoLogoSrc": "/2021/assets/img/algo-brain.png"
+    "staticBgSrc": "/2021/assets/img/background.webp",
+    "bigAlgoLogoSrc": "/2021/assets/img/algo-brain.webp"
   },
 
   "intro": {
-    "staticImageSrc": "/2021/assets/img/algo-intro.png"
+    "staticImageSrc": "/2021/assets/img/algo-intro.webp"
   },
 
   "numbers": [
@@ -40,28 +40,28 @@
 
   "winners": {
     "first": {
-      "logoSrc": "/2020/assets/img/logo/admu.png",
-      "profileSrc": "/2020/assets/img/winners/bruh-group-photo.png",
+      "logoSrc": "/2020/assets/img/logo/admu.webp",
+      "profileSrc": "/2020/assets/img/winners/bruh-group-photo.webp",
       "name": "bruh",
       "university": "Ateneo De Manila University",
       "members": ["Luis Alvarado", "Ivan Castillo", "Tom Binbinon"],
-      "link": "https://codeforces.com"
+      "link": "#"
     },
     "second": {
-      "logoSrc": "/2020/assets/img/logo/upd.png",
-      "profileSrc": "/2020/assets/img/winners/dai-gurren-group-photo.png",
+      "logoSrc": "/2020/assets/img/logo/upd.webp",
+      "profileSrc": "/2020/assets/img/winners/dai-gurren-group-photo.webp",
       "name": "Dai-Gurren",
       "university": "University of the Philippines - Diliman Campus",
       "members": ["Uzumaki Naruto", "Haruno Sakura", "Uchiha Sasuke"],
-      "link": "https://codeforces.com"
+      "link": "#"
     },
     "third": {
-      "logoSrc": "/2020/assets/img/logo/admu.png",
-      "profileSrc": "/2020/assets/img/winners/blossom-group-photo.png",
+      "logoSrc": "/2020/assets/img/logo/admu.webp",
+      "profileSrc": "/2020/assets/img/winners/blossom-group-photo.webp",
       "name": "Blossom",
       "university": "Ateneo De Manila University",
       "members": ["Luis Alvarado", "Leandro Paat", "Joana Biado"],
-      "link": "https://codeforces.com"
+      "link": "#"
     }
   },
 
