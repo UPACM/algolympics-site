@@ -1,6 +1,7 @@
 import React from "react"
 
 import Layout from "../../2021/components/layout.js"
+import AlgolympicsMeta from "../../2021/components/algolympics-meta.js"
 import SpacedComponents from "../../2021/components/spaced-components.js"
 
 import PrevAlgoProbsets from "../../2021/components/problems/prev-algo-probsets.js"
@@ -9,12 +10,23 @@ import PracticeRecommendations from "../../2021/components/problems/practice-rec
 
 export default function Problems() {
   return (
-    <Layout isIndex={false} contentClass="incompressible" contentId="problems">
-      <SpacedComponents>
-        <SampleProblems />
-        <PrevAlgoProbsets />
-        <PracticeRecommendations />
-      </SpacedComponents>
-    </Layout>
+    <>
+      <AlgolympicsMeta
+        algoYear="2021"
+        pageName="Problem Sets"
+        sitePage="/2021/problems/"
+      />
+      <Layout
+        isIndex={false}
+        contentClass="incompressible"
+        contentId="problems"
+      >
+        <SpacedComponents>
+          <SampleProblems />
+          <PrevAlgoProbsets />
+          <PracticeRecommendations />
+        </SpacedComponents>
+      </Layout>
+    </>
   )
 }

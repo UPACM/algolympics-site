@@ -16,7 +16,7 @@ function SocialItem({ type, link }) {
 export default function Social() {
   return (
     <div id="contact-social-section">
-      <h1>Socials</h1>
+      <h1>Our Socials</h1>
       <div id="social-list">
         {contestDetails.socials.map(social => {
           return (
