@@ -4,29 +4,40 @@ import "./countdown.scss"
 import contestDetails from "../../data/details.json"
 
 const calculateTimeLeft = () => {
-  const difference = +new Date(`${contestDetails.eventDeadline}`) - +new Date()
-  let timeLeft = {}
+  let deadline = +new Date(`${contestDetails.eventDeadline}`)
+  let currrentTime = +new Date();
+  // if the event has started,
+  if(deadline < currrentTime){
+    deadline = +new Date(`${contestDetails.eventEndDeadline}`)
+  }
+  const difference = deadline - +new Date()
+  let timeLeft = {
+    days: "0",
+    hours: "0",
+    minutes: "0",
+    seconds: "0",
+  }
   if (difference > 0) {
-    let formatted_seconds = String(Math.floor((difference / 1000) % 60))
-    if (formatted_seconds.length < 2) {
-      formatted_seconds = "0" + formatted_seconds
+    let formattedSeconds = String(Math.floor((difference / 1000) % 60))
+    if (formattedSeconds.length < 2) {
+      formattedSeconds = "0" + formattedSeconds
     }
-    let formatted_minutes = String(Math.floor((difference / 1000 / 60) % 60))
-    if (formatted_minutes.length < 2) {
-      formatted_minutes = "0" + formatted_minutes
+    let formattedMinutes = String(Math.floor((difference / 1000 / 60) % 60))
+    if (formattedMinutes.length < 2) {
+      formattedMinutes = "0" + formattedMinutes
     }
-    let formatted_hours = String(
+    let formattedHours = String(
       Math.floor((difference / (1000 * 60 * 60)) % 24)
     )
-    if (formatted_hours.length < 2) {
-      formatted_hours = "0" + formatted_hours
+    if (formattedHours.length < 2) {
+      formattedHours = "0" + formattedHours
     }
 
     timeLeft = {
-      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-      hours: formatted_hours,
-      minutes: formatted_minutes,
-      seconds: formatted_seconds,
+      days: String(Math.floor(difference / (1000 * 60 * 60 * 24))),
+      hours: formattedHours,
+      minutes: formattedMinutes,
+      seconds: formattedSeconds,
     }
   }
   return timeLeft
@@ -34,8 +45,24 @@ const calculateTimeLeft = () => {
 
 export default function Countdown() {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft())
+  const [headerText, setHeaderText] = useState("starts in")
+  const [timerColor, setTimerColor] = useState("green")
 
   useEffect(() => {
+    
+    let eventTime = +new Date(`${contestDetails.eventDeadline}`)
+    let currentTime = +new Date()
+    // if the event has started,
+    if(eventTime < currentTime){
+      setHeaderText("ends in");
+      setTimerColor("yellow");
+      eventTime = +new Date(`${contestDetails.eventEndDeadline}`)
+      if(eventTime < currentTime){
+        setHeaderText("is over");
+        setTimerColor("red");
+      }
+    }
+
     const timer = setTimeout(() => {
       setTimeLeft(calculateTimeLeft())
     }, 1000)
@@ -46,21 +73,21 @@ export default function Countdown() {
 
   return (
     <div className="countdown-section">
-      <h1 className="label">Algolympics Finals</h1>
+      <h1 className="label">Algolympics Finals {headerText}</h1>
       <h1 className="timer">
-        <span className="days red">
+        <span className={"counter days " + timerColor}>
           {timeLeft.days}
           <span className="label">D</span>
         </span>
-        <span className="days yellow">
+        <span className={"counter hours " + timerColor}>
           {timeLeft.hours}
           <span className="label">H</span>
         </span>
-        <span className="minutes green">
+        <span className={"counter minutes " + timerColor}>
           {timeLeft.minutes}
           <span className="label">M</span>
         </span>
-        <span className="seconds blue">
+        <span className={"counter seconds " + timerColor}>
           {timeLeft.seconds}
           <span className="label">S</span>
         </span>
