@@ -67,12 +67,6 @@
 
   "sponsors": [
     {
-      "sponsorName": "Accenture",
-      "staticLogoSrc": "/2021/assets/img/sponsors/accenture/accenture-logo.png",
-      "staticLogoSrcAlt": "/2021/assets/img/sponsors/accenture/accenture-logo-allwhite.png",
-      "sponsorLink": "https://www.accenture.com/ph-en"
-    },
-    {
       "sponsorName": "Navitaire",
       "staticLogoSrc": "/2021/assets/img/sponsors/navitaire/navitaire-amadeus-rgb.png",
       "staticLogoSrcAlt": "/2021/assets/img/sponsors/navitaire/navitaire-amadeus-white.png",
