@@ -129,7 +129,7 @@ contest:
   - Safari, Firefox, Microsoft Edge, or Google Chrome
 - IDE and Text Editors
   - Code::Blocks, Eclipse, Textpad, Notepad++, Dev-C++, Sublime Text, Visual
-Studio Code, Netbeans IDE, vi, vim, emacs, TextEdit, Geany
+    Studio Code, Netbeans IDE, vi, vim, emacs, TextEdit, Geany
 - Spreadsheet software
   - Microsoft Excel, LibreOffice Calc, OpenOffice Calc, or Numbers
 - Calculator
@@ -233,14 +233,15 @@ submitted the request. The judges may also send the report to all the participat
 deemed necessary.
 
 **Judge Machine Specifications**
+
 - Ubuntu 18.10
 - 2 vCPUs
 - 4 GB Memory
 - Custom 2nd generation Intel Xeon Scalable Processors (Cascade Lake) with a
-sustained all core Turbo frequency of 3.6GHz and single core turbo frequency of up to
-3.9GHz or 1st generation Intel Xeon Platinum 8000 series (Skylake-SP) processor with a
-sustained all core Turbo frequency of up to 3.4GHz, and single core turbo frequency of
-up to 3.5 GHz.
+  sustained all core Turbo frequency of 3.6GHz and single core turbo frequency of up to
+  3.9GHz or 1st generation Intel Xeon Platinum 8000 series (Skylake-SP) processor with a
+  sustained all core Turbo frequency of up to 3.4GHz, and single core turbo frequency of
+  up to 3.5 GHz.
 
 Note that these machine specifications may be subject to change.
 
@@ -253,19 +254,19 @@ Teams are ranked according to the following criteria:
 
 - Teams are ranked according to the most problems solved.
 - Teams who solve the same number of problems are ranked according to the least
-penalty (defined below).
+  penalty (defined below).
 - Teams who solve the same number of problems and have the same penalty are ranked
-according to the least time of the first accepted run.
+  according to the least time of the first accepted run.
 
 The penalty is defined differently for the Elimination and Final Rounds.
 
 - For the Elimination Round, the penalty is defined as the time of the first accepted run for
-the problem that was solved last.
+  the problem that was solved last.
 - For the Final Round, the penalty is defined as the sum of the time consumed for each
-problem solved. The time consumed for a solved problem is the time elapsed from the
-beginning of the contest to the submittal of the accepted run, with an additional twenty
-(20) minutes for every rejected run for that problem (excluding compilation errors). There
-is no time consumed for a problem that is not solved.
+  problem solved. The time consumed for a solved problem is the time elapsed from the
+  beginning of the contest to the submittal of the accepted run, with an additional twenty
+  (20) minutes for every rejected run for that problem (excluding compilation errors). There
+  is no time consumed for a problem that is not solved.
 
 # Disqualification
 
@@ -278,10 +279,11 @@ is no time consumed for a problem that is not solved.
    2. Breaching or refusing to comply with the rules.
    3. Sharing or using from others, **whether intentionally or unintentionally**, any information about a task, including its content or solution, before the end of a round.
    4. Displaying behavior considered to be disruptive, unethical, or unsportsmanlike.
+
 2. **Prolonged unmonitored time.** An individual may be disqualified if they are out of view
-of their camera or take their restroom break for more than the allotted time.
-Disqualification can also occur, if an individual is disconnected from the call for more
-than the time indicated in the “Proctoring” section.
+   of their camera or take their restroom break for more than the allotted time.
+   Disqualification can also occur, if an individual is disconnected from the call for more
+   than the time indicated in the “Proctoring” section.
 3. **Failing to reply.** Teams may be disqualified if they fail to respond to any request for information from the organizing committee related to Algolympics within seven days of our request or a given deadline.
 4. **Change of username/team name.** The team must not change their Codeforces username/team name at any point in the contest period (from registration until the end of the on-site final round). Any username/team name change is grounds for disqualification.
 5. **Change of Codeforces team.** The team members that make up the Codeforces team must not change for the duration of the competition. Any change in team composition is grounds for immediate disqualification.

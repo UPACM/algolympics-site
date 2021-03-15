@@ -1,6 +1,6 @@
 {
   "heading": "",
-  
+
   "eventDeadline": "2021-03-20T12:59:59.999+08:00",
   "eventEndDeadline": "2021-03-20T17:59:59.999+08:00",
 
@@ -158,16 +158,16 @@
       }
     ],
     "previous": [
-      { 
+      {
         "year": "2021",
-        "elims":{
+        "elims": {
           "problems": "",
           "solutions": "",
           "solutionSketches": "",
           "codeSolutions": ""
         },
 
-        "finals":{
+        "finals": {
           "problems": "",
           "solutions": "",
           "solutionSketches": "",
@@ -176,13 +176,13 @@
       },
       {
         "year": "2020",
-        "elims":{
+        "elims": {
           "problems": "",
           "solutions": "",
           "solutionSketches": "",
           "codeSolutions": ""
         },
-        "finals":{
+        "finals": {
           "problems": "algolympics-2020-problems.pdf",
           "solutions": "algolympics-2020-solutions.pdf",
           "solutionSketches": "algolympics-2020-solution-sketches.pdf",
@@ -191,7 +191,7 @@
       },
       {
         "year": "2019",
-        "elims":{
+        "elims": {
           "problems": "",
           "solutions": "",
           "solutionSketches": "",
@@ -206,13 +206,13 @@
       },
       {
         "year": "2018",
-        "elims":{
+        "elims": {
           "problems": "",
           "solutions": "",
           "solutionSketches": "",
           "codeSolutions": ""
         },
-        "finals":{
+        "finals": {
           "problems": "algolympics-2018-problems.pdf",
           "solutions": "",
           "solutionSketches": "algolympics-2018-solution-sketches.pdf",
@@ -221,13 +221,13 @@
       },
       {
         "year": "2017",
-        "elims":{
+        "elims": {
           "problems": "",
           "solutions": "",
           "solutionSketches": "",
           "codeSolutions": ""
         },
-        "finals":{
+        "finals": {
           "problems": "algolympics-2017-problems.pdf",
           "solutions": "",
           "solutionSketches": "algolympics-2017-solution-sketches.pdf",
@@ -236,13 +236,13 @@
       },
       {
         "year": "2016",
-        "elims":{
+        "elims": {
           "problems": "",
           "solutions": "",
           "solutionSketches": "",
           "codeSolutions": ""
         },
-        "finals":{
+        "finals": {
           "problems": "algolympics-2016-problems.pdf",
           "solutions": "",
           "solutionSketches": "algolympics-2016-solution-sketches.pdf",
@@ -251,7 +251,7 @@
       },
       {
         "year": "2015",
-        "elims":{
+        "elims": {
           "problems": "",
           "solutions": "",
           "solutionSketches": "",

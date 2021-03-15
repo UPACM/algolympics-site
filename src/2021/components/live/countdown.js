@@ -5,9 +5,9 @@ import contestDetails from "../../data/details.json"
 
 const calculateTimeLeft = () => {
   let deadline = +new Date(`${contestDetails.eventDeadline}`)
-  let currrentTime = +new Date();
+  let currrentTime = +new Date()
   // if the event has started,
-  if(deadline < currrentTime){
+  if (deadline < currrentTime) {
     deadline = +new Date(`${contestDetails.eventEndDeadline}`)
   }
   const difference = deadline - +new Date()
@@ -49,17 +49,16 @@ export default function Countdown() {
   const [timerColor, setTimerColor] = useState("green")
 
   useEffect(() => {
-    
     let eventTime = +new Date(`${contestDetails.eventDeadline}`)
     let currentTime = +new Date()
     // if the event has started,
-    if(eventTime < currentTime){
-      setHeaderText("ends in");
-      setTimerColor("yellow");
+    if (eventTime < currentTime) {
+      setHeaderText("ends in")
+      setTimerColor("yellow")
       eventTime = +new Date(`${contestDetails.eventEndDeadline}`)
-      if(eventTime < currentTime){
-        setHeaderText("is over");
-        setTimerColor("red");
+      if (eventTime < currentTime) {
+        setHeaderText("is over")
+        setTimerColor("red")
       }
     }
 
