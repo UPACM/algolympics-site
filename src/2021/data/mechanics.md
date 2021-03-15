@@ -7,18 +7,24 @@ title: "Mechanics"
 <br />
 <hr />
 
-A single proper team consists of two (2) to three (3) team members, each of which is an **_undergraduate_** student from a degree program at the sponsoring institution and is officially enrolled at the time of the contest. Alternates **WILL NOT** be allowed.
+A single proper team consists of one (1) to three (3) team members, each of which is an
+_**undergraduate**_ student from a degree program at the sponsoring institution, has not graduated
+and is currently officially enrolled at the time of the contest. For institutions who have not started
+the semester, participants must be enrolled during the last academic grading period. Note that
+all team members must be from the same institution. Alternates **WILL** NOT be allowed.
 
-The contestants must be Filipino citizens, or officially enrolled at a sponsoring institution in the Philippines at the time of the contest.
+The contestants must be Filipino citizens, or officially enrolled at a sponsoring institution in the
+Philippines at the time of the contest.
 
-Contestants will be required to present a valid school ID on the On-Site Final Round. Teams may have exactly one (1) coach to accompany them. There is no specific requirement for a coach to be eligible.
+Contestants will be required to submit a valid school ID or proof of school registration in order to
+be eligible for the Online Final Round.
 
 # Registration
 
 <br />
 <hr />
 
-Teams must register through the [provided registration form](https://bit.ly/Algolympics2020Registration). Only 1 member of the team needs to submit the registration for the entire team.
+Teams must register through the [provided registration form](#). Only 1 member of the team needs to submit the registration for the entire team.
 
 **Ensure that you have access to the email(s) you provide** and that they are regularly checked, as further instructions for the Online Elimination Round as well as the On-Site Final Round will be communicated through the email provided.
 
@@ -29,8 +35,8 @@ Note that:
 - you may register for an account at https://codeforces.com/
 - you must set your first name and last name in https://codeforces.com/settings/social to your real name before submitting or updating your registration.
 - you may create a team at https://codeforces.com/teams/new and invite your team members
-- you must join as a Codeforces team that only consists of your teammates
-- you must not change your username or team name for the duration of the competition
+- you must join as a Codeforces team that **only** consists of your teammates
+- you **must not** change your username or team name for the duration of the competition
 
 There is no limit to the number of teams that may register per school, but the number of finalists may be limited to 3 (details seen below under "Invitation to the On-Site Final Round").
 
@@ -42,7 +48,7 @@ There is no limit to the number of teams that may register per school, but the n
 The competition will be split into two rounds:
 
 1. The Online Elimination Round
-2. The On-Site Final Round
+2. The Online Final Round
    Problem statements will be written in English and English only. Communication with judges (clarifications, etc.) will also be in English.
 
 # Online Elimination Round
@@ -50,7 +56,7 @@ The competition will be split into two rounds:
 <br />
 <hr />
 
-Prior to the event, an Online Elimination Round will be held online on Codeforces. The Online Elimination Round will consist of at least ten (10) problems and will be open for eleven (11) days with the expectation that the contestants will solve the tasks during their free time.
+Prior to the event, an Online Elimination Round will be held online on Codeforces. The Online Elimination Round will consist of at least ten (10) problems and will be open for February 12, 2021 at **8:00 PM** to February 22, 2021 at **8:00 PM** (11 days) with the expectation that the contestants will solve the tasks during their free time.
 
 It is forbidden to use someone else's code and to communicate about the problems with anyone apart from your own team members.
 
@@ -81,14 +87,17 @@ If such a situation arises that there are extra slots for another team to partic
 
 The organizers will accommodate a maximum of twenty (20) teams for the contest.
 
-# On-Site Final Round
+# Online Final Round
 
 <br />
 <hr />
 
-The On-Site Final Round will be held in Accenture Ideas Exchange Room, Department of Computer Science, University of the Philippines Diliman, Quezon City.
+The Online Final Round will be on March 20, 2021, from 1:00 PM to 6:00 PM. The full program is included in the official invitation letter, which will include the opening ceremony, company talks, schedule for the practice round, and awarding.
+A team can be composed of 1 to 3 members and will all be competing in the same final round.
 
-Each team is required to pay a registration fee amounting to Php 600 to be paid before the On-Site Final Round.
+Each team is required to pay a registration fee amounting to Php 150 per person be paid before the Online Final Round.
+
+This fee may be paid through GCash, Paymaya or some other methods which we will announce in a timely manner. Options outside of these may also be considered; please contact us.
 
 # Contest Environment
 

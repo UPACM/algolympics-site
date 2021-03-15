@@ -43,7 +43,7 @@ function Banner({ place, prize, winner }) {
           <p>{prize}</p>
         </div>
         <h3>2020 Winner</h3>
-        <a className="winner" href={winner.link}>
+        <div className="winner">
           <img
             className="winner-profile"
             alt="Winner Profile"
@@ -52,7 +52,7 @@ function Banner({ place, prize, winner }) {
           <img className="team-logo" alt="Team Logo" src={winner.logoSrc} />
           <span className="team-name">{winner.name}</span>
           <span className="team-univ">{winner.university}</span>
-        </a>
+        </div>
       </div>
     </div>
   )

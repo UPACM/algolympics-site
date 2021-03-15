@@ -48,7 +48,8 @@ div#prizes-section {
 				margin-top: 5%;
 				font-size: 1.5em;
 			}
-			a.winner {
+
+			.winner {
 				padding: 0 5%;
 				padding-top: 5%;
 				border-top: 1px solid rgba(0,0,0,0);
@@ -86,18 +87,13 @@ div#prizes-section {
 					font-size: 0.8em;
 				}
 			}
-			a.winner:hover {
+			.winner:hover {
 				img.winner-profile {
 					filter: grayscale(0%);
 				}
 				img.team-logo {
 					filter: grayscale(0%);
 				}
-			}
-			a.winner:active {
-				background: linear-gradient(0deg, rgba(1,130,172,0) 0%, rgba(255,255,255,0.25) 100%);
-				border-top: 1px solid white;
-				border-radius: 10px 10px 0 0;
 			}
 
 		}
@@ -144,7 +140,7 @@ div#prizes-section {
 		font-size: 0.5em;
 		div.banner {
 			div.banner-content {
-				a.winner {
+				.winner {
 					img.winner-profile {
 						mask: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
 						border-radius: 0;
