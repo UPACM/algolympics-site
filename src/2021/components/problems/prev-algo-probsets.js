@@ -6,58 +6,79 @@ import contestDetails from "../../data/details.json"
 
 function ProbSet({
   year,
-  problems,
-  solutionSketches,
-  solutions,
-  codeSolutions,
+  elimsFiles,
+  finalsFiles
 }) {
-  var fileDir = "/" + year + "/problems/"
-  var problems_dir = fileDir + problems
-  var no_problems = ""
-  var solutions_dir = fileDir + solutions
-  var no_solutions = ""
-  var solutionSketches_dir = fileDir + solutionSketches
-  var no_solutionSketches = ""
-  var codeSolutions_dir = fileDir + codeSolutions
-  var no_codeSolutions = ""
-  if (problems === "") {
-    problems_dir = ""
-    no_problems = "unavailable"
-  }
-  if (solutions === "") {
-    solutions_dir = ""
-    no_solutions = "unavailable"
-  }
-  if (solutionSketches === "") {
-    solutionSketches_dir = ""
-    no_solutionSketches = "unavailable"
-  }
-  if (codeSolutions === "") {
-    codeSolutions_dir = ""
-    no_codeSolutions = "unavailable"
-  }
+  var elimsFileDir = "/" + year + "/problems/elims/"
+  var finalsFileDir = "/" + year + "/problems/finals/"
+  
+  let elimsProbs = elimsFiles.problems
+  let elimsSolnSketches = elimsFiles.solutionSketches
+  let elimsSolns =  elimsFiles.solutions
+  let elimsCodeSolns = elimsFiles.codeSolutions
 
+  let finalsProbs = finalsFiles.problems
+  let finalsSolnSketches = finalsFiles.solutionSketches
+  let finalsSolns = finalsFiles.solutions
+  let finalsCodeSolns = finalsFiles.codeSolutions
+
+  // if there is no such file,
+  // no_file = "unavailable"
+  // file_dir = ""
   return (
     <div className="probset">
       <h2>Algolympics {year}</h2>
-      <a href={problems_dir} className={"problems " + no_problems}>
-        Problems
-      </a>
-      <a
-        href={solutionSketches_dir}
-        className={"solution-sketches " + no_solutionSketches}
-      >
-        Solution Sketches
-      </a>
-      <a href={solutions_dir} className={"solutions " + no_solutions}>
-        Solutions
-      </a>
-      <a
-        href={codeSolutions_dir}
-        className={"code-solutions " + no_codeSolutions}
-      >
-        Code Solutions
-      </a>
+      <div class="downloads">
+        <div class="download-section elims">
+          <h3>Elims</h3>
+          <div class="files">
+            <a href={elimsFileDir + elimsProbs} className={elimsProbs === "" ? "problems unavailable" : "problems"}>
+              Problems
+            </a>
+            <a
+              href={elimsFileDir + elimsSolnSketches}
+              className={elimsSolnSketches === "" ? "solution-sketches unavailable" : "solution-sketches"}
+            >
+              Solution Sketches
+            </a>
+            <a href={elimsFileDir + elimsSolns} className={elimsSolns === "" ? "solutions unavailable" : "solutions"}>
+              Solutions
+            </a>
+            <a
+              href={elimsFileDir + elimsCodeSolns}
+              className={elimsCodeSolns === "" ? "code-solutions unavailable" : "code-solutions"}
+            >
+              Code Solutions
+            </a>
+          </div>
+        </div>
+        <div class="download-section finals">
+          <h3>Finals</h3>
+          <div class="files">
+            <a href={finalsFileDir + finalsProbs}
+              className={finalsProbs === "" ? "problems unavailable" : "problems"}>
+              Problems
+            </a>
+            <a
+              href={finalsFileDir + finalsSolnSketches}
+              className={finalsSolnSketches === "" ? "solution-sketches unavailable" : "solution-sketches"}
+            >
+              Solution Sketches
+            </a>
+            <a href={finalsFileDir + finalsSolns}
+              className={finalsSolns === "" ? "solutions unavailable" : "solutions"}
+            >
+              Solutions
+            </a>
+            <a
+              href={finalsFileDir + finalsCodeSolns}
+              className={finalsCodeSolns === "" ? "code-solutions unavailable" : "code-solutions"}
+            >
+              Code Solutions
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
@@ -83,10 +104,8 @@ export default function PrevAlgoProbsets() {
             <ProbSet
               key={probset.year}
               year={probset.year}
-              problems={probset.problems}
-              solutionSketches={probset.solutionSketches}
-              solutions={probset.solutions}
-              codeSolutions={probset.codeSolutions}
+              elimsFiles={probset.elims}
+              finalsFiles={probset.finals}
             />
           )
         })}
