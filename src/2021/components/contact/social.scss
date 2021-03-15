@@ -23,16 +23,19 @@ div.content#contact {
             align-items: center;
     
             a.social-item {
-                margin: 3%;
-                padding: 2%;
+                width: 100%;
+                margin: 1.5%;
+                padding: 1%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 transition: 0.2s;
                 background: rgba(0,0,0,0);
-                border-bottom: 1px solid rgba(0,0,0,0);
+                border-left: 1px solid rgba(0,0,0,0);
+                border-right: 1px solid rgba(0,0,0,0);
                 img {
                     width: 10%;
+                    height: 7vh;
                     object-fit: contain;
                 }
                 span {
@@ -42,13 +45,15 @@ div.content#contact {
             }
 
             a.social-item:hover {
-                background: $link-hover-bg;
-                border-bottom: $link-hover-border;
+                background: $link-hover-bg-horizontal;
+                border-left: $link-hover-border;
+                border-right: $link-hover-border;
             }
 
             a.social-item:active {
-                background: $link-active-bg;
-                border-bottom: $link-active-border;
+                background: $link-active-bg-horizontal;
+                border-left: $link-active-border;
+                border-right: $link-active-border;
             }
         }
     }

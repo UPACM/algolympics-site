@@ -42,7 +42,7 @@ function Banner({ place, prize, winner }) {
           <h2>{prize_heading}</h2>
           <p>{prize}</p>
         </div>
-        <h3>2020 Winner</h3>
+        <h3>Last year's {place}</h3>
         <div className="winner">
           <img
             className="winner-profile"
