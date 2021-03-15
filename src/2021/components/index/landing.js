@@ -47,6 +47,7 @@ export default function Landing() {
         className={opaque ? "scrolled incompressible" : "incompressible"}
         src={contestDetails.landing.staticBgSrc}
       />
+      <div class="scrollable-indicator"></div>
       <div id="landing-text" className="incompressible">
         <div className="wrapper">
           <img

@@ -59,7 +59,48 @@ div#landing-spacer {
 	margin-top: 100vh;
 }
 
+div.scrollable-indicator{
+	position: fixed;
+	bottom: 10vh;
+	opacity: 0;
+	left: 50vw - 3.5vw;
+	z-index: -7;
+	width: 7vw;
+	height: 5vh;
+	background: rgba(255,255,255,0.25);
+	clip-path: polygon(50% 87%, 100% 0, 50% 100%, 0 0);
+	animation-name: indicateScrollable;
+	animation-duration: 3s;
+	animation-delay: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes indicateScrollable {
+	0% {
+		bottom: 10vh;
+		opacity: 0;
+	}
+	25% {
+		bottom: 5vh;
+		opacity: 1;
+	}
+	75% {
+		bottom: 5vh;
+		opacity: 1;
+	}
+	100% {
+		bottom: 0;
+		opacity: 0;
+	}
+}
+  
+
 @media (max-width: 768px) {
+	div.scrollable-indicator{
+		background: rgba(255,255,255,0.5);
+		width: 30vw;
+		left: 50vw - 15vw;
+	}
 	div#landing-text {
 		div.wrapper {
 			flex-direction: column;
