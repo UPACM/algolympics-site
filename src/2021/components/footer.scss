@@ -9,6 +9,7 @@ div.footer {
 		div.wrapper {
 			display: flex;
 			justify-content: space-between;
+			width: 90%;
 			div.section {
 				width: 30%;
 				display: flex;
@@ -18,7 +19,7 @@ div.footer {
 				align-content: flex-start;
 				
 				> * {
-					padding: 3%;
+					padding: 3% 0;
 				}
 
 				h2 {
@@ -123,7 +124,7 @@ div.footer {
 						min-width: $social-side-len;
 						height: $social-side-len;
 						min-height: $social-side-len;
-						padding: 10px;
+						padding: 1vw;
 						margin: 0 1vw;
 						border-radius: 25px;
 						transition: 0.2s;
