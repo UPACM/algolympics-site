@@ -12,7 +12,7 @@ div#sponsors-section {
     div#sponsors-container {
         display: flex;
         flex-wrap: wrap;
-
+        justify-content: center;
         background: rgb(200,200,200);
         border-top: 3px solid $dull-white;
         border-bottom: 3px solid $dull-white;
