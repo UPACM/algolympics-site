@@ -46,6 +46,7 @@ const calculateTimeLeft = () => {
 export default function Countdown() {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft())
   const [headerText, setHeaderText] = useState("starts in")
+  const [timerColor, setTimerColor] = useState("green")
 
   useEffect(() => {
     
@@ -54,9 +55,11 @@ export default function Countdown() {
     // if the event has started,
     if(eventTime < currentTime){
       setHeaderText("ends in");
+      setTimerColor("yellow");
       eventTime = +new Date(`${contestDetails.eventEndDeadline}`)
       if(eventTime < currentTime){
         setHeaderText("is over");
+        setTimerColor("red");
       }
     }
 
@@ -72,19 +75,19 @@ export default function Countdown() {
     <div className="countdown-section">
       <h1 className="label">Algolympics Finals {headerText}</h1>
       <h1 className="timer">
-        <span className="days yellow">
+        <span className={"counter days " + timerColor}>
           {timeLeft.days}
           <span className="label">D</span>
         </span>
-        <span className="days yellow">
+        <span className={"counter hours " + timerColor}>
           {timeLeft.hours}
           <span className="label">H</span>
         </span>
-        <span className="minutes yellow">
+        <span className={"counter minutes " + timerColor}>
           {timeLeft.minutes}
           <span className="label">M</span>
         </span>
-        <span className="seconds yellow">
+        <span className={"counter seconds " + timerColor}>
           {timeLeft.seconds}
           <span className="label">S</span>
         </span>
