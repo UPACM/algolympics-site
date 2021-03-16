@@ -10,11 +10,32 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    .redirect-logo{
+        transition: 0.2s;
+        animation-name: pulse;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+    }
     .redirect-text{
         font-family: inherit;
         font-size: 2em;
     }
     a {
-        color: blue;
+        color: #134d78;
+    }
+}
+
+@keyframes pulse{
+    0%{
+        opacity: 0.25;
+    }
+    25%{
+        opacity: 1;
+    }
+    75%{
+        opacity: 0.25;
+    }
+    100%{
+        opacity: 0.25;
     }
 }
