@@ -1,6 +1,19 @@
 .redirect {
-    background: rgb(25,25,25);
-    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(10,10,10);
+    color: rgb(150,150,150);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .redirect-text{
+        font-family: inherit;
+        font-size: 2em;
+    }
     a {
         color: blue;
     }
