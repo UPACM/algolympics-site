@@ -22,7 +22,7 @@ function ProbSet({ year, elimsFiles, finalsFiles }) {
   // no_file = "unavailable"
   // file_dir = ""
   return (
-    <div className="probset">
+    <div className={year < 2020 ? "probset old" : "probset"}>
       <h2>Algolympics {year}</h2>
       <div class="downloads">
         <div class="download-section elims">
