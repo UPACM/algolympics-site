@@ -158,9 +158,9 @@
       }
     ],
     "previous": [
-      { 
+      {
         "year": "2021",
-        "elims":{
+        "elims": {
           "problems": "https://codeforces.com/group/fDKsZH3HKS/contest/316191/problems",
           "solutions": "",
           "solutionSketches": "",
@@ -176,13 +176,13 @@
       },
       {
         "year": "2020",
-        "elims":{
+        "elims": {
           "problems": "https://codeforces.com/group/fDKsZH3HKS/contest/266086/problems",
           "solutions": "",
           "solutionSketches": "",
           "codeSolutions": ""
         },
-        "finals":{
+        "finals": {
           "problems": "/2020/problems/finals/algolympics-2020-problems.pdf",
           "solutions": "/2020/problems/finals/algolympics-2020-solutions.pdf",
           "solutionSketches": "/2020/problems/finals/algolympics-2020-solution-sketches.pdf",
@@ -212,7 +212,7 @@
           "solutionSketches": "",
           "codeSolutions": ""
         },
-        "finals":{
+        "finals": {
           "problems": "/2018/problems/finals/algolympics-2018-problems.pdf",
           "solutions": "",
           "solutionSketches": "/2018/problems/finals/algolympics-2018-solution-sketches.pdf",
@@ -227,7 +227,7 @@
           "solutionSketches": "",
           "codeSolutions": ""
         },
-        "finals":{
+        "finals": {
           "problems": "/2017/problems/finals/algolympics-2017-problems.pdf",
           "solutions": "",
           "solutionSketches": "/2017/problems/finals/algolympics-2017-solution-sketches.pdf",
@@ -242,7 +242,7 @@
           "solutionSketches": "",
           "codeSolutions": ""
         },
-        "finals":{
+        "finals": {
           "problems": "/2016/problems/finals/algolympics-2016-problems.pdf",
           "solutions": "",
           "solutionSketches": "/2016/problems/finals/algolympics-2016-solution-sketches.pdf",

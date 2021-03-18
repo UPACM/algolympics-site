@@ -4,11 +4,7 @@ import "./prev-algo-probsets.scss"
 
 import contestDetails from "../../data/details.json"
 
-function ProbSet({
-  year,
-  elimsFiles,
-  finalsFiles
-}) {  
+function ProbSet({ year, elimsFiles, finalsFiles }) {
   let elimsProbs = elimsFiles.problems
   let elimsSolnSketches = elimsFiles.solutionSketches
   let elimsSolns = elimsFiles.solutions
@@ -29,21 +25,39 @@ function ProbSet({
         <div class="download-section elims">
           <h3>Elims</h3>
           <div class="files">
-            <a href={elimsProbs} className={elimsProbs === "" ? "problems unavailable" : "problems"}>
+            <a
+              href={elimsProbs}
+              className={
+                elimsProbs === "" ? "problems unavailable" : "problems"
+              }
+            >
               Problems
             </a>
             <a
               href={elimsSolnSketches}
-              className={elimsSolnSketches === "" ? "solution-sketches unavailable" : "solution-sketches"}
+              className={
+                elimsSolnSketches === ""
+                  ? "solution-sketches unavailable"
+                  : "solution-sketches"
+              }
             >
               Solution Sketches
             </a>
-            <a href={elimsSolns} className={elimsSolns === "" ? "solutions unavailable" : "solutions"}>
+            <a
+              href={elimsSolns}
+              className={
+                elimsSolns === "" ? "solutions unavailable" : "solutions"
+              }
+            >
               Solutions
             </a>
             <a
               href={elimsCodeSolns}
-              className={elimsCodeSolns === "" ? "code-solutions unavailable" : "code-solutions"}
+              className={
+                elimsCodeSolns === ""
+                  ? "code-solutions unavailable"
+                  : "code-solutions"
+              }
             >
               Code Solutions
             </a>
@@ -52,24 +66,39 @@ function ProbSet({
         <div class="download-section finals">
           <h3>Finals</h3>
           <div class="files">
-            <a href={finalsProbs}
-              className={finalsProbs === "" ? "problems unavailable" : "problems"}>
+            <a
+              href={finalsProbs}
+              className={
+                finalsProbs === "" ? "problems unavailable" : "problems"
+              }
+            >
               Problems
             </a>
             <a
               href={finalsSolnSketches}
-              className={finalsSolnSketches === "" ? "solution-sketches unavailable" : "solution-sketches"}
+              className={
+                finalsSolnSketches === ""
+                  ? "solution-sketches unavailable"
+                  : "solution-sketches"
+              }
             >
               Solution Sketches
             </a>
-            <a href={finalsSolns}
-              className={finalsSolns === "" ? "solutions unavailable" : "solutions"}
+            <a
+              href={finalsSolns}
+              className={
+                finalsSolns === "" ? "solutions unavailable" : "solutions"
+              }
             >
               Solutions
             </a>
             <a
               href={finalsCodeSolns}
-              className={finalsCodeSolns === "" ? "code-solutions unavailable" : "code-solutions"}
+              className={
+                finalsCodeSolns === ""
+                  ? "code-solutions unavailable"
+                  : "code-solutions"
+              }
             >
               Code Solutions
             </a>
