@@ -5,9 +5,6 @@ import "./prev-algo-probsets.scss"
 import contestDetails from "../../data/details.json"
 
 function ProbSet({ year, elimsFiles, finalsFiles }) {
-  var elimsFileDir = "/" + year + "/problems/elims/"
-  var finalsFileDir = "/" + year + "/problems/finals/"
-
   let elimsProbs = elimsFiles.problems
   let elimsSolnSketches = elimsFiles.solutionSketches
   let elimsSolns = elimsFiles.solutions
@@ -29,7 +26,7 @@ function ProbSet({ year, elimsFiles, finalsFiles }) {
           <h3>Elims</h3>
           <div class="files">
             <a
-              href={elimsFileDir + elimsProbs}
+              href={elimsProbs}
               className={
                 elimsProbs === "" ? "problems unavailable" : "problems"
               }
@@ -37,7 +34,7 @@ function ProbSet({ year, elimsFiles, finalsFiles }) {
               Problems
             </a>
             <a
-              href={elimsFileDir + elimsSolnSketches}
+              href={elimsSolnSketches}
               className={
                 elimsSolnSketches === ""
                   ? "solution-sketches unavailable"
@@ -47,7 +44,7 @@ function ProbSet({ year, elimsFiles, finalsFiles }) {
               Solution Sketches
             </a>
             <a
-              href={elimsFileDir + elimsSolns}
+              href={elimsSolns}
               className={
                 elimsSolns === "" ? "solutions unavailable" : "solutions"
               }
@@ -55,7 +52,7 @@ function ProbSet({ year, elimsFiles, finalsFiles }) {
               Solutions
             </a>
             <a
-              href={elimsFileDir + elimsCodeSolns}
+              href={elimsCodeSolns}
               className={
                 elimsCodeSolns === ""
                   ? "code-solutions unavailable"
@@ -70,7 +67,7 @@ function ProbSet({ year, elimsFiles, finalsFiles }) {
           <h3>Finals</h3>
           <div class="files">
             <a
-              href={finalsFileDir + finalsProbs}
+              href={finalsProbs}
               className={
                 finalsProbs === "" ? "problems unavailable" : "problems"
               }
@@ -78,7 +75,7 @@ function ProbSet({ year, elimsFiles, finalsFiles }) {
               Problems
             </a>
             <a
-              href={finalsFileDir + finalsSolnSketches}
+              href={finalsSolnSketches}
               className={
                 finalsSolnSketches === ""
                   ? "solution-sketches unavailable"
@@ -88,7 +85,7 @@ function ProbSet({ year, elimsFiles, finalsFiles }) {
               Solution Sketches
             </a>
             <a
-              href={finalsFileDir + finalsSolns}
+              href={finalsSolns}
               className={
                 finalsSolns === "" ? "solutions unavailable" : "solutions"
               }
@@ -96,7 +93,7 @@ function ProbSet({ year, elimsFiles, finalsFiles }) {
               Solutions
             </a>
             <a
-              href={finalsFileDir + finalsCodeSolns}
+              href={finalsCodeSolns}
               className={
                 finalsCodeSolns === ""
                   ? "code-solutions unavailable"
