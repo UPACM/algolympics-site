@@ -159,7 +159,7 @@
     ],
     "previous": [
       {
-        "year": "2021",
+        "year": 2021,
         "elims": {
           "problems": "https://codeforces.com/group/fDKsZH3HKS/contest/316191/problems",
           "solutions": "",
@@ -175,7 +175,7 @@
         }
       },
       {
-        "year": "2020",
+        "year": 2020,
         "elims": {
           "problems": "https://codeforces.com/group/fDKsZH3HKS/contest/266086/problems",
           "solutions": "",
