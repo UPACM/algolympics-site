@@ -4,9 +4,6 @@ title: "Mechanics"
 
 # Eligibility of Participants
 
-<br />
-<hr />
-
 A single proper team consists of one (1) to three (3) team members, each of which is an
 _**undergraduate**_ student from a degree program at the sponsoring institution, has not graduated
 and is currently officially enrolled at the time of the contest. For institutions who have not started
@@ -20,9 +17,6 @@ Contestants will be required to submit a valid school ID or proof of school regi
 be eligible for the Online Final Round.
 
 # Registration
-
-<br />
-<hr />
 
 Teams must register through the [provided registration form](bit.ly/Algo2021Registration). Only 1 member of the team needs to submit the registration for the entire team.
 
@@ -42,9 +36,6 @@ There is no limit to the number of teams that may register per school, but the n
 
 # Contest Structure
 
-<br />
-<hr />
-
 The competition will be split into two rounds:
 
 1. The Online Elimination Round
@@ -52,9 +43,6 @@ The competition will be split into two rounds:
    Problem statements will be written in English and English only. Communication with judges (clarifications, etc.) will also be in English.
 
 # Online Elimination Round
-
-<br />
-<hr />
 
 Prior to the event, an Online Elimination Round will be held online on Codeforces. The Online Elimination Round will consist of at least ten (10) problems and will be open for February 12, 2021 at **8:00 PM** to February 22, 2021 at **8:00 PM** (11 days) with the expectation that the contestants will solve the tasks during their free time.
 
@@ -65,9 +53,6 @@ All programming languages supported by Codeforces is allowed for the Online Elim
 The team must use the same Codeforces team name and Codeforces account submitted to the Algolympics Team.
 
 # Invitation to the Online Final Round
-
-<br />
-<hr />
 
 The teams that:
 
@@ -89,9 +74,6 @@ The organizers will accommodate a maximum of twenty (20) teams for the contest.
 
 # Online Final Round
 
-<br />
-<hr />
-
 The Online Final Round will be on March 20, 2021, from 1:00 PM to 6:00 PM. The full program is included in the official invitation letter, which will include the opening ceremony, company talks, schedule for the practice round, and awarding.
 A team can be composed of 1 to 3 members and will all be competing in the same final round.
 
@@ -100,9 +82,6 @@ Each team is required to pay a registration fee amounting to Php 150 per person 
 This fee may be paid through GCash, Paymaya or some other methods which we will announce in a timely manner. Options outside of these may also be considered; please contact us.
 
 # Contest Environment
-
-<br />
-<hr />
 
 The programming languages for the On-Site Final Round will be restricted to the following languages:
 
@@ -156,9 +135,6 @@ before the conclusion of the contest.
 
 # Proctoring
 
-<br />
-<hr />
-
 The contest will be proctored over Google Meets and will be sent their meeting link on the day of the event. All members of the team do not need to be in the same physical location to compete, as long as they can be present in the Google Meets call. Team members are also allowed to be in the same location if they wish to do so, provided that they meet all proctoring guidelines.
 
 Proctors will check if only approved software is being used. Participants' computers will also be checked so that the device has no pre-existing code that can be copied or used during the contest.
@@ -193,17 +169,11 @@ registered participants in a timely manner.
 
 # Practice Session
 
-<br />
-<hr />
-
 Prior to the contest proper, a practice session will be held for one (1) hour and 30 minutes, in
 order for the contestants to be familiar with the contest environment, as well as to address any
 technical or logistical issues that might arise.
 
 # Online Finals Contest Proper
-
-<br />
-<hr />
 
 The contest will have at least eight (8) problems to be solved in the allotted time of five hours.
 The length of the contest may be altered in the event of unforeseen consequences. Should the
@@ -232,7 +202,7 @@ If the clarification is deemed valid, the judges will send clarification reports
 submitted the request. The judges may also send the report to all the participating teams if
 deemed necessary.
 
-**Judge Machine Specifications**
+##Judge Machine Specifications
 
 - Ubuntu 18.10
 - 2 vCPUs
@@ -246,9 +216,6 @@ deemed necessary.
 Note that these machine specifications may be subject to change.
 
 # Scoring
-
-<br />
-<hr />
 
 Teams are ranked according to the following criteria:
 
@@ -270,9 +237,6 @@ The penalty is defined differently for the Elimination and Final Rounds.
 
 # Disqualification
 
-<br />
-<hr />
-
 1. **Undermining the legitimacy of the contest.** Teams may be disqualified if the organizing committee reasonably believes that they have attempted to undermine the legitimacy of the competition, by engaging in activities including (but not limited to):
 
    1. Providing false information about themselves during registration or concerning their eligibility.
@@ -291,9 +255,6 @@ The penalty is defined differently for the Elimination and Final Rounds.
 
 # Awards
 
-<br />
-<hr />
-
 Certificates and souvenirs will be given to all the participants while monetary prizes will be given to the top three (3) teams, which are as follows:
 
 - Champion team: Php 12,000
@@ -301,8 +262,5 @@ Certificates and souvenirs will be given to all the participants while monetary 
 - Second runner-up team: Php 5,000
 
 # Changes to the Rules
-
-<br />
-<hr />
 
 Mechanics are subject to change. Such changes will be communicated to all registered participants in a timely manner.
