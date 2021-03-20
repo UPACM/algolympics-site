@@ -5,7 +5,8 @@ import AlgolympicsMeta from "../../2021/components/algolympics-meta.js"
 import SpacedComponents from "../../2021/components/spaced-components.js"
 
 import Countdown from "../../2021/components/live/countdown.js"
-import Scoreboards from "../../2021/components/live/scoreboards.js"
+import ElimsScoreboard from "../../2021/components/live/elims-scoreboard.js"
+import FinalsScoreboard from "../../2021/components/live/finals-scoreboard.js"
 
 export default function Live() {
   return (
@@ -14,7 +15,8 @@ export default function Live() {
       <Layout isIndex={false} contentClass="incompressible" contentId="live">
         <SpacedComponents>
           <Countdown />
-          <Scoreboards />
+          <FinalsScoreboard />
+          <ElimsScoreboard />
         </SpacedComponents>
       </Layout>
     </>

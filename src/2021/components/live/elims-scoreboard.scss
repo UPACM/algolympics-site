@@ -5,10 +5,9 @@ $good-green: #397d38;
 $ac-color: $good-green;
 $wa-color: $acm-dull-red;
 
-#scoreboards-section {
+#elims-scoreboard {
     color: $dull-white;
-}
-
+    
 .table-title {
     text-align: center;
     margin-bottom: 3%;
@@ -60,6 +59,7 @@ $wa-color: $acm-dull-red;
             color: $wa-color;
         }
     }
+}
 }
 
 // reduced padding for slightly smaller screens

@@ -3,7 +3,7 @@ import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCheck, faTimes } from "@fortawesome/free-solid-svg-icons"
 
-import "./scoreboards.scss"
+import "./elims-scoreboard.scss"
 
 import elimsData from "../../data/elims-scoreboard.json"
 
@@ -27,6 +27,9 @@ function ScoreBox({ score }) {
 }
 
 function Scoreboard({ title, problems, scores }) {
+
+  
+
   return (
     <>
       <h1 className="table-title">{title}</h1>
@@ -70,9 +73,9 @@ function Scoreboard({ title, problems, scores }) {
   )
 }
 
-export default function Scoreboards() {
+export default function ElimsScoreboard() {
   return (
-    <div id="scoreboards-section">
+    <div id="elims-scoreboard">
       <Scoreboard
         title="Eliminations Scoreboard"
         problems={elimsData.problems}

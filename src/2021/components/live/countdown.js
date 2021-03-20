@@ -68,7 +68,7 @@ export default function Countdown() {
     return () => {
       clearTimeout(timer)
     }
-  })
+  }, [])
 
   return (
     <div className="countdown-section">
