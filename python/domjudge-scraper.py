@@ -1,9 +1,18 @@
+# How to use this script:
+# 1. Save the DOMJudge scoreboard as HTML.
+# 2. Change htmlFileName to the relative directory of the saved HTML
+# 3. Change jsonFileName to the relative directory of the output JSON file
+# 4. Run the script
+
 from bs4 import BeautifulSoup
 import json
 
 soup = None
+# Change this filename to the directory of 
+htmlFileName = "./finals-scoreboard-2021.html"
+jsonFileName = "result.json"
 
-with open("./finals-scoreboard-2021.html", encoding="utf-8") as fp:
+with open(htmlFileName, encoding="utf-8") as fp:
     soup = BeautifulSoup(fp, 'html.parser')
 
 scoreboard = soup.select("table.scoreboard.center tbody")[0]
@@ -59,5 +68,5 @@ for score in scoresList:
             print("\t]")
     print("}")
 
-with open('result.json', 'w') as fp:
+with open(jsonFileName, 'w') as fp:
     json.dump(scoresList, fp)
