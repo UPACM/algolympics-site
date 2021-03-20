@@ -18,7 +18,7 @@ be eligible for the Online Final Round.
 
 # Registration
 
-Teams must register through the [provided registration form](bit.ly/Algo2021Registration). Only 1 member of the team needs to submit the registration for the entire team.
+Teams must register through the [provided registration form](https://bit.ly/Algo2021Registration). Only 1 member of the team needs to submit the registration for the entire team.
 
 **Ensure that you have access to the email(s) you provide** and that they are regularly checked, as further instructions for the Online Elimination Round as well as the On-Site Final Round will be communicated through the email provided.
 
