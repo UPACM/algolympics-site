@@ -3,7 +3,7 @@ import "./finals-scoreboard.scss"
 
 import finalsData from "../../data/finals-scoreboard.json"
 
-function ScoreBox({ penalty, tries }) {
+function FinalsScoreBox({ penalty, tries }) {
   let checkClass = ""
   if (penalty > 0) {
     checkClass = " ac"
@@ -20,7 +20,7 @@ function ScoreBox({ penalty, tries }) {
   )
 }
 
-function Scoreboard({ title, problems, scores }) {
+function FinalsScoreboardTable({ title, problems, scores }) {
   return (
     <>
       <h1 className="table-title finals">{title}</h1>
@@ -53,7 +53,7 @@ function Scoreboard({ title, problems, scores }) {
                   <p className="penalty">{scoreEntry.penalty}</p>
                 </td>
                 {scoreEntry.scores.map(probScore => {
-                  return <ScoreBox key={probScore.probletter} penalty={probScore.penalty} tries={probScore.tries} />
+                  return <FinalsScoreBox key={probScore.probletter} penalty={probScore.penalty} tries={probScore.tries} />
                 })}
               </tr>
             )
@@ -67,7 +67,7 @@ function Scoreboard({ title, problems, scores }) {
 export default function FinalsScoreboard() {
   return (
     <div id="finals-scoreboard">
-      <Scoreboard
+      <FinalsScoreboardTable
         title="Finals Scoreboard"
         scores={finalsData.scoreboard}
         problems={finalsData.problems}
