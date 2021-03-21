@@ -3,19 +3,19 @@ import "./finals-scoreboard.scss"
 
 import finalsData from "../../data/finals-scoreboard.json"
 
-function ScoreBox({ score, tries }) {
+function ScoreBox({ penalty, tries }) {
   let checkClass = ""
-  if (score > 0) {
+  if (penalty > 0) {
     checkClass = " ac"
-  } else if (score === 0 && tries > 0) {
+  } else if (penalty === 0 && tries > 0) {
     checkClass = " wa"
   } else {
-    checkClass = " inv"
+    checkClass = ""
   }
   return (
     <td className={"item-score mobile-invisible" + checkClass}>
-      <p class="prob-score">{score}</p>
-      <p class="tries">{tries} {tries > 1 || tries === 0 ? "tries" : "try"}</p>
+      <p className="prob-penalty">{tries === 0 ? "" : penalty === 0 ? <>&nbsp;</> : penalty}</p>
+      <p className="tries">{tries === 0 ? "" : `${tries} ${tries === 1 ? "try" : "tries"}`}</p>
     </td>
   )
 }
@@ -49,11 +49,11 @@ function Scoreboard({ title, problems, scores }) {
                   <p className="school">{scoreEntry.school}</p>
                 </td>
                 <td className="score">
-                  <p className="total-score">{scoreEntry.totalscore}</p>
-                  <p className="solved">{scoreEntry.solved} solved</p>
+                  <p className="total-score">{scoreEntry.solved}</p>
+                  <p className="penalty">{scoreEntry.penalty}</p>
                 </td>
                 {scoreEntry.scores.map(probScore => {
-                  return <ScoreBox key={probScore.probletter} score={probScore.score} tries={probScore.tries} />
+                  return <ScoreBox key={probScore.probletter} penalty={probScore.penalty} tries={probScore.tries} />
                 })}
               </tr>
             )
