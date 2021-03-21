@@ -44,19 +44,20 @@ $wa-color: $acm-dull-red;
         }
         .score {
             text-align: center;
-            .solved {
+            .penalty {
                 font-size: 0.75em;
-                color: $acm-dull-yellow;
+                color: $acm-dull-red;
             }
         }
         .item-score {
             padding-left: 8px;
             padding-right: 8px;
-            .prob-score{
+            min-width: 30px;
+            .prob-penalty {
                 font-size: 0.9em;
                 text-align: center;
             }
-            .tries{
+            .tries {
                 font-size: 0.75em;
                 text-align: center;
             }
@@ -66,11 +67,6 @@ $wa-color: $acm-dull-red;
         }
         .wa {
             color: $wa-color;
-        }
-        .inv{
-            *{
-                display: none;
-            }
         }
     }
 }

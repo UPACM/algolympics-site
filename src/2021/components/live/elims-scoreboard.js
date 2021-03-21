@@ -7,7 +7,7 @@ import "./elims-scoreboard.scss"
 
 import elimsData from "../../data/elims-scoreboard.json"
 
-function ScoreBox({ score }) {
+function ElimsScoreBox({ score }) {
   let checkClass = ""
   let icon = null
   if (score === 1) {
@@ -26,7 +26,7 @@ function ScoreBox({ score }) {
   )
 }
 
-function Scoreboard({ title, problems, scores }) {
+function ElimsScoreboardTable({ title, problems, scores }) {
 
   
 
@@ -62,7 +62,7 @@ function Scoreboard({ title, problems, scores }) {
                   <p className="penalty">{scoreEntry.Penalty}</p>
                 </td>
                 {problems.map(problem => {
-                  return <ScoreBox key={problem} score={scoreEntry[problem]} />
+                  return <ElimsScoreBox key={problem} score={scoreEntry[problem]} />
                 })}
               </tr>
             )
@@ -76,7 +76,7 @@ function Scoreboard({ title, problems, scores }) {
 export default function ElimsScoreboard() {
   return (
     <div id="elims-scoreboard">
-      <Scoreboard
+      <ElimsScoreboardTable
         title="Eliminations Scoreboard"
         problems={elimsData.problems}
         scores={elimsData.scoreboard}
