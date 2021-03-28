@@ -259,7 +259,7 @@ Certificates and souvenirs will be given to all the participants while monetary 
 
 - Champion team: Php 12,000
 - First runner-up team: Php 9,000
-- Second runner-up team: Php 5,000
+- Second runner-up team: Php 6,000
 
 # Changes to the Rules
 

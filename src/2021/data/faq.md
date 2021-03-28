@@ -97,7 +97,7 @@ Prizes:
 
 - Champion: **Php 12,000.00**
 - 1st Runner Up: **Php 9,000.00**
-- 2nd Runner Up: **Php 5,000.00**
+- 2nd Runner Up: **Php 6,000.00**
 
 # How can I contact the organizers?
 
