@@ -14,8 +14,12 @@ function FinalsScoreBox({ penalty, tries }) {
   }
   return (
     <td className={"item-score mobile-invisible" + checkClass}>
-      <p className="prob-penalty">{tries === 0 ? "" : penalty === 0 ? <>&nbsp;</> : penalty}</p>
-      <p className="tries">{tries === 0 ? "" : `${tries} ${tries === 1 ? "try" : "tries"}`}</p>
+      <p className="prob-penalty">
+        {tries === 0 ? "" : penalty === 0 ? <>&nbsp;</> : penalty}
+      </p>
+      <p className="tries">
+        {tries === 0 ? "" : `${tries} ${tries === 1 ? "try" : "tries"}`}
+      </p>
     </td>
   )
 }
@@ -53,7 +57,13 @@ function FinalsScoreboardTable({ title, problems, scores }) {
                   <p className="penalty">{scoreEntry.penalty}</p>
                 </td>
                 {scoreEntry.scores.map(probScore => {
-                  return <FinalsScoreBox key={probScore.probletter} penalty={probScore.penalty} tries={probScore.tries} />
+                  return (
+                    <FinalsScoreBox
+                      key={probScore.probletter}
+                      penalty={probScore.penalty}
+                      tries={probScore.tries}
+                    />
+                  )
                 })}
               </tr>
             )

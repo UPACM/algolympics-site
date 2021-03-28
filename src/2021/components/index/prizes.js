@@ -5,7 +5,20 @@ import contestDetails from "../../data/details.json"
 
 import "aos/dist/aos.css"
 
-function Banner({ place, prize, winner }) {
+function Winner({ winnerData }) {
+  return (
+    <div className="winner">
+      <img className="winner-pic" src={winnerData.imgSrc} />
+      <p className="team-name">{winnerData.name}</p>
+      <img className="school-logo" src={winnerData.logoSrc} />
+      <p className="team-school">
+        University of the Philippines - Ateneo University Campus
+      </p>
+    </div>
+  )
+}
+
+function Banner({ place, prize, winner, prevWinner }) {
   var prize_heading = ""
   var trophy_img_src = ""
   var aos_delay = "100"
@@ -37,21 +50,22 @@ function Banner({ place, prize, winner }) {
       data-aos-duration="650"
     >
       <img className="trophy-img" alt="Trophy" src={trophy_img_src} />
+      <Winner winnerData={winner} />
       <div className="banner-content">
         <div className="prize">
           <h2>{prize_heading}</h2>
           <p>{prize}</p>
         </div>
         <h3>Last year's {place}</h3>
-        <div className="winner">
+        <div className="prev-winner">
           <img
             className="winner-profile"
-            alt="Winner Profile"
-            src={winner.profileSrc}
+            alt="Profile of previous winner."
+            src={prevWinner.profileSrc}
           />
-          <img className="team-logo" alt="Team Logo" src={winner.logoSrc} />
-          <span className="team-name">{winner.name}</span>
-          <span className="team-univ">{winner.university}</span>
+          <img className="team-logo" alt="Team Logo" src={prevWinner.logoSrc} />
+          <span className="team-name">{prevWinner.name}</span>
+          <span className="team-univ">{prevWinner.university}</span>
         </div>
       </div>
     </div>
@@ -64,16 +78,19 @@ export default function Prizes() {
       <Banner
         place="second"
         prize={contestDetails.prizes.second}
+        prevWinner={contestDetails.previousWinners.second}
         winner={contestDetails.winners.second}
       />
       <Banner
         place="first"
         prize={contestDetails.prizes.first}
+        prevWinner={contestDetails.previousWinners.first}
         winner={contestDetails.winners.first}
       />
       <Banner
         place="third"
         prize={contestDetails.prizes.third}
+        prevWinner={contestDetails.previousWinners.third}
         winner={contestDetails.winners.third}
       />
     </div>
