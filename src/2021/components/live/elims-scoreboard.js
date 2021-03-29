@@ -27,9 +27,6 @@ function ElimsScoreBox({ score }) {
 }
 
 function ElimsScoreboardTable({ title, problems, scores }) {
-
-  
-
   return (
     <>
       <h1 className="table-title">{title}</h1>
@@ -62,7 +59,9 @@ function ElimsScoreboardTable({ title, problems, scores }) {
                   <p className="penalty">{scoreEntry.Penalty}</p>
                 </td>
                 {problems.map(problem => {
-                  return <ElimsScoreBox key={problem} score={scoreEntry[problem]} />
+                  return (
+                    <ElimsScoreBox key={problem} score={scoreEntry[problem]} />
+                  )
                 })}
               </tr>
             )

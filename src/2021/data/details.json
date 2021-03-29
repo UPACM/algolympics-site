@@ -41,11 +41,34 @@
 
   "winners": {
     "first": {
+      "imgSrc": "/2021/assets/img/generic-winner-pic-white.png",
+      "logoSrc": "/logo/upd.webp",
+      "name": "Kirk",
+      "university": "University of the Philippines - Diliman Campus"
+    },
+
+    "second": {
+      "imgSrc": "/2021/assets/img/generic-winner-pic-white.png",
+      "logoSrc": "/logo/admu.webp",
+      "name": "KFC",
+      "university": "Ateneo de Manila University"
+    },
+
+    "third": {
+      "imgSrc": "/2021/assets/img/generic-winner-pic-white.png",
+      "logoSrc": "/logo/admu.webp",
+      "name": "¯＼_(ツ)_／¯",
+      "university": "Ateneo de Manila University"
+    }
+  },
+
+  "previousWinners": {
+    "first": {
       "logoSrc": "/2020/assets/img/logo/admu.webp",
       "profileSrc": "/2020/assets/img/winners/bruh-group-photo.webp",
       "name": "bruh",
       "university": "Ateneo De Manila University",
-      "members": ["Luis Alvarado", "Ivan Castillo", "Tom Binbinon"],
+      "members": ["", "", ""],
       "link": "#"
     },
     "second": {
@@ -53,7 +76,7 @@
       "profileSrc": "/2020/assets/img/winners/dai-gurren-group-photo.webp",
       "name": "Dai-Gurren",
       "university": "University of the Philippines - Diliman Campus",
-      "members": ["Uzumaki Naruto", "Haruno Sakura", "Uchiha Sasuke"],
+      "members": ["", "", ""],
       "link": "#"
     },
     "third": {
@@ -61,7 +84,7 @@
       "profileSrc": "/2020/assets/img/winners/blossom-group-photo.webp",
       "name": "Blossom",
       "university": "Ateneo De Manila University",
-      "members": ["Luis Alvarado", "Leandro Paat", "Joana Biado"],
+      "members": ["", "", ""],
       "link": "#"
     }
   },
