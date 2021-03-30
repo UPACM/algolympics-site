@@ -11,9 +11,7 @@ function Winner({ winnerData }) {
       <img className="winner-pic" src={winnerData.imgSrc} />
       <p className="team-name">{winnerData.name}</p>
       <img className="school-logo" src={winnerData.logoSrc} />
-      <p className="team-school">
-        University of the Philippines - Ateneo University Campus
-      </p>
+      <p className="team-school">{winnerData.university}</p>
     </div>
   )
 }

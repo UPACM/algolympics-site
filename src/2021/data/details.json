@@ -48,14 +48,14 @@
     },
 
     "second": {
-      "imgSrc": "/2021/assets/img/generic-winner-pic-white.png",
+      "imgSrc": "/2021/assets/img/winners/algo-2021-2nd.webp",
       "logoSrc": "/logo/admu.webp",
       "name": "KFC",
       "university": "Ateneo de Manila University"
     },
 
     "third": {
-      "imgSrc": "/2021/assets/img/generic-winner-pic-white.png",
+      "imgSrc": "/2021/assets/img/winners/algo-2021-3rd.webp",
       "logoSrc": "/logo/admu.webp",
       "name": "¯＼_(ツ)_／¯",
       "university": "Ateneo de Manila University"
