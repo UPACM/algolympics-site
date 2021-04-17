@@ -9,8 +9,8 @@ function Winner({ winnerData }) {
   return (
     <div className="winner">
       <img className="winner-pic" src={winnerData.imgSrc} />
-      <p className="team-name">{winnerData.name}</p>
       <img className="school-logo" src={winnerData.logoSrc} />
+      <p className="team-name">{winnerData.name}</p>
       <p className="team-school">{winnerData.university}</p>
     </div>
   )
@@ -48,23 +48,12 @@ function Banner({ place, prize, winner, prevWinner }) {
       data-aos-duration="650"
     >
       <img className="trophy-img" alt="Trophy" src={trophy_img_src} />
-      <Winner winnerData={winner} />
       <div className="banner-content">
         <div className="prize">
           <h2>{prize_heading}</h2>
           <p>{prize}</p>
         </div>
-        <h3>Last year's {place}</h3>
-        <div className="prev-winner">
-          <img
-            className="winner-profile"
-            alt="Profile of previous winner."
-            src={prevWinner.profileSrc}
-          />
-          <img className="team-logo" alt="Team Logo" src={prevWinner.logoSrc} />
-          <span className="team-name">{prevWinner.name}</span>
-          <span className="team-univ">{prevWinner.university}</span>
-        </div>
+        <Winner winnerData={winner} />
       </div>
     </div>
   )
