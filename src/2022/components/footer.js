@@ -43,7 +43,7 @@ export default function Footer() {
       <div className="top">
         <div className="wrapper">
           <div className="other-links section">
-            <h2>UPACM</h2>
+            <h2>UP ACM</h2>
             <a className="other-link" href="http://upacm.net">
               Website
             </a>
