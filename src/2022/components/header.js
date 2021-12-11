@@ -4,11 +4,11 @@ import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCaretDown, faBars } from "@fortawesome/free-solid-svg-icons"
 
-import headerImg from "../assets/images/header-icon.png"
+import headerImg from "2022/assets/images/header-icon.png"
 
 import "./header.scss"
 
-import globalDetails from "../../data/details.json"
+import globalDetails from "data/details.json"
 
 function NavDropdown({ name, links }) {
   const [visible, setVisible] = useState(false)

@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import "./footer.scss"
-import contestDetails from "../data/details.json"
+import contestDetails from "2022/data/details.json"
 
 function Social({ type, link }) {
   var social_logo = `/2022/assets/img/social/${type}-logo.png`
