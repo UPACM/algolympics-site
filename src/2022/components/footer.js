@@ -63,7 +63,7 @@ export default function Footer() {
           </div>
           <div className="contacts section">
             <h2>
-              <Link to="/contact/">Contact Us</Link>
+              <Link className="contact-us-link" to="/contact/">Contact Us</Link>
             </h2>
             {contestDetails.contacts.map(contact => {
               return (
