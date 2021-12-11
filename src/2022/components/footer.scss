@@ -87,14 +87,24 @@ div.footer {
 					height: 5vh;
 					display: flex;
 					align-items: center;
+					justify-content: flex-start;
 					transition: 0.2s;
 					border-left: 1px solid rgba(0,0,0,0);
 					font-size: 0.8em;
-					img {
+					
+					div.contact-logo {
 						width: 10%;
-						height: 100%;
-						object-fit: contain;
-						margin-right: 3%;
+
+						img {
+							width: 60%;
+							height: 100%;
+							object-fit: contain;
+							margin-right: 3%;
+						}
+					}
+
+					div.contact-info {
+						width: 90%;
 					}
 				}
 
@@ -190,14 +200,12 @@ div.footer {
 					a.contact, div.contact {
 						display: flex;
 						flex-direction: column;
+						justify-content: center;
 						width: 100%;
 						padding: 4vh 0;
 						align-items: center;
 						text-align: center;
 						border-left: none;
-						img {
-							padding-bottom: 2vh;
-						}
 					}
 					a.contact:hover {
 						border-left: none;

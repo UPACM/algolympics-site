@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import "./footer.scss"
+import "2022/components/footer.scss"
 import contestDetails from "2022/data/details.json"
 
 function Social({ type, link }) {
@@ -18,15 +18,23 @@ function Contact({ type, name, link }) {
   if (link !== "#") {
     return (
       <a className="contact" href={link}>
-        <img src={contact_logo} alt="Contact Logo" />
-        <span>{name}</span>
+        <div className="contact-logo">
+          <img src={contact_logo} alt="Contact Logo" />
+        </div>
+        <div className="contact-info">
+          <span>{name}</span>
+        </div>
       </a>
     )
   } else {
     return (
       <div className="contact">
-        <img src={contact_logo} alt="Contact Logo" />
-        <span>{name}</span>
+        <div className="contact-logo">
+          <img src={contact_logo} alt="Contact Logo" />
+        </div>
+        <div className="contact-info">
+          <span>{name}</span>
+        </div>
       </div>
     )
   }
