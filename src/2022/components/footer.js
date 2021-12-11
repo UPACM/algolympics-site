@@ -17,19 +17,15 @@ function Contact({ type, name, link }) {
   var contact_logo = `/2022/assets/img/social/${type}-logo.png`
   if (link !== "#") {
     return (
-      <a className="contact d-flex align-items-center" href={link}>
-        <img src={contact_logo} alt="Contact Logo" style={{
-          width: '2em',
-        }} />
+      <a className="contact" href={link}>
+        <img src={contact_logo} alt="Contact Logo" />
         <span>{name}</span>
       </a>
     )
   } else {
     return (
-      <div className="contact d-flex align-items-center">
-        <img src={contact_logo} alt="Contact Logo" style={{
-          width: '2em',
-        }} />
+      <div className="contact">
+        <img src={contact_logo} alt="Contact Logo" />
         <span>{name}</span>
       </div>
     )
