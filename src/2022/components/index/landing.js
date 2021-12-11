@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 
-// import "./landing.scss"
+import "./landing.scss"
 // import contestDetails from "2022/data/details.json"
 
 export default function Landing() {

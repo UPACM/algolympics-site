@@ -45,6 +45,10 @@ div#landing-text {
 			}
 		}
 
+		h3 {
+			text-align: center;
+		}
+
 		img {
 			width: 20;
 			object-fit: contain;
@@ -114,6 +118,12 @@ div.scrollable-indicator{
 
 			h1 {
 				font-size: 5vw;
+				width: 100%;
+				text-align: center;
+			}
+
+			h3 {
+				font-size: 2.8vw;
 				width: 100%;
 				text-align: center;
 			}
