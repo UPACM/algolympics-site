@@ -9,6 +9,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-root-import`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
