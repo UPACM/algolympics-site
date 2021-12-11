@@ -1,0 +1,104 @@
+@import "./var.scss";
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Rubik", "Open Sans", sans-serif;
+}
+
+.incompressible {
+	min-width: 250px;
+}
+
+code {
+	font-family: "Courier New", Courier, Consolas, monospace;
+	background: rgb(50,50,50);
+	color: rgb(200,200,200);
+	font-size: 0.8em;
+	padding: 0.75%;
+	border-radius: 5px;
+}
+
+body {
+	background: rgb(5,5,5);
+}
+
+h1 {
+	font-family: "Montserrat";
+	font-weight: 500;
+	font-size: 3em;
+}
+
+p {
+	font-size: 1.25em;
+}
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 2.5em;
+	}
+}
+
+@media (max-width: 400px) {
+	h1 {
+		font-size: 2em;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.wrapper {
+	max-width: 1366px;
+	margin: auto;
+}
+
+.content {
+	box-shadow: 0 0 25px 0 black;
+	background: rgba(24, 24, 24, 0.95);
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: $universal-gray;
+}
+
+::-webkit-scrollbar-thumb {
+	background: $universal-light-gray;
+	transition: background 0.2s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: $acm-orange;
+}
+
+span.red {
+	color: $acm-red;
+}
+span.yellow {
+	color: $acm-yellow;
+}
+span.green {
+	color: $acm-green;
+}
+span.blue {
+	color: $acm-blue;
+}
+
+span.red.dull {
+	color: $acm-dull-red;
+}
+span.yellow.dull {
+	color: $acm-dull-yellow;
+}
+span.green.dull {
+	color: $acm-dull-green;
+}
+span.blue.dull {
+	color: $acm-dull-blue;
+}
