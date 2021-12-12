@@ -1,0 +1,37 @@
+@import "2022/styles/var.scss";
+
+div.content#contact {
+    div#map-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+
+        h1 {
+            width: 80%;
+            text-align: center;
+            margin-bottom: 4vh;
+            padding-bottom: 2vh;
+            border-bottom: 1px solid white;
+            font-size: 3em;
+        }
+
+        iframe { 
+            width: 50vw;
+            height: 500px;
+            border-radius: 15px;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    div.content#contact {
+        div#map-section {
+            iframe { 
+                width: 100%;
+                height: 500px;
+                border-radius: 0;
+            }
+        }
+    }
+}
