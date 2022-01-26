@@ -130,28 +130,28 @@ export default function Header({ isIndex }) {
                 to="/2022/live/"
               >
                 LIVE
-              </Link>
-              <Link
+              </Link> */}
+              {/* <Link
                 className="navlink"
                 activeClassName="navlink"
                 to="/2022/mechanics/"
               >
                 Mechanics
-              </Link>
-              <Link
+              </Link> */}
+              {/* <Link
                 className="navlink"
                 activeClassName="navlink"
                 to="/2022/problems/"
               >
                 Problems
-              </Link>
+              </Link> */}
               <Link
                 className="navlink"
                 activeClassName="navlink"
                 to="/2022/faq/"
               >
                 FAQ
-              </Link> */}
+              </Link>
               <NavDropdown
                 name="Archive"
                 links={globalDetails.yearsLinks.map(
