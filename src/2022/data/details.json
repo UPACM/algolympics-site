@@ -78,10 +78,34 @@
 
   "sponsors": [
     {
+      "sponsorName": "Freelancer",
+      "staticLogoSrc": "/2022/assets/img/sponsors/freelancer/FLN_LOGO_DIGITAL.png",
+      "sponsorLink": "https://www.freelancer.ph/"
+    },
+    {
+      "sponsorName": "Expedock",
+      "staticLogoSrc": "/2022/assets/img/sponsors/expedock/Expedock Logo-Black.png",
+      "sponsorLink": "https://www.expedock.com/"
+    },
+    {
+      "sponsorName": "White Widget",
+      "staticLogoSrc": "/2022/assets/img/sponsors/whiteWidget/logo-web-copy-1.png",
+      "sponsorLink": "https://whitewidget.com/"
+    },
+    {
       "sponsorName": "Navitaire",
       "staticLogoSrc": "/2022/assets/img/sponsors/navitaire/navitaire-amadeus-rgb.png",
-      "staticLogoSrcAlt": "/2022/assets/img/sponsors/navitaire/navitaire-amadeus-white.png",
       "sponsorLink": "https://www.navitaire.com/"
+    },
+    {
+      "sponsorName": "Course Hero",
+      "staticLogoSrc": "/2022/assets/img/sponsors/courseHero/Blue_Horizontal.png",
+      "sponsorLink": "https://www.coursehero.com/"
+    },
+    {
+      "sponsorName": "Orange and Bronze",
+      "staticLogoSrc": "/2022/assets/img/sponsors/orangeAndBronze/O_BLogoRGB-HorizontalVersion2020.png",
+      "sponsorLink": "https://www.orangeandbronze.com/"
     }
   ],
 
