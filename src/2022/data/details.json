@@ -18,18 +18,18 @@
   "numbers": [
     {
       "value": "700+",
-      "description": "participants that took the challenge from the past six years",
-      "staticIconSrc": "/2021/assets/img/people-icon-colored.png"
+      "description": "participants that took the challenge from the past years",
+      "staticIconSrc": "/2022/assets/img/people-icon-colored.png"
     },
     {
-      "value": "23",
+      "value": "20+",
       "description": "teams that made it to the top spots",
-      "staticIconSrc": "/2021/assets/img/leaderboard-icon-colored.png"
+      "staticIconSrc": "/2022/assets/img/leaderboard-icon-colored.png"
     },
     {
       "value": "30+",
-      "description": "universities that joined the competition across Luzon",
-      "staticIconSrc": "/2021/assets/img/location-icon-colored.png"
+      "description": "universities that joined the competition across the Philippines",
+      "staticIconSrc": "/2022/assets/img/location-icon-colored.png"
     }
   ],
 
