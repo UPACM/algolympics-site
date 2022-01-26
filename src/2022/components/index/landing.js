@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 
 import "./landing.scss"
-// import contestDetails from "2022/data/details.json"
+import contestDetails from "2022/data/details.json"
 
 export default function Landing() {
   const [opaque, setOpaque] = useState(false)
@@ -29,8 +29,8 @@ export default function Landing() {
 
       var percent = (window.scrollY * 100) / limit
       percent = String(percent) + "%"
-      // document.getElementById("landing-image").style.objectPosition =
-      //   "center " + percent
+      document.getElementById("landing-image").style.objectPosition =
+        "center " + percent
     }
 
     document.addEventListener("scroll", handleScroll)
@@ -41,26 +41,25 @@ export default function Landing() {
 
   return (
     <>
-      {/* <img
+      <img
         id="landing-image"
         alt="Landing"
         className={opaque ? "scrolled incompressible" : "incompressible"}
         src={contestDetails.landing.staticBgSrc}
-      /> */}
+      />
       <div class="scrollable-indicator"></div>
       <div id="landing-text" className="incompressible">
         <div className="wrapper">
-          {/* <img
+          <img
             src={contestDetails.landing.bigAlgoLogoSrc}
             alt="Big Algolympics Logo"
-          /> */}
+          />
           <h1>
             <span className="red">ALGO</span>
             <span className="yellow">LYM</span>
             <span className="green">PICS</span>
             <span className="blue"> 2022</span>
           </h1>
-          <h3>Coming Soon.</h3>
         </div>
       </div>
       <div id="landing-spacer"></div>
