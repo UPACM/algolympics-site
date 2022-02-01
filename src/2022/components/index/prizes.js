@@ -1,7 +1,7 @@
 import React from "react"
 
 import "./prizes.scss"
-import contestDetails from "../../data/details.json"
+import contestDetails from "2022/data/details.json"
 
 import "aos/dist/aos.css"
 
@@ -23,16 +23,16 @@ function Banner({ place, prize, winner, prevWinner }) {
   switch (place) {
     case "first":
       prize_heading = "1st place"
-      trophy_img_src = "/2021/assets/img/trophy-gold.png"
+      trophy_img_src = "/2022/assets/img/trophy-gold.png"
       break
     case "second":
       prize_heading = "2nd place"
-      trophy_img_src = "/2021/assets/img/trophy-silver.png"
+      trophy_img_src = "/2022/assets/img/trophy-silver.png"
       aos_delay = "200"
       break
     case "third":
       prize_heading = "3rd place"
-      trophy_img_src = "/2021/assets/img/trophy-bronze.png"
+      trophy_img_src = "/2022/assets/img/trophy-bronze.png"
       aos_delay = "300"
       break
     default:
@@ -61,9 +61,9 @@ function Banner({ place, prize, winner, prevWinner }) {
 
 export default function Prizes() {
   return (
-    <div id="prizes-section" className="index-section">
+    <div id="prizes-list" className="index-section">
       <h1>Last Year's Winners</h1>
-      <div id="prizes-list" className="index-section">
+      <div id="prizes-section" className="index-section">
         <Banner
           place="second"
           prize={contestDetails.prizes.second}

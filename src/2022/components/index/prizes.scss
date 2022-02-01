@@ -1,6 +1,6 @@
-@import "../../styles/var.scss";
+@import "2022/styles/var.scss";
 
-div#prizes-section {
+div#prizes-list {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -11,7 +11,7 @@ div#prizes-section {
 	}
 }
 
-div#prizes-list {
+div#prizes-section {
 	padding-top: 3vh;
 	color: white;
 	display: flex;

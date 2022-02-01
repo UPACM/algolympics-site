@@ -1,8 +1,8 @@
 {
   "heading": "",
 
-  "eventDeadline": "2021-03-20T12:59:59.999+08:00",
-  "eventEndDeadline": "2021-03-20T17:59:59.999+08:00",
+  "eventDeadline": "2022-03-26T12:59:59.999+08:00",
+  "eventEndDeadline": "2022-03-26T17:59:59.999+08:00",
 
   "landing": {
     "year": "2022",
@@ -55,21 +55,21 @@
 
   "previousWinners": {
     "first": {
-      "imgSrc": "/2021/assets/img/winners/algo-2021-1st.webp",
+      "imgSrc": "/2022/assets/img/previous-winners/algo-2021-1st.webp",
       "logoSrc": "/logo/upd.webp",
       "name": "Kirk",
       "university": "University of the Philippines - Diliman Campus"
     },
 
     "second": {
-      "imgSrc": "/2021/assets/img/winners/algo-2021-2nd.webp",
+      "imgSrc": "/2022/assets/img/previous-winners/algo-2021-2nd.webp",
       "logoSrc": "/logo/admu.webp",
       "name": "KFC",
       "university": "Ateneo de Manila University"
     },
 
     "third": {
-      "imgSrc": "/2021/assets/img/winners/algo-2021-3rd.webp",
+      "imgSrc": "/2022/assets/img/previous-winners/algo-2021-3rd.webp",
       "logoSrc": "/logo/admu.webp",
       "name": "¯＼_(ツ)_／¯",
       "university": "Ateneo de Manila University"

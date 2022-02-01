@@ -16,9 +16,10 @@ export default function AlgoIntro() {
   const data = useStaticQuery(
     graphql`
       query {
-        allMarkdownRemark(
-          filter: { fileAbsolutePath: { regex: "/algo-intro.md/" } }
-        ) {
+        allMarkdownRemark(filter: {
+          fileAbsolutePath: { regex: "/2022/" },
+          frontmatter: { title: { regex: "/What is the Algolympics?/" } }
+        }) {
           edges {
             node {
               html
@@ -46,7 +47,7 @@ export default function AlgoIntro() {
       <div
         id="intro-md"
         dangerouslySetInnerHTML={{
-          __html: data.allMarkdownRemark.edges[1].node.html,
+          __html: data.allMarkdownRemark.edges[0].node.html,
         }}
         data-aos="fade-up"
         data-aos-delay="80"
