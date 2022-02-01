@@ -138,13 +138,13 @@ export default function Header({ isIndex }) {
               >
                 Mechanics
               </Link>
-              {/* <Link
+              <Link
                 className="navlink"
                 activeClassName="navlink"
-                to="/2022/problems/"
+                to="/2022/problems-2022/"
               >
                 Problems
-              </Link> */}
+              </Link>
               <Link
                 className="navlink"
                 activeClassName="navlink"
