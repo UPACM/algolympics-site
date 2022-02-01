@@ -15,8 +15,8 @@ export default function Live() {
       <Layout isIndex={false} contentClass="incompressible" contentId="live">
         <SpacedComponents>
           <Countdown />
-          <FinalsScoreboard />
-          <ElimsScoreboard />
+          {/* <FinalsScoreboard />
+          <ElimsScoreboard /> */}
         </SpacedComponents>
       </Layout>
     </>
