@@ -19,7 +19,7 @@ export default function Mechanics({ data }) {
           <h1 id="page-title">Mechanics</h1>
           <div
             dangerouslySetInnerHTML={{
-              __html: data.allMarkdownRemark.edges[1].node.html,
+              __html: data.allMarkdownRemark.edges[2].node.html,
             }}
           />
         </div>
