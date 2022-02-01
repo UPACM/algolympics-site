@@ -131,13 +131,13 @@ export default function Header({ isIndex }) {
               >
                 LIVE
               </Link> */}
-              {/* <Link
+              <Link
                 className="navlink"
                 activeClassName="navlink"
                 to="/2022/mechanics/"
               >
                 Mechanics
-              </Link> */}
+              </Link>
               {/* <Link
                 className="navlink"
                 activeClassName="navlink"
