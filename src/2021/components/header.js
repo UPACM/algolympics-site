@@ -141,7 +141,7 @@ export default function Header({ isIndex }) {
               <Link
                 className="navlink"
                 activeClassName="navlink"
-                to="/2021/problems/"
+                to="/2021/problems-2021/"
               >
                 Problems
               </Link>
