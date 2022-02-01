@@ -45,14 +45,14 @@ Avoid using special characters or any hard-to-read names. Also, it is strictly p
 <br />
 <hr />
 
-You may view the rules and mechanics of the contest at [link to follow].
+You may view the rules and mechanics of the contest at [https://algolympics.upacm.net/2022/mechanics](https://algolympics.upacm.net/2022/mechanics).
 
 # Which programming languages are allowed?
 
 <br />
 <hr />
 
-Any language supported by Codeforces will be allowed during the elimination period. However, **only Python, C++, and Java will be allowed during the final round**. For more information about the Contest Environment, kindly view the rules and mechanics at [link to follow].
+Any language supported by Codeforces will be allowed during the elimination period. However, **only Python, C++, and Java will be allowed during the final round**. For more information about the Contest Environment, kindly view the rules and mechanics at [https://algolympics.upacm.net/2022/mechanics](https://algolympics.upacm.net/2022/mechanics).
 
 # How do I join Codeforces?
 
@@ -119,7 +119,7 @@ The program flow for the final round will be provided to all participants who qu
 - Participants will be **allowed to take breaks and eat during the competition.**
 - They are also **allowed restroom breaks, provided that they get the permission** of their proctor.
 
-For more information about proctoring and time limits, kindly read through the rules and mechanics at [link to follow].
+For more information about proctoring and time limits, kindly read through the rules and mechanics at [https://algolympics.upacm.net/2022/mechanics](https://algolympics.upacm.net/2022/mechanics).
 
 # What are the prizes?
 
@@ -209,7 +209,7 @@ No, but it is in your best interest to answer as many problems as you can. You j
 <br />
 <hr />
 
-Yes, please see the full mechanics here [link to follow].
+Yes, please see the full mechanics here at the [Mechanics page](https://algolympics.upacm.net/2022/mechanics).
 
 # To whom and when will certificates be sent?
 
