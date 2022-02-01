@@ -41,7 +41,7 @@ Problem statements will be written in English only. Communication with judges (c
 
 # Online Elimination Round
 
-Prior to the event, an Online Elimination Round will be held online on Codeforces. The Online Elimination Round will consist of at least ten (10) problems and will be open from February 18, 2022 at **8:00 PM** to February 27, 2022 at **8:00 PM** with the expectation that the contestants will solve the tasks during their free time.
+Prior to the event, an Online Elimination Round will be held online on Codeforces. The Online Elimination Round will consist of at least ten (10) problems and will be open from February 18, 2022 at **8:00 PM** to February 28, 2022 at **8:00 PM** with the expectation that the contestants will solve the tasks during their free time.
 
 It is forbidden to use someone else's code and to communicate about the problems with anyone apart from your own team members.
 
