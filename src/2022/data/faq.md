@@ -216,7 +216,7 @@ Yes, please see the full mechanics here [link to follow].
 <br />
 <hr />
 
-Certificates will be given to those who qualify for the Final Round and will be given at most a week after the competition.
+Certificates will be given to all participants of the Elimination Round and Final Round and will be given at most a week after the competition.
 
 # How can I contact the organizers?
 
