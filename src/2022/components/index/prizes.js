@@ -61,9 +61,9 @@ function Banner({ place, prize, winner, prevWinner }) {
 
 export default function Prizes() {
   return (
-    <div id="prizes-section" className="index-section">
+    <div id="prizes-list" className="index-section">
       <h1>Last Year's Winners</h1>
-      <div id="prizes-list" className="index-section">
+      <div id="prizes-section" className="index-section">
         <Banner
           place="second"
           prize={contestDetails.prizes.second}
