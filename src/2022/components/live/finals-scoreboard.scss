@@ -1,0 +1,95 @@
+@import "2022/styles/var.scss";
+
+$good-green: #397d38;
+
+$ac-color: $good-green;
+$wa-color: $acm-dull-red;
+
+#finals-scoreboard {
+    color: $dull-white;
+    
+.table-title.finals {
+    text-align: center;
+    margin-bottom: 3%;
+    color: $acm-dull-yellow;
+}
+
+.scoreboard {
+    width: 90%;
+    margin: auto;
+    .headers {
+        > * {
+            border-bottom: 1px solid $dull-white;
+            padding: 2% 0;
+            text-align: center;
+        }
+    }
+    .score-entry {
+        > * {
+            padding: 0.25% 14px;
+            border-bottom: 1px solid $acm-dark-gray;
+        }
+        .rank {
+            text-align: right;
+        }
+        .name {
+            text-align: right;
+            .cf-name {
+                padding: 3% 0;
+            }
+            .school {
+                font-size: 0.75em;
+                padding-bottom: 3%;
+            }
+        }
+        .score {
+            text-align: center;
+            .penalty {
+                font-size: 0.75em;
+                color: $acm-dull-red;
+            }
+        }
+        .item-score {
+            padding-left: 8px;
+            padding-right: 8px;
+            min-width: 30px;
+            .prob-penalty {
+                font-size: 0.9em;
+                text-align: center;
+            }
+            .tries {
+                font-size: 0.75em;
+                text-align: center;
+            }
+        }
+        .ac {
+            color: $ac-color;
+        }
+        .wa {
+            color: $wa-color;
+        }
+    }
+}
+}
+
+// reduced padding for slightly smaller screens
+@media (max-width: 1280px) {
+    .scoreboard {
+        width: 100%;
+        .score-entry {
+            > * {
+                padding: 0.25% 2px;
+            }
+        }
+        .item-score {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .mobile-invisible {
+        display: none;
+    }
+}
