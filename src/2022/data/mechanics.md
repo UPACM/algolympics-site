@@ -176,7 +176,7 @@ If the clarification is deemed valid, the judges will send clarification reports
 
 ##Judge Machine Specifications
 
-- Ubuntu 18.10
+- Ubuntu 20.04
 - 2 vCPUs
 - 4 GB Memory
 - Custom 2nd generation Intel Xeon Scalable Processors (Cascade Lake) with a
