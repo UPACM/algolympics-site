@@ -14,7 +14,7 @@ export default function Problems() {
       <AlgolympicsMeta
         algoYear="2022"
         pageName="Problem Sets"
-        sitePage="/2022/problems/"
+        sitePage="/2022/problems-2022/"
       />
       <Layout
         isIndex={false}
