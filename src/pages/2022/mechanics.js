@@ -19,7 +19,7 @@ export default function Mechanics({ data }) {
           <h1 id="page-title">Mechanics</h1>
           <div
             dangerouslySetInnerHTML={{
-              __html: data.allMarkdownRemark.edges[2].node.html,
+              __html: data.allMarkdownRemark.edges[0].node.html,
             }}
           />
         </div>
@@ -30,9 +30,10 @@ export default function Mechanics({ data }) {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/mechanics.md/" } }
-    ) {
+    allMarkdownRemark(filter: {
+      fileAbsolutePath: { regex: "/2022/" },
+      frontmatter: { title: { regex: "/Mechanics/" } }
+    }) {
       edges {
         node {
           html

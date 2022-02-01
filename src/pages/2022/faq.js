@@ -15,7 +15,7 @@ export default function Faq({ data }) {
           <h1 id="page-title">Frequently Asked Questions</h1>
           <div
             dangerouslySetInnerHTML={{
-              __html: data.allMarkdownRemark.edges[1].node.html,
+              __html: data.allMarkdownRemark.edges[0].node.html,
             }}
           />
         </div>
@@ -26,7 +26,10 @@ export default function Faq({ data }) {
 
 export const query = graphql`
   query {
-    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/faq.md/" } }) {
+    allMarkdownRemark(filter: {
+      fileAbsolutePath: { regex: "/2022/" },
+      frontmatter: { title: { regex: "/FAQs/" } }
+    }) {
       edges {
         node {
           html

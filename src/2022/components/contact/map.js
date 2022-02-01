@@ -7,9 +7,10 @@ export default function Map() {
   const data = useStaticQuery(
     graphql`
       query {
-        allMarkdownRemark(
-          filter: { fileAbsolutePath: { regex: "/location.md/" } }
-        ) {
+        allMarkdownRemark(filter: {
+          fileAbsolutePath: { regex: "/2022/" },
+          frontmatter: { title: { regex: "/Contact/" } }
+        }) {
           edges {
             node {
               html

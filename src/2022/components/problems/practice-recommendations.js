@@ -7,11 +7,10 @@ export default function PracticeRecommendations() {
   const data = useStaticQuery(
     graphql`
       query {
-        allMarkdownRemark(
-          filter: {
-            fileAbsolutePath: { regex: "/practice-recommendations.md/" }
-          }
-        ) {
+        allMarkdownRemark(filter: {
+          fileAbsolutePath: { regex: "/2022/" },
+          frontmatter: { title: { regex: "/Practice Recommendations/" } }
+        }) {
           edges {
             node {
               html
