@@ -2,7 +2,7 @@ import React from "react"
 
 import "./sample-problems.scss"
 
-import contestDetails from "../../data/details.json"
+import contestDetails from "2022/data/details.json"
 
 function SampleProblem({ name, link, background }) {
   return (
