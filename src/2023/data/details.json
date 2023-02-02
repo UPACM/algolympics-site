@@ -5,31 +5,31 @@
   "eventEndDeadline": "2022-03-26T17:59:59.999+08:00",
 
   "landing": {
-    "year": "2022",
-    "algoTheme": "Let your code shine",
-    "staticBgSrc": "/2022/assets/img/background.webp",
-    "bigAlgoLogoSrc": "/2022/assets/img/algo-brain.webp"
+    "year": "2023",
+    "algoTheme": "Astra",
+    "staticBgSrc": "/2023/assets/img/background.png",
+    "bigAlgoLogoSrc": "/2023/assets/img/Picture1.png"
   },
 
   "intro": {
-    "staticImageSrc": "/2022/assets/img/algo-intro.webp"
+    "staticImageSrc": "/2023/assets/img/algo-intro.webp"
   },
 
   "numbers": [
     {
-      "value": "700+",
+      "value": "800+",
       "description": "participants that took the challenge from the past years",
-      "staticIconSrc": "/2022/assets/img/people-icon-colored.png"
+      "staticIconSrc": "/2023/assets/img/people-icon-colored.png"
     },
     {
       "value": "20+",
       "description": "teams that made it to the top spots",
-      "staticIconSrc": "/2022/assets/img/leaderboard-icon-colored.png"
+      "staticIconSrc": "/2023/assets/img/leaderboard-icon-colored.png"
     },
     {
       "value": "30+",
       "description": "universities that joined the competition across the Philippines",
-      "staticIconSrc": "/2022/assets/img/location-icon-colored.png"
+      "staticIconSrc": "/2023/assets/img/location-icon-colored.png"
     }
   ],
 
@@ -40,77 +40,61 @@
   },
 
   "winners": {
-    "first": {
+    "first": {},
 
-    },
+    "second": {},
 
-    "second": {
-
-    },
-
-    "third": {
-
-    }
+    "third": {}
   },
 
   "previousWinners": {
     "first": {
-      "imgSrc": "/2022/assets/img/previous-winners/algo-2021-1st.webp",
+      "imgSrc": "",
       "logoSrc": "/logo/upd.webp",
-      "name": "Kirk",
+      "name": "Java Nice Day",
       "university": "University of the Philippines - Diliman Campus"
     },
 
     "second": {
-      "imgSrc": "/2022/assets/img/previous-winners/algo-2021-2nd.webp",
+      "imgSrc": "",
       "logoSrc": "/logo/admu.webp",
-      "name": "KFC",
+      "name": "K",
       "university": "Ateneo de Manila University"
     },
 
     "third": {
-      "imgSrc": "/2022/assets/img/previous-winners/algo-2021-3rd.webp",
-      "logoSrc": "/logo/admu.webp",
-      "name": "¯＼_(ツ)_／¯",
-      "university": "Ateneo de Manila University"
+      "imgSrc": "",
+      "logoSrc": "/logo/la-salle.webp",
+      "name": "Kuuhaku",
+      "university": "De La Salle University - Manila"
     }
   },
 
   "sponsors": [
     {
-      "sponsorName": "Freelancer",
-      "staticLogoSrc": "/2022/assets/img/sponsors/freelancer/FLN_LOGO_DIGITAL.png",
-      "sponsorLink": "https://www.freelancer.ph/"
+      "sponsorName": "Avaloq",
+      "staticLogoSrc": "/2023/assets/img/sponsors/avaloq/YEARLONG_Avaloq.png",
+      "sponsorLink": "https://www.avaloq.com/"
     },
     {
-      "sponsorName": "Expedock",
-      "staticLogoSrc": "/2022/assets/img/sponsors/expedock/Expedock Logo-Black.png",
-      "sponsorLink": "https://www.expedock.com/"
+      "sponsorName": "MSCI",
+      "staticLogoSrc": "/2023/assets/img/sponsors/msci/YEARLONG_MSCI.png",
+      "sponsorLink": "https://www.msci.com/"
     },
     {
-      "sponsorName": "White Widget",
-      "staticLogoSrc": "/2022/assets/img/sponsors/whiteWidget/logo-web-copy-1.png",
-      "sponsorLink": "https://whitewidget.com/"
+      "sponsorName": "Old St. Labs",
+      "staticLogoSrc": "/2023/assets/img/sponsors/old st.labs/YEARLONG_Old.St Labs.png",
+      "sponsorLink": "https://www.old.st/"
     },
     {
-      "sponsorName": "Navitaire",
-      "staticLogoSrc": "/2022/assets/img/sponsors/navitaire/navitaire-amadeus-rgb.png",
-      "sponsorLink": "https://www.navitaire.com/"
-    },
-    {
-      "sponsorName": "Course Hero",
-      "staticLogoSrc": "/2022/assets/img/sponsors/courseHero/Blue_Horizontal.png",
-      "sponsorLink": "https://www.coursehero.com/"
-    },
-    {
-      "sponsorName": "Orange and Bronze",
-      "staticLogoSrc": "/2022/assets/img/sponsors/orangeAndBronze/O_BLogoRGB-HorizontalVersion2020.png",
-      "sponsorLink": "https://www.orangeandbronze.com/"
-    },
-    {
-      "sponsorName": "Sammsung",
-      "staticLogoSrc": "/2022/assets/img/sponsors/samsung/Samsung Logo - New.png",
+      "sponsorName": "Samsung",
+      "staticLogoSrc": "/2023/assets/img/sponsors/samsung/Samsung Logo - New.png",
       "sponsorLink": "https://www.samsung.com/ph/"
+    },
+    {
+      "sponsorName": "Supergene",
+      "staticLogoSrc": "/2023/assets/img/sponsors/supergene/ALGO_Supergene.png",
+      "sponsorLink": "https://www.supergene.co/en/"
     }
   ],
 
@@ -154,37 +138,59 @@
   "problems": {
     "samples": [
       {
-        "name": "Santa's List",
-        "link": "/sample-probs/santas-list.pdf",
-        "background": "/2022/problems/sample/sample-bg.png"
+        "name": "Song of GluGlu",
+        "link": "/sample-probs/song-of-gluglu.pdf"
       },
       {
-        "name": "Make an Entrance",
-        "link": "/sample-probs/make-an-entrance.pdf",
-        "background": "/2022/problems/sample/sample-bg.png"
+        "name": "Party at the end of the Universe",
+        "link": "/sample-probs/party-at-the-end-of-the-universe.pdf"
+      },
+	  {
+        "name": "Dimensional Elevator",
+        "link": "/sample-probs/dimensional-elevator.pdf"
+      },
+	  {
+        "name": "Attack of the Cones",
+        "link": "/sample-probs/attack-of-the-cones.pdf"
       },
       {
-        "name": "Incomplete Model Kits",
-        "link": "/sample-probs/incomplete-model-kits.pdf",
-        "background": "/2022/problems/sample/sample-bg.png"
+        "name": "Starry Knight",
+        "link": "/sample-probs/starry-knight.pdf"
+      },
+	  {
+        "name": "Space Bar Space",
+        "link": "/sample-probs/space-bar-space.pdf"
       },
       {
         "name": "Alien Defense",
-        "link": "/sample-probs/alien-defense.pdf",
-        "background": "/2022/problems/sample/sample-bg.png"
+        "link": "/sample-probs/alien-defense.pdf"
       },
       {
         "name": "Make Gawa This Program",
-        "link": "/sample-probs/make-gawa-this-program.pdf",
-        "background": "/2022/problems/sample/sample-bg.png"
+        "link": "/sample-probs/make-gawa-this-program.pdf"
       },
       {
         "name": "Guardians of the Lunatics",
-        "link": "/sample-probs/guardians-of-the-lunatics.pdf",
-        "background": "/2022/problems/sample/sample-bg.png"
+        "link": "/sample-probs/guardians-of-the-lunatics.pdf"
       }
     ],
     "previous": [
+      {
+        "year": 2022,
+        "elims": {
+          "problems": "https://codeforces.com/group/fDKsZH3HKS/contest/369721/problems",
+          "solutions": "",
+          "solutionSketches": "",
+          "codeSolutions": ""
+        },
+
+        "finals": {
+          "problems": "/2022/problems/finals/2022_Algolympics_Finals.pdf",
+          "solutions": "",
+          "solutionSketches": "/2022/problems/finals//2022_Algolympics__Solution_Sketches.pdf",
+          "codeSolutions": ""
+        }
+      },
       {
         "year": 2021,
         "elims": {
