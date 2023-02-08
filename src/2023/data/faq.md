@@ -7,7 +7,7 @@ title: "FAQs"
 <br />
 <hr />
 
-Algolympics is an **annual intercollegiate programming competition open to all interested schools, colleges and universities in the Philippines**. With the theme **“Algolympics 2022: Worlds Unknown”** in its ninth year, the event is co-presented by Freelancer.com and is in cooperation with Expedock Software, Inc. and White Widget. It is also brought to you by Navitaire Philippines Inc. and Course Hero, and sponsored by Orange and Bronze Software Labs, Inc. and Samsung Electronics Philippines Corporation. Media partners for the event are Inquirer.net and Inquirer POP!.
+Algolympics is an **annual intercollegiate programming competition open to all interested schools, colleges and universities in the Philippines**. With the theme **“Algolympics 2023: Astra”** in its tenth year, the event is co-presented by Freelancer.com and is in cooperation with Expedock Software, Inc. and White Widget. It is also brought to you by Navitaire Philippines Inc. and Course Hero, and sponsored by Orange and Bronze Software Labs, Inc. and Samsung Electronics Philippines Corporation. Media partners for the event are Inquirer.net and Inquirer POP!.
 
 For this year, the contest will be split into two: **an online elimination round and an online final round**. The elimination round is a free-to-enter round of Algolympics held on Codeforces while the final round is the event where teams that fit the criteria laid out in the rules and mechanics compete for the prize, in exchange for a minimal registration fee.
 
@@ -16,7 +16,7 @@ For this year, the contest will be split into two: **an online elimination round
 <br />
 <hr />
 
-The online elimination round will run from **February 18, 8:00 PM to February 28, 8:00 PM.** Those who passed will be invited to the final round, which will then be held on **March 26, 2022, 1:00 PM to 6:00 PM**.
+The online elimination round will run from **February 17, 8:00 PM to February 27, 8:00 PM.** Those who passed will be invited to the final round, which will then be held on **March 25, 2023, 1:00 PM to 6:00 PM**.
 
 # Who can join?
 
@@ -45,14 +45,14 @@ Avoid using special characters or any hard-to-read names. Also, it is strictly p
 <br />
 <hr />
 
-You may view the rules and mechanics of the contest at [https://algolympics.upacm.net/2022/mechanics](https://algolympics.upacm.net/2022/mechanics).
+You may view the rules and mechanics of the contest at [https://algolympics.upacm.net/2023/mechanics](https://algolympics.upacm.net/2023/mechanics).
 
 # Which programming languages are allowed?
 
 <br />
 <hr />
 
-Any language supported by Codeforces will be allowed during the elimination period. However, **only Python, C++, and Java will be allowed during the final round**. For more information about the Contest Environment, kindly view the rules and mechanics at [https://algolympics.upacm.net/2022/mechanics](https://algolympics.upacm.net/2022/mechanics).
+Any language supported by Codeforces will be allowed during the elimination period. However, **only Python, C++, and Java will be allowed during the final round**. For more information about the Contest Environment, kindly view the rules and mechanics at [https://algolympics.upacm.net/2023/mechanics](https://algolympics.upacm.net/2023/mechanics).
 
 # How do I join Codeforces?
 
@@ -119,7 +119,7 @@ The program flow for the final round will be provided to all participants who qu
 - Participants will be **allowed to take breaks and eat during the competition.**
 - They are also **allowed restroom breaks, provided that they get the permission** of their proctor.
 
-For more information about proctoring and time limits, kindly read through the rules and mechanics at [https://algolympics.upacm.net/2022/mechanics](https://algolympics.upacm.net/2022/mechanics).
+For more information about proctoring and time limits, kindly read through the rules and mechanics at [https://algolympics.upacm.net/2023/mechanics](https://algolympics.upacm.net/2023/mechanics).
 
 # What are the prizes?
 
@@ -202,14 +202,14 @@ All the tools, IDEs and plugins should be consulted to us via email before using
 <br />
 <hr />
 
-No, but it is in your best interest to answer as many problems as you can. You just need to stay on camera as much as possible during that 5 hours, regardless if you are coding or not. You are also not allowed to access other websites except those approved by the planning committee and/or proctors while the contest is still ongoing. You are only allowed to leave your camera during a bathroom break. Details about breaks are found in the rules and mechanics.
+No, but it is in your best interest to **answer as many problems as you can**. You just **need to stay on camera as much as possible during that 5 hours**, regardless if you are coding or not. You are also not allowed to access other websites except those approved by the planning committee and/or proctors while the contest is still ongoing. You are only allowed to leave your camera during a bathroom break. Details about breaks are found in the rules and mechanics.
 
 # In the final round, are the constraints in the problems given or not?
 
 <br />
 <hr />
 
-Yes, please see the full mechanics here at the [Mechanics page](https://algolympics.upacm.net/2022/mechanics).
+Yes, please see the full mechanics here at the [Mechanics page](https://algolympics.upacm.net/2023/mechanics).
 
 # To whom and when will certificates be sent?
 

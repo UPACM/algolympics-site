@@ -4,20 +4,20 @@ title: "Mechanics"
 
 # Eligibility of Participants
 
-A single proper team consists of one (1) to three (3) team members, each of which is an _**undergraduate**_ student from a degree program at the sponsoring institution, has not graduated, and is currently officially enrolled at the time of the contest. For institutions who have not started the semester, participants must have been enrolled during the last academic grading period. Note that all team members must be from the same institution. Alternates **WILL NOT** be allowed.
+A single proper team consists of one (1) to three (3) team members, each of which is an _**undergraduate**_ student from a degree program at the sponsoring institution, has not graduated and is currently officially enrolled at the time of the contest. For institutions who have not started the semester, participants must have been enrolled during the last academic grading period. Note that all team members must be from the same institution. Alternates **WILL NOT** be allowed.
 
 The contestants must be Filipino citizens or officially enrolled at a sponsoring institution in the Philippines at the time of the contest.
 
-Contestants will be required to submit a valid school ID or proof of school registration in order to
-be eligible for the Online Final Round.
+Contestants will be required to submit a valid school ID in order to be eligible for the Online Final Round. If school ID is unavailable, contestants must provide proof of school registration showing their name and student number along with 2 valid IDs.
 
 # Registration
 
-Teams must register through the [provided registration form](https://bit.ly/Algo2022RegForm). Only 1 member of the team needs to submit the registration for the entire team.
+Teams must register through the [provided registration form](bit.ly/Algo2023RegForm). Only 1 member of the team needs to submit the registration for the entire team.
+
 
 **Ensure that you have access to the email(s) you provide** and that they are regularly checked, as further instructions for the Online Elimination Round as well as the Online Final Round will be communicated through the email provided.
 
-The team must have a valid Codeforces accounts and a Codeforces team to register. Instructions for submitting these details will be communicated through the email you have provided in the registration form.
+The team must have valid Codeforces accounts and a Codeforces team to register. Instructions for submitting these details will be communicated through the email you have provided in the registration form.
 
 Note that:
 
@@ -25,7 +25,7 @@ Note that:
 - You must set your first name and last name in https://codeforces.com/settings/social to your real name before submitting or updating your registration.
 - You may create a team at https://codeforces.com/teams/new and invite your team members
 - You must join as a Codeforces team that **only** consists of your teammates
-- Your team name **must not** contain any profanity or explicitly inappropriate references
+- Your team name **must not** contain any profanity or explicitly inappropriate references (i.e., sexual, political, religious). Invalid team names will be asked to be changed by the organizers. 
 - You **must not** change your username or team name for the duration of the competition
 
 There is no limit to the number of teams that may register per school, but the number of finalists may be limited to 3 (details seen below under "Invitation to the Online Final Round").
@@ -41,13 +41,15 @@ Problem statements will be written in English only. Communication with judges (c
 
 # Online Elimination Round
 
-Prior to the event, an Online Elimination Round will be held online on Codeforces. The Online Elimination Round will consist of at least ten (10) problems and will be open from February 18, 2022 at **8:00 PM** to February 28, 2022 at **8:00 PM** with the expectation that the contestants will solve the tasks during their free time.
+Prior to the event, a free-to-enter Online Elimination Round will be held online on Codeforces. The Online Elimination Round will consist of at least ten (10) problems and will be open from February 17, 2023 at **8:00 pm** to February 27, 2023 at **8:00 pm** with the expectation that the contestants will solve the tasks during their free time.
 
 It is forbidden to use someone else's code and to communicate about the problems with anyone apart from your own team members.
 
-All programming languages supported by Codeforces is allowed for the Online Elimination Round. Note, however, that the languages available for the Online Final Round will be limited to C++, Java, and Python 3 (details seen below under "Contest Environment").
+All programming languages supported by Codeforces are allowed for the Online Elimination Round. Note, however, that the languages available for the Online Final Round will be limited to C++, Java, and Python 3 (details seen below under "Contest Environment").
 
-The team must use the same Codeforces team name and Codeforces account submitted to the Algolympics Team.
+Clarifications pertaining to the problems must be filed by the contestant using the clarification system made available in Codeforces.
+
+The team must use the same Codeforces team name and Codeforces accounts submitted to the Algolympics Team.
 
 # Invitation to the Online Final Round
 
@@ -71,11 +73,9 @@ Every time a team that has been invited is disqualified or declines to attend th
 
 If such a situation arises that there are extra slots for another team to participate and no other team can qualify, **additional teams from a university that has reached the maximum number of teams may be given an invitation**.
 
-The organizers will accommodate a maximum of twenty (20) teams for the contest.
-
 # Online Final Round
 
-The Online Final Round will be on **March 26, 2022**, from 1:00 PM to 6:00 PM. The full program is included in the official invitation letter, which will include the opening ceremony, company talks, schedule for the practice round, and awarding.
+The Online Final Round will be on **March 25, 2023**, from **1:00 PM to 6:00 PM**. The full program is included in the official invitation letter, which will include the opening ceremony, company talks, schedule for the practice round, and awarding. 
 
 Each team is required to pay a registration fee amounting to Php 150 per person to be paid before the Online Final Round.
 
@@ -97,7 +97,7 @@ The programming languages for the Online Final Round will be restricted to the f
 
 Note that we can only guarantee that all problems are solvable in C++ and Java.
 
-Each team may have up to one computer per participant.
+Each team may have up to one computer (one monitor) per participant.
 
 A participant will be permitted to use the following software throughout the duration of the contest: 
 
@@ -113,6 +113,7 @@ Participants are required to send us the list of specific software (e.g. Google 
 
 Contestants are allowed to submit reference material for use during the contest proper, according to the following limitations:
 
+
 - Contain up to 20 pages of reference material, typed on single-sided Letter (8x11 inches) or A4 size paper (210x297mm), with pages numbered on the upper right hand corner.
 - May contain algorithms, code listings, hints, or any other notes.
 - Each team member may have an exact copy of the reference material.
@@ -126,11 +127,12 @@ Contestants are expected to switch off all communication devices aside from thos
 
 A live scoreboard will be available for contestants. The scoreboard will be frozen one (1) hour before the conclusion of the contest.
 
+
 # Proctoring
 
-The contest will be proctored over Google Meets and participants will be sent their meeting link on the day of the event. All members of the team do not need to be in the same physical location to compete as long as they can be present in the Google Meets call. Team members are also allowed to be in the same location if they wish to do so, provided that they meet all proctoring guidelines. 
+The contest will be proctored over **Google Meets** and participants will be sent their meeting link on the day of the event. All members of the team do not need to be in the same physical location to compete as long as they can be present in the **Google Meets** call. Team members are also allowed to be in the same location if they wish to do so, provided that they meet all proctoring guidelines. 
 
-Proctors will check if only approved software is being used. Participants' computers will also be checked so that the device has no pre-existing code that can be copied or used during the contest.
+Proctors will check if only the approved software is being used. Participants' computers will also be checked so that the device has no pre-existing code that can be copied or used during the contest. 
 
 During the contest, the participant must
 
@@ -149,6 +151,7 @@ If a person is disconnected from the call, they must be back online within 15 mi
 It is recommended that the team also have a backup internet source (e.g. mobile data) in case of internet issues during the contest.
 
 Note that proctoring guidelines may be modified. Changes will be communicated to all registered participants in a timely manner.
+
 
 # Practice Session
 
@@ -176,7 +179,7 @@ If the clarification is deemed valid, the judges will send clarification reports
 
 ##Judge Machine Specifications
 
-- Ubuntu 20.04
+- Ubuntu 18.10
 - 2 vCPUs
 - 4 GB Memory
 - Custom 2nd generation Intel Xeon Scalable Processors (Cascade Lake) with a
