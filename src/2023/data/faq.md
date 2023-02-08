@@ -7,7 +7,7 @@ title: "FAQs"
 <br />
 <hr />
 
-Algolympics is an **annual intercollegiate programming competition open to all interested schools, colleges and universities in the Philippines**. With the theme **“Algolympics 2023: Astra”** in its tenth year, the event is co-presented by Freelancer.com and is in cooperation with Expedock Software, Inc. and White Widget. It is also brought to you by Navitaire Philippines Inc. and Course Hero, and sponsored by Orange and Bronze Software Labs, Inc. and Samsung Electronics Philippines Corporation. Media partners for the event are Inquirer.net and Inquirer POP!.
+Algolympics is an **annual intercollegiate programming competition open to all interested schools, colleges and universities in the Philippines**. With the theme **“Algolympics 2023: Astra”** in its tenth year, the event is  co-presented by Samsung Electronics Philippines Corporation and MSCI. This event is also in partnership with Avaloq, Old.St Labs, and Supergene.
 
 For this year, the contest will be split into two: **an online elimination round and an online final round**. The elimination round is a free-to-enter round of Algolympics held on Codeforces while the final round is the event where teams that fit the criteria laid out in the rules and mechanics compete for the prize, in exchange for a minimal registration fee.
 
