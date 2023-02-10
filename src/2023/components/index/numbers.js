@@ -59,7 +59,7 @@ export default function Numbers() {
       ))}
       <Number
         isSpecial={true}
-        iconSrc="/2023/assets/img/algolympics-logo-white.png"
+        iconSrc="/2023/assets/img/algolympics-logo-white.webp"
         value="One goal"
         desc="Be the best team to win the competition."
       />
