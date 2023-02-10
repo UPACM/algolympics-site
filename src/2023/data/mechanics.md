@@ -8,7 +8,7 @@ A single proper team consists of one (1) to three (3) team members, each of whic
 
 The contestants must be Filipino citizens or officially enrolled at a sponsoring institution in the Philippines at the time of the contest.
 
-Contestants will be required to submit a valid school ID in order to be eligible for the Online Final Round. If school ID is unavailable, contestants must provide proof of school registration showing their name and student number along with 2 valid IDs.
+Contestants will be required to submit a valid school ID in order to be eligible for the Online Final Round. If school ID is unavailable, contestants must provide proof of school registration showing their name and student number along with 1 valid ID.
 
 # Registration
 
