@@ -8,8 +8,8 @@ import "aos/dist/aos.css"
 function Winner({ winnerData }) {
   return (
     <div className="winner">
-      <img className="winner-pic" src={winnerData.imgSrc} />
-      <img className="school-logo" src={winnerData.logoSrc} />
+      <img className="winner-pic" src={winnerData.imgSrc} alt=""/>
+      <img className="school-logo" src={winnerData.logoSrc} alt=""/>
       <p className="team-name">{winnerData.name}</p>
       <p className="team-school">{winnerData.university}</p>
     </div>
