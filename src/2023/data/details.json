@@ -19,17 +19,17 @@
     {
       "value": "800+",
       "description": "participants that took the challenge from the past years",
-      "staticIconSrc": "/2023/assets/img/people-icon-colored.png"
+      "staticIconSrc": "/2023/assets/img/people-icon-colored.webp"
     },
     {
       "value": "20+",
       "description": "teams that made it to the top spots",
-      "staticIconSrc": "/2023/assets/img/leaderboard-icon-colored.png"
+      "staticIconSrc": "/2023/assets/img/leaderboard-icon-colored.webp"
     },
     {
       "value": "30+",
       "description": "universities that joined the competition across the Philippines",
-      "staticIconSrc": "/2023/assets/img/location-icon-colored.png"
+      "staticIconSrc": "/2023/assets/img/location-icon-colored.webp"
     }
   ],
 
@@ -73,27 +73,27 @@
   "sponsors": [
     {
       "sponsorName": "Avaloq",
-      "staticLogoSrc": "/2023/assets/img/sponsors/avaloq/YEARLONG_Avaloq.png",
+      "staticLogoSrc": "/2023/assets/img/sponsors/avaloq/YEARLONG_Avaloq.webp",
       "sponsorLink": "https://www.avaloq.com/"
     },
     {
       "sponsorName": "MSCI",
-      "staticLogoSrc": "/2023/assets/img/sponsors/msci/YEARLONG_MSCI.png",
+      "staticLogoSrc": "/2023/assets/img/sponsors/msci/YEARLONG_MSCI.webp",
       "sponsorLink": "https://www.msci.com/"
     },
     {
       "sponsorName": "Old St. Labs",
-      "staticLogoSrc": "/2023/assets/img/sponsors/old st.labs/YEARLONG_Old.St Labs.png",
+      "staticLogoSrc": "/2023/assets/img/sponsors/old st.labs/YEARLONG_Old.St Labs.webp",
       "sponsorLink": "https://www.old.st/"
     },
     {
       "sponsorName": "Samsung",
-      "staticLogoSrc": "/2023/assets/img/sponsors/samsung/Samsung Logo - New.png",
+      "staticLogoSrc": "/2023/assets/img/sponsors/samsung/Samsung Logo - New.webp",
       "sponsorLink": "https://www.samsung.com/ph/"
     },
     {
       "sponsorName": "Supergene",
-      "staticLogoSrc": "/2023/assets/img/sponsors/supergene/ALGO_Supergene.png",
+      "staticLogoSrc": "/2023/assets/img/sponsors/supergene/ALGO_Supergene.webp",
       "sponsorLink": "https://www.supergene.co/en/"
     }
   ],
@@ -121,7 +121,7 @@
     {
       "type": "email",
       "name": "algolympics@upacm.net",
-      "link": "#"
+      "link": "mailto:algolympics@upacm.net"
     },
     {
       "type": "location",
