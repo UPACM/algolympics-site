@@ -7,7 +7,8 @@ title: "FAQs"
 <br />
 <hr />
 
-Algolympics is an **annual intercollegiate programming competition open to all interested schools, colleges and universities in the Philippines**. With the theme **“Algolympics 2023: Astra”** in its tenth year, the event is  co-presented by Samsung Electronics Philippines Corporation and MSCI. This event is also in partnership with Avaloq, Old.St Labs, and Supergene.
+Algolympics is an **annual intercollegiate programming competition open to all interested schools, colleges and universities in the Philippines**. With the theme **“Algolympics 2023: Astra”** in its tenth year, the event is  co-presented by Samsung and Morgan Stanley Capital International. This event is in partnership with Old St. Labs, Avaloq, and Supergene, as well as DevelUP, and De La Salle University ACM Student Chapter. Special thanks to the UP Statistical Society and FEU Alabang ACM Student Chapter.
+
 
 For this year, the contest will be split into two: **an online elimination round and an online final round**. The elimination round is a free-to-enter round of Algolympics held on Codeforces while the final round is the event where teams that fit the criteria laid out in the rules and mechanics compete for the prize, in exchange for a minimal registration fee.
 
@@ -52,7 +53,7 @@ You may view the rules and mechanics of the contest at [https://algolympics.upac
 <br />
 <hr />
 
-Any language supported by Codeforces will be allowed during the elimination period. However, **only Python, C++, and Java will be allowed during the final round**. For more information about the Contest Environment, kindly view the rules and mechanics at [https://algolympics.upacm.net/2023/mechanics](https://algolympics.upacm.net/2023/mechanics).
+Any language supported by Codeforces will be allowed during the elimination period. However, **only Python, C++, and Java will be allowed during the final round**. For more information about the Contest Environment, kindly view the rules and mechanics.
 
 # How do I join Codeforces?
 
@@ -119,7 +120,7 @@ The program flow for the final round will be provided to all participants who qu
 - Participants will be **allowed to take breaks and eat during the competition.**
 - They are also **allowed restroom breaks, provided that they get the permission** of their proctor.
 
-For more information about proctoring and time limits, kindly read through the rules and mechanics at [https://algolympics.upacm.net/2023/mechanics](https://algolympics.upacm.net/2023/mechanics).
+For more information about proctoring and time limits, kindly read through the rules and mechanics.
 
 # What are the prizes?
 
@@ -167,7 +168,7 @@ No, only members who will participate have to pay.
 <br />
 <hr />
 
-No, there is no minimum font size, required margins, line spacing, font or otherwise. Any formatting is allowed as long as the text is readable and understandable on the part of the checking team and the team using the reference. This means that references may be rejected if they are unable to be checked by our team.
+No, there is no minimum font size, required margins, line spacing, font or otherwise. **Any formatting is allowed as long as the text is readable and understandable** on the part of the checking team and the team using the reference. This means that references may be rejected if they are unable to be checked by our team.
 
 # Will revised reference materials submitted beyond the deadline still be accepted?
 
@@ -188,7 +189,7 @@ Yes, attending the whole program is required.
 <br />
 <hr />
 
-Yes, mobile phones are permitted as a 2nd camera, provided that the video is clear, well-lit and angled properly.
+Yes, mobile phones are permitted as a 2nd camera, provided that the **video is clear, well-lit and angled properly**.
 
 # Are the contestants allowed to install plugins for the editors such as vim plugins? 
 
@@ -209,7 +210,7 @@ No, but it is in your best interest to **answer as many problems as you can**. Y
 <br />
 <hr />
 
-Yes, please see the full mechanics here at the [Mechanics page](https://algolympics.upacm.net/2023/mechanics).
+Yes, the constraints will be provided.
 
 # To whom and when will certificates be sent?
 
