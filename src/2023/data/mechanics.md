@@ -107,7 +107,7 @@ A participant will be permitted to use the following software throughout the dur
 - PDF File Readers
 - Calculator
 
-Browsers shall only be used to connect to proctors using Google Meets, as accessing any online resources except those allowed by the judges is prohibited. 
+Browsers shall only be used to connect to proctors using Zoom, as accessing any online resources except those allowed by the judges is prohibited. 
 
 Participants are required to send us the list of specific software (e.g. Google Chrome, Code::Blocks, Microsoft Excel, Windows Calculator) they plan on using during the contest. They will not be permitted to use any other software that they did not include in the list.
 
@@ -130,7 +130,7 @@ A live scoreboard will be available for contestants. The scoreboard will be froz
 
 # Proctoring
 
-The contest will be proctored over **Google Meets** and participants will be sent their meeting link on the day of the event. All members of the team do not need to be in the same physical location to compete as long as they can be present in the **Google Meets** call. Team members are also allowed to be in the same location if they wish to do so, provided that they meet all proctoring guidelines. 
+The contest will be proctored over **Zoom** and participants will be sent their meeting link on the day of the event. All members of the team do not need to be in the same physical location to compete as long as they can be present in the **Zoom** meeting. Team members are also allowed to be in the same location if they wish to do so, provided that they meet all proctoring guidelines. 
 
 Proctors will check if only the approved software is being used. Participants' computers will also be checked so that the device has no pre-existing code that can be copied or used during the contest. 
 
@@ -146,7 +146,7 @@ The participants shall be recorded to aid in the monitoring process. This footag
 
 It is recommended that the participant have another camera using their same account that has a clear view of their hands and face (and if possible, at least a glimpse of the screen too) to help dispel cheating allegations. In this regard, time spent away from camera range will be no more than 10 minutes at a time. Participants must ask permission from the proctor if the participant wishes to leave the range of their camera and may only do so once acknowledged. Only 1 team member may go outside of camera range at a time. Failure to return to camera view after 10 minutes will be grounds for disqualification.
 
-If a person is disconnected from the call, they must be back online within 15 minutes. They may be disqualified after 15 minutes, subject to the judgement of the proctors. A team will be allowed to continue competing as long as 1 remaining team member has not been disqualified due to disconnection.
+If a person is disconnected from the meeting, they must be back online within 15 minutes. They may be disqualified after 15 minutes, subject to the judgement of the proctors. A team will be allowed to continue competing as long as 1 remaining team member has not been disqualified due to disconnection.
 
 It is recommended that the team also have a backup internet source (e.g. mobile data) in case of internet issues during the contest.
 
@@ -210,7 +210,7 @@ The penalty is defined differently for the Elimination and Final Rounds.
     2. Breaching or refusing to comply with the rules.
     3. Sharing or using from others, **whether intentionally or unintentionally**, any information about a task, including its content or solution, before the end of a round.
     4. Displaying behavior considered to be disruptive, unethical, or unsportsmanlike.
-2. **Prolonged unmonitored time**. An individual may be disqualified if they are out of view of their camera or take their restroom break for more than the allotted time. Disqualification can also occur, if an individual is disconnected from the call for more than the time indicated in the “Proctoring” section. 
+2. **Prolonged unmonitored time**. An individual may be disqualified if they are out of view of their camera or take their restroom break for more than the allotted time. Disqualification can also occur, if an individual is disconnected from the meeting for more than the time indicated in the “Proctoring” section. 
 3. **Failing to reply**. Teams may be disqualified if they fail to respond to any request for information from the organizing committee related to Algolympics within seven days of our request or a given deadline.
 4. **Change of username/team name**. The team must not change their Codeforces username/team name at any point in the contest period (from registration until the end of the on-site final round). Any username/team name change is grounds for disqualification.
 5. **Change of Codeforces team**. The team members that make up the Codeforces team must not change for the duration of the competition. Any change in team composition is grounds for immediate disqualification.
