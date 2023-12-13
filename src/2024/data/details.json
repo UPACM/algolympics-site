@@ -1,0 +1,302 @@
+{
+  "heading": "",
+
+  "eventDeadline": "2022-03-26T12:59:59.999+08:00",
+  "eventEndDeadline": "2022-03-26T17:59:59.999+08:00",
+
+  "landing": {
+    "year": "2023",
+    "algoTheme": "Astra",
+    "staticBgSrc": "/2023/assets/img/background.webp",
+    "bigAlgoLogoSrc": "/2023/assets/img/algo-brain.webp"
+  },
+
+  "intro": {
+    "staticImageSrc": "/2023/assets/img/algo-intro.webp"
+  },
+
+  "numbers": [
+    {
+      "value": "800+",
+      "description": "participants that took the challenge from the past years",
+      "staticIconSrc": "/2023/assets/img/people-icon-colored.webp"
+    },
+    {
+      "value": "20+",
+      "description": "teams that made it to the top spots",
+      "staticIconSrc": "/2023/assets/img/leaderboard-icon-colored.webp"
+    },
+    {
+      "value": "30+",
+      "description": "universities that joined the competition across the Philippines",
+      "staticIconSrc": "/2023/assets/img/location-icon-colored.webp"
+    }
+  ],
+
+  "prizes": {
+    "first": "₱ 12,000",
+    "second": "₱ 9,000",
+    "third": "₱ 6,000"
+  },
+
+  "winners": {
+    "first": {},
+
+    "second": {},
+
+    "third": {}
+  },
+
+  "previousWinners": {
+    "first": {
+      "imgSrc": "",
+      "logoSrc": "/logo/upd.webp",
+      "name": "Java Nice Day",
+      "university": "University of the Philippines - Diliman Campus"
+    },
+
+    "second": {
+      "imgSrc": "",
+      "logoSrc": "/logo/admu.webp",
+      "name": "K",
+      "university": "Ateneo de Manila University"
+    },
+
+    "third": {
+      "imgSrc": "",
+      "logoSrc": "/logo/la-salle.webp",
+      "name": "Kuuhaku",
+      "university": "De La Salle University - Manila"
+    }
+  },
+
+  "sponsors": [
+    {
+      "sponsorName": "Avaloq",
+      "staticLogoSrc": "/2023/assets/img/sponsors/avaloq/YEARLONG_Avaloq.webp",
+      "sponsorLink": "https://www.avaloq.com/"
+    },
+    {
+      "sponsorName": "MSCI",
+      "staticLogoSrc": "/2023/assets/img/sponsors/msci/YEARLONG_MSCI.webp",
+      "sponsorLink": "https://www.msci.com/"
+    },
+    {
+      "sponsorName": "Old St. Labs",
+      "staticLogoSrc": "/2023/assets/img/sponsors/old st.labs/YEARLONG_Old.St Labs.webp",
+      "sponsorLink": "https://www.old.st/"
+    },
+    {
+      "sponsorName": "Samsung",
+      "staticLogoSrc": "/2023/assets/img/sponsors/samsung/Samsung Logo - New.webp",
+      "sponsorLink": "https://www.samsung.com/ph/"
+    },
+    {
+      "sponsorName": "Supergene",
+      "staticLogoSrc": "/2023/assets/img/sponsors/supergene/ALGO_Supergene.webp",
+      "sponsorLink": "https://www.supergene.co/en/"
+    }
+  ],
+
+  "socials": [
+    {
+      "type": "facebook",
+      "link": "https://fb.com/upacm"
+    },
+    {
+      "type": "twitter",
+      "link": "https://twitter.com/upacm"
+    },
+    {
+      "type": "linkedin",
+      "link": "https://ph.linkedin.com/company/upacm"
+    },
+    {
+      "type": "youtube",
+      "link": "https://www.youtube.com/user/upacmYT"
+    }
+  ],
+
+  "contacts": [
+    {
+      "type": "email",
+      "name": "algolympics@upacm.net",
+      "link": "mailto:algolympics@upacm.net"
+    },
+    {
+      "type": "location",
+      "name": "Department of Computer Science, University of the Philippines Diliman, Quezon City, Philippines",
+      "link": "https://goo.gl/maps/FfLKMHQvFqMWxh1Q6"
+    },
+    {
+      "type": "mobile",
+      "name": "0905 301 8482",
+      "link": "#"
+    }
+  ],
+
+  "problems": {
+    "samples": [
+      {
+        "name": "Song of GluGlu",
+        "link": "/sample-probs/song-of-gluglu.pdf"
+      },
+      {
+        "name": "Party at the end of the Universe",
+        "link": "/sample-probs/party-at-the-end-of-the-universe.pdf"
+      },
+	  {
+        "name": "Dimensional Elevator",
+        "link": "/sample-probs/dimensional-elevator.pdf"
+      },
+	  {
+        "name": "Attack of the Cones",
+        "link": "/sample-probs/attack-of-the-cones.pdf"
+      },
+      {
+        "name": "Starry Knight",
+        "link": "/sample-probs/starry-knight.pdf"
+      },
+	  {
+        "name": "Space Bar Space",
+        "link": "/sample-probs/space-bar-space.pdf"
+      },
+      {
+        "name": "Alien Defense",
+        "link": "/sample-probs/alien-defense.pdf"
+      },
+      {
+        "name": "Make Gawa This Program",
+        "link": "/sample-probs/make-gawa-this-program.pdf"
+      },
+      {
+        "name": "Guardians of the Lunatics",
+        "link": "/sample-probs/guardians-of-the-lunatics.pdf"
+      }
+    ],
+    "previous": [
+      {
+        "year": 2022,
+        "elims": {
+          "problems": "https://codeforces.com/group/fDKsZH3HKS/contest/369721/problems",
+          "solutions": "",
+          "solutionSketches": "",
+          "codeSolutions": ""
+        },
+
+        "finals": {
+          "problems": "/2022/problems/finals/2022_Algolympics_Finals.pdf",
+          "solutions": "",
+          "solutionSketches": "/2022/problems/finals//2022_Algolympics__Solution_Sketches.pdf",
+          "codeSolutions": ""
+        }
+      },
+      {
+        "year": 2021,
+        "elims": {
+          "problems": "https://codeforces.com/group/fDKsZH3HKS/contest/316191/problems",
+          "solutions": "",
+          "solutionSketches": "",
+          "codeSolutions": ""
+        },
+
+        "finals": {
+          "problems": "",
+          "solutions": "",
+          "solutionSketches": "/2021/problems/finals/algolympics-2021-solution-sketches.pdf",
+          "codeSolutions": ""
+        }
+      },
+      {
+        "year": 2020,
+        "elims": {
+          "problems": "https://codeforces.com/group/fDKsZH3HKS/contest/266086/problems",
+          "solutions": "",
+          "solutionSketches": "",
+          "codeSolutions": ""
+        },
+        "finals": {
+          "problems": "/2020/problems/finals/algolympics-2020-problems.pdf",
+          "solutions": "/2020/problems/finals/algolympics-2020-solutions.pdf",
+          "solutionSketches": "/2020/problems/finals/algolympics-2020-solution-sketches.pdf",
+          "codeSolutions": "/2020/problems/finals/algolympics-2020-code-solutions.zip"
+        }
+      },
+      {
+        "year": 2019,
+        "elims": {
+          "problems": "",
+          "solutions": "",
+          "solutionSketches": "",
+          "codeSolutions": ""
+        },
+        "finals": {
+          "problems": "/2019/problems/finals/algolympics-2019-problems.pdf",
+          "solutions": "",
+          "solutionSketches": "/2019/problems/finals/algolympics-2019-solution-sketches.pdf",
+          "codeSolutions": ""
+        }
+      },
+      {
+        "year": 2018,
+        "elims": {
+          "problems": "",
+          "solutions": "",
+          "solutionSketches": "",
+          "codeSolutions": ""
+        },
+        "finals": {
+          "problems": "/2018/problems/finals/algolympics-2018-problems.pdf",
+          "solutions": "",
+          "solutionSketches": "/2018/problems/finals/algolympics-2018-solution-sketches.pdf",
+          "codeSolutions": ""
+        }
+      },
+      {
+        "year": 2017,
+        "elims": {
+          "problems": "",
+          "solutions": "",
+          "solutionSketches": "",
+          "codeSolutions": ""
+        },
+        "finals": {
+          "problems": "/2017/problems/finals/algolympics-2017-problems.pdf",
+          "solutions": "",
+          "solutionSketches": "/2017/problems/finals/algolympics-2017-solution-sketches.pdf",
+          "codeSolutions": ""
+        }
+      },
+      {
+        "year": 2016,
+        "elims": {
+          "problems": "",
+          "solutions": "",
+          "solutionSketches": "",
+          "codeSolutions": ""
+        },
+        "finals": {
+          "problems": "/2016/problems/finals/algolympics-2016-problems.pdf",
+          "solutions": "",
+          "solutionSketches": "/2016/problems/finals/algolympics-2016-solution-sketches.pdf",
+          "codeSolutions": ""
+        }
+      },
+      {
+        "year": 2015,
+        "elims": {
+          "problems": "",
+          "solutions": "",
+          "solutionSketches": "",
+          "codeSolutions": ""
+        },
+        "finals": {
+          "problems": "/2015/problems/finals/algolympics-2015-problems.pdf",
+          "solutions": "/2015/problems/finals/algolympics-2015-solutions.pdf",
+          "solutionSketches": "/2015/problems/finals/algolympics-2015-solution-sketches.pdf",
+          "codeSolutions": ""
+        }
+      }
+    ]
+  }
+}
