@@ -2,7 +2,7 @@ import React, { useEffect } from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import "./algo-intro.scss"
-import contestDetails from "2023/data/details.json"
+import contestDetails from "2024/data/details.json"
 
 import AOS from "aos"
 import "aos/dist/aos.css"
@@ -17,7 +17,7 @@ export default function AlgoIntro() {
     graphql`
       query {
         allMarkdownRemark(filter: {
-          fileAbsolutePath: { regex: "/2023/" },
+          fileAbsolutePath: { regex: "/2024/" },
           frontmatter: { title: { regex: "/What is the Algolympics?/" } }
         }) {
           edges {

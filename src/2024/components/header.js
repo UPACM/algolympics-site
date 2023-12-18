@@ -102,7 +102,7 @@ export default function Header({ isIndex }) {
     <>
       <div className={scrolled || !isIndex ? "header" : "header top"}>
         <div className="wrapper">
-          <Link to="/2023/">
+          <Link to="/2024/">
             <div className="title">
               <img src={headerImg} alt="Header" />
               <h1>
@@ -134,21 +134,21 @@ export default function Header({ isIndex }) {
               <Link
                 className="navlink"
                 activeClassName="navlink"
-                to="/2023/mechanics/"
+                to="/2024/mechanics/"
               >
                 Mechanics
               </Link>
               <Link
                 className="navlink"
                 activeClassName="navlink"
-                to="/2023/problems-2023/"
+                to="/2024/problems-2024/"
               >
                 Problems
               </Link>
               <Link
                 className="navlink"
                 activeClassName="navlink"
-                to="/2023/faq/"
+                to="/2024/faq/"
               >
                 FAQ
               </Link>
