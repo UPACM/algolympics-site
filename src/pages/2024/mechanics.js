@@ -10,7 +10,7 @@ export default function Mechanics({ data }) {
   return (
     <>
       <AlgolympicsMeta
-        algoYear="2023"
+        algoYear="2024"
         pageName="Mechanics"
         sitePage="/2024/mechanics/"
       />

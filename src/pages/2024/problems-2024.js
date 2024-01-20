@@ -12,7 +12,7 @@ export default function Problems() {
   return (
     <>
       <AlgolympicsMeta
-        algoYear="2023"
+        algoYear="2024"
         pageName="Problem Sets"
         sitePage="/2024/problems-2024/"
       />

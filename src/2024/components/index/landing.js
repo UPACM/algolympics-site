@@ -58,7 +58,7 @@ export default function Landing() {
             <span className="red">ALGO</span>
             <span className="yellow">LYM</span>
             <span className="green">PICS</span>
-            <span className="blue"> 2023</span>
+            <span className="blue"> 2024</span>
           </h1>
         </div>
       </div>
