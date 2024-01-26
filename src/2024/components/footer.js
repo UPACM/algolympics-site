@@ -1,11 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import "2023/components/footer.scss"
-import contestDetails from "2023/data/details.json"
+import "2024/components/footer.scss"
+import contestDetails from "2024/data/details.json"
 
 function Social({ type, link }) {
-  var social_logo = `/2023/assets/img/social/${type}-logo.png`
+  var social_logo = `/2024/assets/img/social/${type}-logo.png`
   return (
     <a className="social" href={link}>
       <img src={social_logo} alt="Social Logo" />
@@ -14,7 +14,7 @@ function Social({ type, link }) {
 }
 
 function Contact({ type, name, link }) {
-  var contact_logo = `/2023/assets/img/social/${type}-logo.png`
+  var contact_logo = `/2024/assets/img/social/${type}-logo.png`
   if (link !== "#") {
     return (
       <a className="contact" href={link}>

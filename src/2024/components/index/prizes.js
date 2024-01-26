@@ -1,7 +1,7 @@
 import React from "react"
 
 import "./prizes.scss"
-import contestDetails from "2023/data/details.json"
+import contestDetails from "2024/data/details.json"
 
 import "aos/dist/aos.css"
 

@@ -2,7 +2,7 @@ import React from "react"
 
 import "./sponsors.scss"
 
-import contestDetails from "2023/data/details.json"
+import contestDetails from "2024/data/details.json"
 
 function Sponsor({ staticLogoSrc, sponsorLink }) {
   return (

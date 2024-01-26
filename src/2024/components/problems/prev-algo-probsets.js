@@ -2,7 +2,7 @@ import React from "react"
 
 import "./prev-algo-probsets.scss"
 
-import contestDetails from "2023/data/details.json"
+import contestDetails from "2024/data/details.json"
 
 function ProbSet({ year, elimsFiles, finalsFiles }) {
   let elimsProbs = elimsFiles.problems

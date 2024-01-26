@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 
 import "./landing.scss"
-import contestDetails from "2023/data/details.json"
+import contestDetails from "2024/data/details.json"
 
 export default function Landing() {
   const [opaque, setOpaque] = useState(false)

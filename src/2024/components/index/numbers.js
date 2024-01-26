@@ -1,7 +1,7 @@
 import React from "react"
 
 import "./numbers.scss"
-import contestDetails from "2023/data/details.json"
+import contestDetails from "2024/data/details.json"
 
 import "aos/dist/aos.css"
 
@@ -59,7 +59,7 @@ export default function Numbers() {
       ))}
       <Number
         isSpecial={true}
-        iconSrc="/2023/assets/img/algolympics-logo-white.webp"
+        iconSrc="/2024/assets/img/algolympics-logo-white.webp"
         value="One goal"
         desc="Be the best team to win the competition."
       />

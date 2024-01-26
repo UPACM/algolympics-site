@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCaretDown, faBars } from "@fortawesome/free-solid-svg-icons"
 
-import headerImg from "2023/assets/images/header-icon.png"
+import headerImg from "2024/assets/images/header-icon.png"
 
 import "./header.scss"
 
