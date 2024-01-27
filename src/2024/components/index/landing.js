@@ -55,10 +55,7 @@ export default function Landing() {
             alt="Big Algolympics Logo"
           />
           <h1>
-            <span className="red">ALGO</span>
-            <span className="yellow">LYM</span>
-            <span className="green">PICS</span>
-            <span className="blue"> 2024</span>
+            ALGOLYPMICS 2024
           </h1>
         </div>
       </div>
