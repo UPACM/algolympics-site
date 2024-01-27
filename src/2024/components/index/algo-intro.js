@@ -1,6 +1,5 @@
 import React, { useEffect } from "react"
-import { useStaticQuery, graphql } from "gatsby"
-
+import { useStaticQuery, graphql, withPrefix } from "gatsby"
 import "./algo-intro.scss"
 import contestDetails from "2024/data/details.json"
 
@@ -38,7 +37,7 @@ export default function AlgoIntro() {
       </div>
       <img
         id="intro-image"
-        src={contestDetails.intro.staticImageSrc}
+        src={withPrefix(contestDetails.intro.staticImageSrc)}
         alt="Intro"
         data-aos="fade-up"
         data-aos-delay="80"

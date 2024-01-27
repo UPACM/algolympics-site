@@ -4,12 +4,13 @@ import "./prizes.scss"
 import contestDetails from "2024/data/details.json"
 
 import "aos/dist/aos.css"
+import { withPrefix } from "gatsby"
 
 function Winner({ winnerData }) {
   return (
     <div className="winner">
-      <img className="winner-pic" src={winnerData.imgSrc} alt=""/>
-      <img className="school-logo" src={winnerData.logoSrc} alt=""/>
+      <img className="winner-pic" src={withPrefix(winnerData.imgSrc)} alt=""/>
+      <img className="school-logo" src={withPrefix(winnerData.logoSrc)} alt=""/>
       <p className="team-name">{winnerData.name}</p>
       <p className="team-school">{winnerData.university}</p>
     </div>
@@ -47,7 +48,7 @@ function Banner({ place, prize, winner, prevWinner }) {
       data-aos-delay={aos_delay}
       data-aos-duration="650"
     >
-      <img className="trophy-img" alt="Trophy" src={trophy_img_src} />
+      <img className="trophy-img" alt="Trophy" src={withPrefix(trophy_img_src)} />
       <div className="banner-content">
         <div className="prize">
           <h2>{prize_heading}</h2>

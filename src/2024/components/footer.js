@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, withPrefix } from "gatsby"
 
 import "2024/components/footer.scss"
 import contestDetails from "2024/data/details.json"
@@ -19,7 +19,7 @@ function Contact({ type, name, link }) {
     return (
       <a className="contact" href={link}>
         <div className="contact-logo">
-          <img src={contact_logo} alt="Contact Logo" />
+          <img src={withPrefix(contact_logo)} alt="Contact Logo" />
         </div>
         <div className="contact-info">
           <span>{name}</span>
@@ -30,7 +30,7 @@ function Contact({ type, name, link }) {
     return (
       <div className="contact">
         <div className="contact-logo">
-          <img src={contact_logo} alt="Contact Logo" />
+          <img src={withPrefix(contact_logo)} alt="Contact Logo" />
         </div>
         <div className="contact-info">
           <span>{name}</span>

@@ -3,11 +3,12 @@ import React from "react"
 import "./sponsors.scss"
 
 import contestDetails from "2024/data/details.json"
+import { withPrefix } from "gatsby"
 
 function Sponsor({ staticLogoSrc, sponsorLink }) {
   return (
     <a className="sponsor" href={sponsorLink}>
-      <img src={staticLogoSrc} alt="Static Logo" />
+      <img src={withPrefix(staticLogoSrc)} alt="Static Logo" />
     </a>
   )
 }

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-
+import {withPrefix} from 'gatsby'
 import "./landing.scss"
 import contestDetails from "2024/data/details.json"
 
@@ -45,13 +45,13 @@ export default function Landing() {
         id="landing-image"
         alt="Landing"
         className={opaque ? "scrolled incompressible" : "incompressible"}
-        src={contestDetails.landing.staticBgSrc}
+        src={withPrefix(contestDetails.landing.staticBgSrc)}
       />
       <div class="scrollable-indicator"></div>
       <div id="landing-text" className="incompressible">
         <div className="wrapper">
           <img
-            src={contestDetails.landing.bigAlgoLogoSrc}
+            src={withPrefix(contestDetails.landing.bigAlgoLogoSrc)}
             alt="Big Algolympics Logo"
           />
           <h1>

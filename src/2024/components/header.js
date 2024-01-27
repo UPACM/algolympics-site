@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react"
-import { Link } from "gatsby"
+import { Link, withPrefix } from "gatsby"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCaretDown, faBars } from "@fortawesome/free-solid-svg-icons"
@@ -104,7 +104,7 @@ export default function Header({ isIndex }) {
         <div className="wrapper">
           <Link to="/2024/">
             <div className="title">
-              <img src={headerImg} alt="Header" />
+              <img src={withPrefix(headerImg)} alt="Header" />
               <h1>
                 <span className="red">ALGO</span>
                 <span className="yellow">LYM</span>

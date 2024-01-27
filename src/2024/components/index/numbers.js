@@ -2,7 +2,7 @@ import React from "react"
 
 import "./numbers.scss"
 import contestDetails from "2024/data/details.json"
-
+import {withPrefix} from 'gatsby'
 import "aos/dist/aos.css"
 
 function Number({ value, desc, iconSrc, isSpecial }) {
@@ -15,7 +15,7 @@ function Number({ value, desc, iconSrc, isSpecial }) {
           data-aos-delay="0"
           data-aos-duration="650"
         >
-          <img className="icon" src={iconSrc} alt="Icon" />
+          <img className="icon" src={withPrefix(iconSrc)} alt="Icon" />
           <h1 className="value">{value}</h1>
         </div>
         <p
@@ -38,7 +38,7 @@ function Number({ value, desc, iconSrc, isSpecial }) {
       data-aos-duration="650"
     >
       <div className="val-container">
-        <img className="icon" src={iconSrc} alt="Icon" />
+        <img className="icon" src={withPrefix(iconSrc)} alt="Icon" />
         <h1 className="value">{value}</h1>
       </div>
       <p className="description">{desc}</p>
