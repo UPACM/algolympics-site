@@ -6,9 +6,11 @@
 
 @font-face {
     font-family: 'DS-Digit';
-    src: url("/fonts/DS-DIGIT.TTF") format('truetype');
+    src: url('/fonts/DS-DIGIT.TTF') format('truetype');
     font-family: 'Beyonders';
-    src: url("/fonts/Beyonders.woff") format('woff');
+    src: url('/fonts/Beyonders.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 $universal-gray: #181818;
 $universal-light-gray: #888;
