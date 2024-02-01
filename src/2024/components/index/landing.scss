@@ -1,5 +1,11 @@
 @import "2024/styles/var.scss";
 
+@font-face {
+    font-family: 'Beyonders';
+    src: url('/Fonts/Beyonders.woff') format('woff'),
+         url('/Fonts/Beyonders.ttf') format('truetype');
+}
+
 img#landing-image {
 	position: fixed;
 	top: 0;
