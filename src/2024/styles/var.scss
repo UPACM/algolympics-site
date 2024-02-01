@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
+
 @font-face {
     font-family: 'DS-Digit';
     src: url('/Fonts/DS-DIGIT.TTF') format('truetype');
@@ -11,8 +12,8 @@
 
 @font-face {
     font-family: 'Beyonders';
-    src: url('/Fonts/Beyonders.woff') format('woff'),
-         url('/Fonts/Beyonders.ttf') format('truetype');
+    src: url('/../Fonts/Beyonders.woff') format('woff'),
+         url('/../Fonts/Beyonders.ttf') format('truetype');
 }
 
 $universal-gray: #181818;
