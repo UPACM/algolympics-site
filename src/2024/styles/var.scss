@@ -7,12 +7,13 @@
 
 @font-face {
     font-family: 'DS-Digit';
-    src: url('/../../../fonts/DS-DIGIT.TTF') format('truetype');
+    src: url('/fonts/DS-DIGIT.TTF') format('truetype');
 }
 
 @font-face {
     font-family: 'Beyonders';
-    src: url('/static/Beyonders.ttf') format('truetype');
+    src: url('/fonts/Beyonders.ttf') format('truetype'),
+    url("/fonts/Beyonders.woff") format("woff");
 }
 
 $universal-gray: #181818;
