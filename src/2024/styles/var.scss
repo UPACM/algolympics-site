@@ -5,16 +5,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.cdnfonts.com/css/beyonders');
 
-@font-face {
+@font-face{
     font-family: 'DS-Digit';
-    src: url('/fonts/DS-DIGIT.TTF') format('truetype');
+    src:local('DS-Digital'),url(https://fonts.cdnfonts.com/s/15049/DS-DIGI.woff) format('woff')
 }
 
 @font-face{
     font-family:'Beyonders';
     font-style:normal;
     font-weight:400;
-    src:local(''),url(https://fonts.cdnfonts.com/s/107503/Beyonders-6YoJM.woff) format('woff')}
+    src:local(''),url(https://fonts.cdnfonts.com/s/107503/Beyonders-6YoJM.woff) format('woff')
+}
 
 
 $universal-gray: #181818;
