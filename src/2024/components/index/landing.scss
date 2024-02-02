@@ -51,6 +51,8 @@ div#landing-text {
 
 		img {
 			width: 20;
+			max-width: 400px;
+			height: auto;
 			object-fit: contain;
 			padding-bottom: 2vh;
 		}

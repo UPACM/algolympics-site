@@ -5,10 +5,10 @@
   "eventEndDeadline": "2022-03-26T17:59:59.999+08:00",
 
   "landing": {
-    "year": "2023",
-    "algoTheme": "Astra",
-    "staticBgSrc": "/2023/assets/img/background.webp",
-    "bigAlgoLogoSrc": "/2023/assets/img/algo-brain.webp"
+    "year": "2024",
+    "algoTheme": "Borderlands",
+    "staticBgSrc": "/2024/assets/img/background2.png",
+    "bigAlgoLogoSrc": "/2024/assets/img/logo.png"
   },
 
   "intro": {
