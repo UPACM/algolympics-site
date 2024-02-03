@@ -8,7 +8,7 @@ function Social({ type, link }) {
   var social_logo = `/2024/assets/img/social/${type}-logo.png`
   return (
     <a className="social" href={link}>
-      <img src={social_logo} alt="Social Logo" />
+      <img src={withPrefix(social_logo)} alt="Social Logo" />
     </a>
   )
 }
