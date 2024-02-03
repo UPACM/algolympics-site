@@ -1,8 +1,7 @@
 import React from "react"
-
 import "./sample-problems.scss"
-
 import contestDetails from "2024/data/details.json"
+import { withPrefix } from "gatsby"
 
 function SampleProblem({ name, link, background }) {
   return (
@@ -22,7 +21,7 @@ export default function SampleProblems() {
             <SampleProblem
               key={sample.name}
               name={sample.name}
-              link={sample.link}
+              link={withPrefix(sample.link)}
               background={sample.background}
             />
           )

@@ -1,5 +1,4 @@
 import React from "react"
-
 import "./numbers.scss"
 import contestDetails from "2024/data/details.json"
 import {withPrefix} from 'gatsby'
