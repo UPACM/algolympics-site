@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import { navigate } from "gatsby"
+import { navigate, withPrefix } from "gatsby"
 
 import "./redirected-page.scss"
 import generalSiteDetails from "../data/details.json"
@@ -18,7 +18,7 @@ export default function RedirectedPage({ target, debug }) {
     <div className="redirect">
       <img
         class="redirect-logo"
-        src={"/" + generalSiteDetails.currentYear + "/assets/img/redirect.webp"}
+        src={withPrefix("/" + generalSiteDetails.currentYear + "/assets/img/redirect.webp")}
         alt="This site is currently establishing a connection between the two brain cells of its developer."
       />
       <h2 class="redirect-text">Redirecting...</h2>

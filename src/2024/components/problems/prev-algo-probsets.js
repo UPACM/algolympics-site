@@ -1,8 +1,7 @@
 import React from "react"
-
 import "./prev-algo-probsets.scss"
-
 import contestDetails from "2024/data/details.json"
+import { withPrefix } from "gatsby"
 
 function ProbSet({ year, elimsFiles, finalsFiles }) {
   let elimsProbs = elimsFiles.problems
@@ -26,7 +25,7 @@ function ProbSet({ year, elimsFiles, finalsFiles }) {
           <h3>Elims</h3>
           <div class="files">
             <a
-              href={elimsProbs}
+              href={withPrefix(elimsProbs)}
               className={
                 elimsProbs === "" ? "problems unavailable" : "problems"
               }
@@ -34,7 +33,7 @@ function ProbSet({ year, elimsFiles, finalsFiles }) {
               Problems
             </a>
             <a
-              href={elimsSolnSketches}
+              href={withPrefix(elimsSolnSketches)}
               className={
                 elimsSolnSketches === ""
                   ? "solution-sketches unavailable"
@@ -44,7 +43,7 @@ function ProbSet({ year, elimsFiles, finalsFiles }) {
               Solution Sketches
             </a>
             <a
-              href={elimsSolns}
+              href={withPrefix(elimsSolns)}
               className={
                 elimsSolns === "" ? "solutions unavailable" : "solutions"
               }
@@ -52,7 +51,7 @@ function ProbSet({ year, elimsFiles, finalsFiles }) {
               Solutions
             </a>
             <a
-              href={elimsCodeSolns}
+              href={withPrefix(elimsCodeSolns)}
               className={
                 elimsCodeSolns === ""
                   ? "code-solutions unavailable"
@@ -67,7 +66,7 @@ function ProbSet({ year, elimsFiles, finalsFiles }) {
           <h3>Finals</h3>
           <div class="files">
             <a
-              href={finalsProbs}
+              href={withPrefix(finalsProbs)}
               className={
                 finalsProbs === "" ? "problems unavailable" : "problems"
               }
@@ -75,7 +74,7 @@ function ProbSet({ year, elimsFiles, finalsFiles }) {
               Problems
             </a>
             <a
-              href={finalsSolnSketches}
+              href={withPrefix(finalsSolnSketches)}
               className={
                 finalsSolnSketches === ""
                   ? "solution-sketches unavailable"
@@ -85,7 +84,7 @@ function ProbSet({ year, elimsFiles, finalsFiles }) {
               Solution Sketches
             </a>
             <a
-              href={finalsSolns}
+              href={withPrefix(finalsSolns)}
               className={
                 finalsSolns === "" ? "solutions unavailable" : "solutions"
               }
@@ -93,7 +92,7 @@ function ProbSet({ year, elimsFiles, finalsFiles }) {
               Solutions
             </a>
             <a
-              href={finalsCodeSolns}
+              href={withPrefix(finalsCodeSolns)}
               className={
                 finalsCodeSolns === ""
                   ? "code-solutions unavailable"
