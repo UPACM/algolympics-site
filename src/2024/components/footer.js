@@ -46,7 +46,8 @@ export default function Footer() {
     <div className="footer incompressible">
       <div className="top">
         <div className="wrapper">
-          <div className="other-links section">
+          {/* Commented out the ACM part, uncomment once acm website is revived */}
+          {/*<div className="other-links section">
             <h2>UP ACM</h2>
             <a className="other-link" href="http://upacm.net">
               Website
@@ -60,7 +61,7 @@ export default function Footer() {
             <a className="other-link" href="http://upacm.net/privacy-policy">
               Privacy Policy
             </a>
-          </div>
+          </div>*/}
           <div className="contacts section">
             <h2>
               <Link className="contact-us-link" to="/contact/">Contact Us</Link>
