@@ -11,6 +11,8 @@
     "bigAlgoLogoSrc": "/2024/assets/img/logo.png"
   },
 
+  "headerImg": "/2024/assets/img/header-icon.png",
+
   "intro": {
     "staticImageSrc": "/2023/assets/img/algo-intro.webp"
   },

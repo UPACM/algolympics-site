@@ -4,7 +4,7 @@ import { Link, withPrefix } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCaretDown, faBars } from "@fortawesome/free-solid-svg-icons"
 
-import headerImg from "2024/assets/images/header-icon.png"
+import contestDetails from "2024/data/details.json"
 
 import "./header.scss"
 
@@ -104,7 +104,7 @@ export default function Header({ isIndex }) {
         <div className="wrapper">
           <Link to="/2024/">
             <div className="title">
-              <img src={withPrefix(headerImg)} alt="Header" />
+              <img src={withPrefix(contestDetails.headerImg)} alt="Header" />
               <h1>
                 <span className="red">ALGO</span>
                 <span className="yellow">LYM</span>
