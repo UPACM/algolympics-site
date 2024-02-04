@@ -31,7 +31,7 @@ export default function Mechanics({ data }) {
 export const query = graphql`
   query {
     allMarkdownRemark(filter: {
-      fileAbsolutePath: { regex: "/2023/" },
+      fileAbsolutePath: { regex: "/2024/" },
       frontmatter: { title: { regex: "/Mechanics/" } }
     }) {
       edges {

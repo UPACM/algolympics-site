@@ -7,7 +7,7 @@ title: "FAQs"
 <br />
 <hr />
 
-Algolympics is an **annual intercollegiate programming competition open to all interested schools, colleges and universities in the Philippines**. With the theme **“Algolympics 2023: Astra”** in its tenth year, the event is  co-presented by Samsung and Morgan Stanley Capital International. This event is in partnership with Old St. Labs, Avaloq, and Supergene, as well as DevelUP, and De La Salle University ACM Student Chapter. Special thanks to the UP Statistical Society and FEU Alabang ACM Student Chapter.
+Algolympics is an **annual intercollegiate programming competition open to all interested schools, colleges and universities in the Philippines**. With the theme **“Algolympics 2024: Borderlands”** in its eleventh year, the event is  co-presented by Samsung and Morgan Stanley Capital International. This event is in partnership with Old St. Labs, Avaloq, and Supergene, as well as DevelUP, and De La Salle University ACM Student Chapter. Special thanks to the UP Statistical Society and FEU Alabang ACM Student Chapter.
 
 
 For this year, the contest will be split into two: **an online elimination round and an online final round**. The elimination round is a free-to-enter round of Algolympics held on Codeforces while the final round is the event where teams that fit the criteria laid out in the rules and mechanics compete for the prize, in exchange for a minimal registration fee.
@@ -17,14 +17,14 @@ For this year, the contest will be split into two: **an online elimination round
 <br />
 <hr />
 
-The online elimination round will run from **February 17, 8:00 PM to February 27, 8:00 PM.** Those who passed will be invited to the final round, which will then be held on **March 25, 2023, 1:00 PM to 6:00 PM**.
+The online elimination round will run from **February 16, 8:00 PM to February 26, 8:00 PM.** Those who passed will be invited to the final round, which will then be held on **March 25, 2024, 1:00 PM to 6:00 PM**.
 
 # Who can join?
 
 <br />
 <hr />
 
-A single proper team consists of one (1) to three (3) team members, each of which is:
+A single proper team consists of three (3) team members, each of which is:
 
 - an undergraduate student from a degree program at the sponsoring institution,
 - has not graduated, and
@@ -46,7 +46,7 @@ Avoid using special characters or any hard-to-read names. Also, it is strictly p
 <br />
 <hr />
 
-You may view the rules and mechanics of the contest at [https://algolympics.upacm.net/2023/mechanics](https://algolympics.upacm.net/2023/mechanics).
+You may view the rules and mechanics of the contest [here](https://docs.google.com/document/d/1eU6x1DzO5A-zo2ff5UTXpKPXeLrIXvyJwlFyAIY8N2E/edit?usp=sharing).
 
 # Which programming languages are allowed?
 
@@ -131,9 +131,9 @@ Monetary prizes will be given to the top three (3) teams of the final round. Cla
 
 Prizes:
 
-- Champion: **Php 12,000.00**
-- 1st Runner Up: **Php 9,000.00**
-- 2nd Runner Up: **Php 6,000.00**
+- Champion: **Php 15,000.00**
+- 1st Runner Up: **Php 12,000.00**
+- 2nd Runner Up: **Php 9,000.00**
 
 # Who will qualify for the final round?
 
@@ -184,12 +184,6 @@ No.
 
 Yes, attending the whole program is required.
 
-# Can I use a mobile phone as a 2nd camera for the final round proctoring?
-
-<br />
-<hr />
-
-Yes, mobile phones are permitted as a 2nd camera, provided that the **video is clear, well-lit and angled properly**.
 
 # Are the contestants allowed to install plugins for the editors such as vim plugins? 
 
@@ -197,13 +191,6 @@ Yes, mobile phones are permitted as a 2nd camera, provided that the **video is c
 <hr />
 
 All the tools, IDEs and plugins should be consulted to us via email before using. Send us an email at [algolympics@upacm.net](mailto:algolympics@upacm.net).
-
-# In the final round, are we required to spend the whole five (5) hours allotted for the contest proper in solving problems?
-
-<br />
-<hr />
-
-No, but it is in your best interest to **answer as many problems as you can**. You just **need to stay on camera as much as possible during that 5 hours**, regardless if you are coding or not. You are also not allowed to access other websites except those approved by the planning committee and/or proctors while the contest is still ongoing. You are only allowed to leave your camera during a bathroom break. Details about breaks are found in the rules and mechanics.
 
 # In the final round, are the constraints in the problems given or not?
 

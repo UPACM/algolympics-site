@@ -4,7 +4,7 @@ title: "Mechanics"
 
 # Eligibility of Participants
 
-A single proper team consists of one (1) to three (3) team members, each of which is an _**undergraduate**_ student from a degree program at the sponsoring institution, has not graduated and is currently officially enrolled at the time of the contest. For institutions who have not started the semester, participants must have been enrolled during the last academic grading period. Note that all team members must be from the same institution. Alternates **WILL NOT** be allowed.
+A single proper team consists of **three (3) team** members, each of which is an _**undergraduate**_ student from a degree program at the sponsoring institution, has not graduated and is currently officially enrolled at the time of the contest. For institutions who have not started the semester, participants must have been enrolled during the last academic grading period. Note that all team members must be from the same institution. Alternates **WILL NOT** be allowed.
 
 The contestants must be Filipino citizens or officially enrolled at a sponsoring institution in the Philippines at the time of the contest.
 
@@ -12,7 +12,7 @@ Contestants will be required to submit a valid school ID in order to be eligible
 
 # Registration
 
-Teams must register through the [provided registration form](https://bit.ly/Algo2023RegForm). Only 1 member of the team needs to submit the registration for the entire team.
+Teams must register through the [provided registration form](http://bit.ly/AlgoRegForm2024). Only 1 member of the team needs to submit the registration for the entire team.
 
 
 **Ensure that you have access to the email(s) you provide** and that they are regularly checked, as further instructions for the Online Elimination Round as well as the Online Final Round will be communicated through the email provided.
@@ -35,13 +35,13 @@ There is no limit to the number of teams that may register per school, but the n
 The competition will be split into two rounds:
 
 1. The Online Elimination Round
-2. The Online Final Round
+2. The In-Person Finals Round
    
 Problem statements will be written in English only. Communication with judges (clarifications, etc.) will also be in English.
 
 # Online Elimination Round
 
-Prior to the event, a free-to-enter Online Elimination Round will be held online on Codeforces. The Online Elimination Round will consist of at least ten (10) problems and will be open from February 17, 2023 at **8:00 pm** to February 27, 2023 at **8:00 pm** with the expectation that the contestants will solve the tasks during their free time.
+Prior to the event, a free-to-enter Online Elimination Round will be held online on Codeforces. The Online Elimination Round will consist of at least ten (10) problems and will be open from February 16, 2024 at **8:00 pm** to February 26, 2024 at **8:00 pm** with the expectation that the contestants will solve the tasks during their free time.
 
 It is forbidden to use someone else's code and to communicate about the problems with anyone apart from your own team members.
 
@@ -51,7 +51,7 @@ Clarifications pertaining to the problems must be filed by the contestant using 
 
 The team must use the same Codeforces team name and Codeforces accounts submitted to the Algolympics Team.
 
-# Invitation to the Online Final Round
+# Invitation to the In-Person Final Round
 
 The organizers will accommodate a maximum of twenty (20) teams for the contest.
 
@@ -73,11 +73,11 @@ Every time a team that has been invited is disqualified or declines to attend th
 
 If such a situation arises that there are extra slots for another team to participate and no other team can qualify, **additional teams from a university that has reached the maximum number of teams may be given an invitation**.
 
-# Online Final Round
+# In-Person Final Round
 
-The Online Final Round will be on **March 25, 2023**, from **1:00 PM to 6:00 PM**. The full program is included in the official invitation letter, which will include the opening ceremony, company talks, schedule for the practice round, and awarding. 
+The Online Final Round will be on **March 30, 2024**, from **1:00 PM to 6:00 PM**. The full program is included in the official invitation letter, which will include the opening ceremony, company talks, schedule for the practice round, and awarding. 
 
-Each team is required to pay a registration fee amounting to Php 150 per person to be paid before the Online Final Round.
+Each team is required to pay a registration fee amounting to Php 250 per person to be paid before the In-Person Final Round.
 
 This fee may be paid through GCash, Paymaya or some other methods which we will announce in a timely manner. Options outside of these may also be considered; please contact us.  
 
@@ -127,37 +127,30 @@ Contestants are expected to switch off all communication devices aside from thos
 
 A live scoreboard will be available for contestants. The scoreboard will be frozen one (1) hour before the conclusion of the contest.
 
+# House Rules for In-Person Final Round
+1. Lab facilitators should accompany contestants when they need to leave the competition grounds.
+2. Bags should be left with their coaches/accompanying guardian and not be brought inside the labs.
+3. Scratch papers and pens will be provided during the competition proper.
+4. Eating inside the laboratories is not allowed.
+5. Lunch and snacks will be provided in front of the lecture hall.
+6. No electronic devices are allowed during the competition proper, this includes calculators and cell phones.
+7. No storage devices (USBs, External Hard Drives etc.) are allowed.
+8. Contestants are not allowed to bring any machine readable versions of software or code to the contest area.
+9. After the competition, participants are to accomplish the post-evaluation forms before they leave the competition grounds.
+10. Fair Play - Any form of cheating or dishonesty during the competition will not be tolerated. Teams who are caught cheating or attempting to cheat will be automatically disqualified. Moreover, any act that jeopardizes the competition (e.g. hacking or tampering with equipment, distracting behavior, etc.) is not allowed and will result in disqualification. All teams are expected to uphold the spirit of sportsmanship and fair play.
+11. The organizing committee is not liable for any damages and loss suffered for taking part or not being able to take part in the competition.
+12. The competition organizers reserve the right for rule changes anytime and inform the teams before the implementation.
 
 # Proctoring
 
-The contest will be proctored over **Zoom** and participants will be sent their meeting link on the day of the event. All members of the team do not need to be in the same physical location to compete as long as they can be present in the **Zoom** meeting. Team members are also allowed to be in the same location if they wish to do so, provided that they meet all proctoring guidelines. 
-
-Proctors will check if only the approved software is being used. Participants' computers will also be checked so that the device has no pre-existing code that can be copied or used during the contest. 
-
-During the contest, the participant must
-
-- have their camera and microphone on at all times,
-- show their face on their main camera,
-- share their entire screen,
-- have their scratch papers checked, and
-- inform their proctor if they need to leave the range of their camera.
-
-The participants shall be recorded to aid in the monitoring process. This footage will then be checked after the contest proper and may be in our possession for 30 days after.
-
-It is recommended that the participant have another camera using their same account that has a clear view of their hands and face (and if possible, at least a glimpse of the screen too) to help dispel cheating allegations. In this regard, time spent away from camera range will be no more than 10 minutes at a time. Participants must ask permission from the proctor if the participant wishes to leave the range of their camera and may only do so once acknowledged. Only 1 team member may go outside of camera range at a time. Failure to return to camera view after 10 minutes will be grounds for disqualification.
-
-If a person is disconnected from the meeting, they must be back online within 15 minutes. They may be disqualified after 15 minutes, subject to the judgement of the proctors. A team will be allowed to continue competing as long as 1 remaining team member has not been disqualified due to disconnection.
-
-It is recommended that the team also have a backup internet source (e.g. mobile data) in case of internet issues during the contest.
-
+The contest will be proctored in person, and participants are required to be in the Department of Computer Science (DCS) Labs on the day of the event. 
+During the entire competition proper, proctors will be monitoring participants at all times. 
+Competitors must notify proctors before leaving the competition grounds (the laboratory rooms) to avoid possible disqualifications. Competitors will be accompanied by a proctor when leaving the competition grounds.
+Proctors do not have the right to disqualify a team if they violate any of the house rules specified in the **House Rules for In-Person Final Round** section. If any violation has occurred, the matter will be escalated to the required personnel for further discussion and evaluation.
 Note that proctoring guidelines may be modified. Changes will be communicated to all registered participants in a timely manner.
 
 
-# Practice Session
-
-Prior to the contest proper, a practice session will be held for one (1) hour and 30 minutes, in order for the contestants to be familiar with the contest environment, as well as to address any technical or logistical issues that might arise.
-
-# Online Finals Contest Proper
+# In-Person Finals Contest Proper
 
 The contest will have at least eight (8) problems to be solved in the allotted time of five hours. The length of the contest may be altered in the event of unforeseen consequences. Should the contest duration be altered, every attempt will be made to notify contestants in a timely and uniform manner.
 
@@ -177,7 +170,7 @@ Teams can also submit clarification requests to the judges using the clarificati
 
 If the clarification is deemed valid, the judges will send clarification reports to the team who submitted the request. The judges may also send the report to all the participating teams if deemed necessary.
 
-##Judge Machine Specifications
+## Judge Machine Specifications
 
 - Ubuntu 18.10
 - 2 vCPUs
@@ -210,19 +203,18 @@ The penalty is defined differently for the Elimination and Final Rounds.
     2. Breaching or refusing to comply with the rules.
     3. Sharing or using from others, **whether intentionally or unintentionally**, any information about a task, including its content or solution, before the end of a round.
     4. Displaying behavior considered to be disruptive, unethical, or unsportsmanlike.
-2. **Prolonged unmonitored time**. An individual may be disqualified if they are out of view of their camera or take their restroom break for more than the allotted time. Disqualification can also occur, if an individual is disconnected from the meeting for more than the time indicated in the “Proctoring” section. 
-3. **Failing to reply**. Teams may be disqualified if they fail to respond to any request for information from the organizing committee related to Algolympics within seven days of our request or a given deadline.
-4. **Change of username/team name**. The team must not change their Codeforces username/team name at any point in the contest period (from registration until the end of the on-site final round). Any username/team name change is grounds for disqualification.
-5. **Change of Codeforces team**. The team members that make up the Codeforces team must not change for the duration of the competition. Any change in team composition is grounds for immediate disqualification.
-6. **Reporting possible cases**. Any harassment, cheating, or violation of these terms may be reported by email to algolympics@upacm.net.
+2. **Failing to reply**. Teams may be disqualified if they fail to respond to any request for information from the organizing committee related to Algolympics within seven days of our request or a given deadline.
+3. **Change of username/team name**. The team must not change their Codeforces username/team name at any point in the contest period (from registration until the end of the on-site final round). Any username/team name change is grounds for disqualification.
+4. **Change of Codeforces team**. The team members that make up the Codeforces team must not change for the duration of the competition. Any change in team composition is grounds for immediate disqualification.
+5. **Reporting possible cases**. Any harassment, cheating, or violation of these terms may be reported by email to algolympics@upacm.net.
 
 # Awards
 
 Certificates and souvenirs will be given to all the participants while monetary prizes will be given to the top three (3) teams, which are as follows:
 
-- Champion team: Php 12,000
-- First runner-up team: Php 9,000
-- Second runner-up team: Php 6,000
+- Champion team: Php 15,000
+- First runner-up team: Php 12,000
+- Second runner-up team: Php 9,000
 
 # Changes to the Rules
 

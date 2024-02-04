@@ -52,23 +52,23 @@
   "previousWinners": {
     "first": {
       "imgSrc": "",
-      "logoSrc": "/logo/upd.webp",
-      "name": "Java Nice Day",
-      "university": "University of the Philippines - Diliman Campus"
+      "logoSrc": "/logo/la-salle.webp",
+      "name": "Kuuhaku",
+      "university": "De La Salle University"
     },
 
     "second": {
       "imgSrc": "",
       "logoSrc": "/logo/admu.webp",
-      "name": "K",
+      "name": "omsim.magis()",
       "university": "Ateneo de Manila University"
     },
 
     "third": {
       "imgSrc": "",
-      "logoSrc": "/logo/la-salle.webp",
-      "name": "Kuuhaku",
-      "university": "De La Salle University - Manila"
+      "logoSrc": "/logo/upd.webp",
+      "name": "ChambaBois",
+      "university": "University of the Philippines Diliman"
     }
   },
 

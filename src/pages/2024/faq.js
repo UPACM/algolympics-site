@@ -9,7 +9,7 @@ import "./faq.scss"
 export default function Faq({ data }) {
   return (
     <>
-      <AlgolympicsMeta algoYear="2023" pageName="FAQs" sitePage="/2023/faq/" />
+      <AlgolympicsMeta algoYear="2024" pageName="FAQs" sitePage="/2024/faq/" />
       <Layout isIndex={false} contentClass="index" contentId="faq">
         <div id="faq-layout" className="md-layout">
           <h1 id="page-title">Frequently Asked Questions</h1>
@@ -27,7 +27,7 @@ export default function Faq({ data }) {
 export const query = graphql`
   query {
     allMarkdownRemark(filter: {
-      fileAbsolutePath: { regex: "/2023/" },
+      fileAbsolutePath: { regex: "/2024/" },
       frontmatter: { title: { regex: "/FAQs/" } }
     }) {
       edges {
