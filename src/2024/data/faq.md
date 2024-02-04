@@ -7,17 +7,17 @@ title: "FAQs"
 <br />
 <hr />
 
-Algolympics is an **annual intercollegiate programming competition open to all interested schools, colleges and universities in the Philippines**. With the theme **“Algolympics 2024: Borderlands”** in its eleventh year, the event is  co-presented by Samsung and Morgan Stanley Capital International. This event is in partnership with Old St. Labs, Avaloq, and Supergene, as well as DevelUP, and De La Salle University ACM Student Chapter. Special thanks to the UP Statistical Society and FEU Alabang ACM Student Chapter.
+Algolympics is an **annual intercollegiate programming competition open to all interested schools, colleges and universities in the Philippines**. With the theme **“Algolympics 2024: Borderlands”** in its eleventh year, the event is brought to you by The Association of Computing Machinery - UP Diliman Student Chapter, co-presented by Samsung Electronics Philippines Corporation and Old St. Labs. This event is also in partnership with Navitaire, Insight Direct, and Expedock. This event is also co-presented by FEU Tech ACM Student Chapter, UP Center for Student Innovation, UP Association of Computer Science Majors, and Google Developer Student Club - Cebu Technological University.
 
 
-For this year, the contest will be split into two: **an online elimination round and an online final round**. The elimination round is a free-to-enter round of Algolympics held on Codeforces while the final round is the event where teams that fit the criteria laid out in the rules and mechanics compete for the prize, in exchange for a minimal registration fee.
+For this year, the contest will be split into two: **an online elimination round and an In-Person final round**. The elimination round is a free-to-enter round of Algolympics held on Codeforces while the final round is the event where teams that fit the criteria laid out in the rules and mechanics compete for the prize, in exchange for a minimal registration fee.
 
 # When will the contest be held?
 
 <br />
 <hr />
 
-The online elimination round will run from **February 16, 8:00 PM to February 26, 8:00 PM.** Those who passed will be invited to the final round, which will then be held on **March 25, 2024, 1:00 PM to 6:00 PM**.
+The online elimination round will run from **February 16, 8:00 PM to February 26, 8:00 PM.** Those who passed will be invited to the final round, which will then be held on **March 30, 2024, 1:00 PM to 6:00 PM**.
 
 # Who can join?
 
