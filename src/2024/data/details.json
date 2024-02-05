@@ -74,30 +74,31 @@
 
   "sponsors": [
     {
-      "sponsorName": "Avaloq",
-      "staticLogoSrc": "/2023/assets/img/sponsors/avaloq/YEARLONG_Avaloq.webp",
-      "sponsorLink": "https://www.avaloq.com/"
+      "sponsorName": "Expedock",
+      "staticLogoSrc": "/2024/assets/img/sponsors/expedock/[2234A] Yearlong Logo - Expedock.png",
+      "sponsorLink": "https://www.expedock.com/"
     },
     {
-      "sponsorName": "MSCI",
-      "staticLogoSrc": "/2023/assets/img/sponsors/msci/YEARLONG_MSCI.webp",
-      "sponsorLink": "https://www.msci.com/"
+      "sponsorName": "Insight",
+      "staticLogoSrc": "/2024/assets/img/sponsors/insight/[2234A] Semlong Logo - Insight Direct.png",
+      "sponsorLink": "https://www.insight.com/"
     },
     {
       "sponsorName": "Old St. Labs",
-      "staticLogoSrc": "/2023/assets/img/sponsors/old st.labs/YEARLONG_Old.St Labs.webp",
+      "staticLogoSrc": "/2024/assets/img/sponsors/old st.labs/YEARLONG_Old.St Labs.webp",
       "sponsorLink": "https://www.old.st/"
     },
     {
-      "sponsorName": "Samsung",
-      "staticLogoSrc": "/2023/assets/img/sponsors/samsung/Samsung Logo - New.webp",
-      "sponsorLink": "https://www.samsung.com/ph/"
+      "sponsorName": "Navitaire",
+      "staticLogoSrc": "/2024/assets/img/sponsors/navitaire/[2234A] Yearlong Logo - Navitaire.png",
+      "sponsorLink": "https://www.supergene.co/en/"
     },
     {
-      "sponsorName": "Supergene",
-      "staticLogoSrc": "/2023/assets/img/sponsors/supergene/ALGO_Supergene.webp",
-      "sponsorLink": "https://www.supergene.co/en/"
+      "sponsorName": "Samsung",
+      "staticLogoSrc": "/2024/assets/img/sponsors/samsung/Samsung Logo - New.webp",
+      "sponsorLink": "https://www.samsung.com/ph/"
     }
+    
   ],
 
   "socials": [
