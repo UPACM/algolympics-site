@@ -6,7 +6,7 @@
 
 module.exports = {
   /**Fix this if ever for Github pages */
-  pathPrefix: "",
+  pathPrefix: "algolympics.upacm.net",
   
   plugins: [
     `gatsby-plugin-sass`,
