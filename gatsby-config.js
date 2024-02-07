@@ -11,7 +11,7 @@ module.exports = {
   },
   
   plugins: [
-    'gatsby-plugin-cname'
+    'gatsby-plugin-cname',
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
