@@ -7,7 +7,7 @@
 module.exports = {
   /**Fix this if ever for Github pages */
   siteMetadata: {
-    siteUrl: 'algolympics.upacm.net'
+    siteUrl: 'https://algolympics.upacm.net/'
   },
   
   plugins: [
