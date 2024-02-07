@@ -28,7 +28,7 @@ Note that:
 - Your team name **must not** contain any profanity or explicitly inappropriate references (i.e., sexual, political, religious). Invalid team names will be asked to be changed by the organizers. 
 - You **must not** change your username or team name for the duration of the competition
 
-There is no limit to the number of teams that may register per school, but the number of finalists may be limited to 3 (details seen below under "Invitation to the Online Final Round").
+There is no limit to the number of teams that may register per school, but the number of finalists may be limited to 3 (details seen below under "Invitation to the In-Person Final Round").
 
 # Contest Structure
 
