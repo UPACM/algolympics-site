@@ -6,9 +6,12 @@
 
 module.exports = {
   /**Fix this if ever for Github pages */
-  pathPrefix: "",
+  siteMetadata: {
+    siteUrl: 'algolympics.upacm.net'
+  },
   
   plugins: [
+    'gatsby-plugin-cname'
     `gatsby-plugin-sass`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
