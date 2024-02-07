@@ -179,6 +179,22 @@
     ],
     "previous": [
       {
+        "year": 2023,
+        "elims": {
+          "problems": "",
+          "solutions": "",
+          "solutionSketches": "",
+          "codeSolutions": ""
+        },
+
+        "finals": {
+          "problems": "/2023/problems/finals/2023_Algolympics_Finals.pdf",
+          "solutions": "",
+          "solutionSketches": "/2023/problems/finals/2023_Algolympics_Solution_Sketches.pdf",
+          "codeSolutions": ""
+        }
+      },
+      {
         "year": 2022,
         "elims": {
           "problems": "https://codeforces.com/group/fDKsZH3HKS/contest/369721/problems",
@@ -190,7 +206,7 @@
         "finals": {
           "problems": "/2022/problems/finals/2022_Algolympics_Finals.pdf",
           "solutions": "",
-          "solutionSketches": "/2022/problems/finals//2022_Algolympics__Solution_Sketches.pdf",
+          "solutionSketches": "/2022/problems/finals/2022_Algolympics__Solution_Sketches.pdf",
           "codeSolutions": ""
         }
       },
