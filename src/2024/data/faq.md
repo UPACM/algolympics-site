@@ -127,7 +127,7 @@ The program flow for the final round will be provided to all participants who qu
     <tr><td>30</td><td>8:10-8:40</td><td>Registration</td></tr>
     <tr><td>10</td><td>8:40-8:50</td><td>Opening Remarks</td></tr>
     <tr><td>20</td><td>8:50-9:10</td><td>Contest Orientation</td></tr>
-    <tr><td>90</td><td>9:10-9:40</td><td>Practice Round</td></tr>
+    <tr><td>90</td><td>9:10-10:40</td><td>Practice Round</td></tr>
     <tr><td>45</td><td>12:10-12:55</td><td>Lunch</td></tr>
     <tr><td>350</td><td>1:00-6:00</td><td>Contest</td></tr>
     <tr><td>70</td><td>6:00-7:10</td><td>Consolidation and Integration</td></tr>

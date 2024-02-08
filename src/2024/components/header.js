@@ -106,10 +106,8 @@ export default function Header({ isIndex }) {
             <div className="title">
               <img src={withPrefix(contestDetails.headerImg)} alt="Header" />
               <h1>
-                <span className="red">ALGO</span>
-                <span className="yellow">LYM</span>
-                <span className="green">PICS</span>
-                <span className="blue"> 2024</span>
+                <span className="main-orange-algo">ALGOLYMPICS</span>
+                <span className="main-yellow-algo"> 2024</span>
               </h1>
             </div>
           </Link>
