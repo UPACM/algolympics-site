@@ -116,10 +116,25 @@ Yes, editorials for the problems will be published after the elimination round e
 
 The program flow for the final round will be provided to all participants who qualify to compete in the final round.
 
-- The **final round** will be held from **1:00 PM to 6:00 PM.**
+- The **final round contest proper** will be held from **1:00 PM to 6:00 PM.**
+- **Final Round Registration** will be held from **8:10 AM to 8:40 AM.**
+- The **practice round** will be held from **9:10 AM to 10:40 AM**
 - Participants will be **allowed to take breaks and eat during the competition.**
 - They are also **allowed restroom breaks, provided that they get the permission** of their proctor.
-
+- A detailed program flow for the competition is provided below:
+<table style="margin: 0 auto; width: 60%">
+    <tr style="color: #e0c540"><th>Duration (mins)</th> <th>Time</th> <th>Program</th><tr>
+    <tr><td>30</td><td>8:10-8:40</td><td>Registration</td></tr>
+    <tr><td>10</td><td>8:40-8:50</td><td>Opening Remarks</td></tr>
+    <tr><td>20</td><td>8:50-9:10</td><td>Contest Orientation</td></tr>
+    <tr><td>90</td><td>9:10-9:40</td><td>Practice Round</td></tr>
+    <tr><td>45</td><td>12:10-12:55</td><td>Lunch</td></tr>
+    <tr><td>350</td><td>1:00-6:00</td><td>Contest</td></tr>
+    <tr><td>70</td><td>6:00-7:10</td><td>Consolidation and Integration</td></tr>
+    <tr><td>30</td><td>7:10-7:40</td><td>Awarding Ceremony</td></tr>
+    <tr><td>10</td><td>7:20-7:30</td><td>Closing Ceremony</td></tr>
+</table>
+<br/>
 For more information about proctoring and time limits, kindly read through the rules and mechanics.
 
 # What are the prizes?
@@ -146,7 +161,7 @@ As discussed in the invitation to the online final round section of the rules an
 - have confirmed willingness and ability to attend the online final round,
 - are among the top three (3) from their school, and
 - are among the top twenty (20) teams satisfying all criteria above
-
+ 
 will be given invitations to the online final round.
 
 # If an original team member cannot join the final round, is it possible to replace them with another person from the same institution?
