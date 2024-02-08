@@ -132,7 +132,7 @@ The program flow for the final round will be provided to all participants who qu
     <tr><td>350</td><td>1:00-6:00</td><td>Contest</td></tr>
     <tr><td>70</td><td>6:00-7:10</td><td>Consolidation and Integration</td></tr>
     <tr><td>30</td><td>7:10-7:40</td><td>Awarding Ceremony</td></tr>
-    <tr><td>10</td><td>7:20-7:30</td><td>Closing Ceremony</td></tr>
+    <tr><td>10</td><td>7:40-7:50</td><td>Closing Ceremony</td></tr>
 </table>
 <br/>
 For more information about proctoring and time limits, kindly read through the rules and mechanics.
