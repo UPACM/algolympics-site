@@ -75,7 +75,7 @@ If such a situation arises that there are extra slots for another team to partic
 
 # In-Person Final Round
 
-The Online Final Round will be on **March 30, 2024**, from **1:00 PM to 6:00 PM**. The full program is included in the official invitation letter, which will include the opening ceremony, company talks, schedule for the practice round, and awarding. 
+The Online Final Round will be on **April 6, 2024**, from **1:00 PM to 6:00 PM**. The full program is included in the official invitation letter, which will include the opening ceremony, company talks, schedule for the practice round, and awarding. 
 
 Each team is required to pay a registration fee amounting to Php 250 per person to be paid before the In-Person Final Round.
 
@@ -107,12 +107,7 @@ A participant will be permitted to use the following software throughout the dur
 - PDF File Readers
 - Calculator
 
-Browsers shall only be used to connect to proctors using Zoom, as accessing any online resources except those allowed by the judges is prohibited. 
-
-Participants are required to send us the list of specific software (e.g. Google Chrome, Code::Blocks, Microsoft Excel, Windows Calculator) they plan on using during the contest. They will not be permitted to use any other software that they did not include in the list.
-
 Contestants are allowed to submit reference material for use during the contest proper, according to the following limitations:
-
 
 - Contain up to 20 pages of reference material, typed on single-sided Letter (8x11 inches) or A4 size paper (210x297mm), with pages numbered on the upper right hand corner.
 - May contain algorithms, code listings, hints, or any other notes.
@@ -212,9 +207,9 @@ The penalty is defined differently for the Elimination and Final Rounds.
 
 Certificates and souvenirs will be given to all the participants while monetary prizes will be given to the top three (3) teams, which are as follows:
 
-- Champion team: Php 15,000
-- First runner-up team: Php 12,000
-- Second runner-up team: Php 9,000
+- Champion team: **PHP 15,000**
+- First runner-up team: **PHP 12,000**
+- Second runner-up team: **PHP 9,000**
 
 # Changes to the Rules
 
