@@ -47,21 +47,21 @@ export default function Footer() {
       <div className="top">
         <div className="wrapper">
           {/* Commented out the ACM part, uncomment once acm website is revived */}
-          {/*<div className="other-links section">
+          <div className="other-links section">
             <h2>UP ACM</h2>
-            <a className="other-link" href="http://upacm.net">
+            <a className="other-link" href="https://upacm.github.io/upacm-portal/about/">
               Website
             </a>
             <a
               className="other-link"
-              href="https://upacm.github.io/acm-website/automaton/"
+              href="https://upacm.github.io/upacm-portal/"
             >
               Automaton
             </a>
-            <a className="other-link" href="http://upacm.net/privacy-policy">
+            <a className="other-link" href="https://upacm.github.io/upacm-portal/privacy-policy/">
               Privacy Policy
             </a>
-          </div>*/}
+          </div>
           <div className="contacts section">
             <h2>
               <Link className="contact-us-link" to="/contact/">Contact Us</Link>

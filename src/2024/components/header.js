@@ -162,10 +162,10 @@ export default function Header({ isIndex }) {
                     }
                   }
                 )}
-              />
-              <a className="navlink" href="http://upacm.net">
+              />*/}
+              <a className="navlink" href="https://upacm.github.io/upacm-portal/">
                 UP ACM
-                </a>*/}
+                </a>
             </nav>
           </div>
         </div>
