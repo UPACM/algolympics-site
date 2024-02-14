@@ -8,14 +8,14 @@ A single proper team consists of **three (3) team members**, each of which is an
 
 The contestants must be Filipino citizens or officially enrolled at a sponsoring institution in the Philippines at the time of the contest.
 
-Contestants will be required to submit a valid school ID in order to be eligible for the Online Final Round. If school ID is unavailable, contestants must provide proof of school registration showing their name and student number along with 1 valid ID.
+Contestants will be required to submit a valid school ID in order to be eligible for the In-Person Final Round. If school ID is unavailable, contestants must provide proof of school registration showing their name and student number along with 1 valid ID.
 
 # Registration
 
 Teams must register through the [provided registration form](http://bit.ly/AlgoRegForm2024). Only 1 member of the team needs to submit the registration for the entire team.
 
 
-**Ensure that you have access to the email(s) you provide** and that they are regularly checked, as further instructions for the Online Elimination Round as well as the Online Final Round will be communicated through the email provided.
+**Ensure that you have access to the email(s) you provide** and that they are regularly checked, as further instructions for the Online Elimination Round as well as the In-Person Final Round will be communicated through the email provided.
 
 The team must have valid Codeforces accounts and a Codeforces team to register. Instructions for submitting these details will be communicated through the email you have provided in the registration form.
 
@@ -45,7 +45,7 @@ Prior to the event, a free-to-enter Online Elimination Round will be held online
 
 It is forbidden to use someone else's code and to communicate about the problems with anyone apart from your own team members.
 
-All programming languages supported by Codeforces are allowed for the Online Elimination Round. Note, however, that the languages available for the Online Final Round will be limited to C++, Java, and Python 3 (details seen below under "Contest Environment").
+All programming languages supported by Codeforces are allowed for the Online Elimination Round. Note, however, that the languages available for the In-Person Final Round will be limited to C++, Java, and Python 3 (details seen below under "Contest Environment").
 
 Clarifications pertaining to the problems must be filed by the contestant using the clarification system made available in Codeforces.
 
@@ -59,23 +59,23 @@ A team that:
 
 - satisfies all eligibility criteria,
 - has not been disqualified,
-- has confirmed willingness and ability to attend the Online Final Round,
+- has confirmed willingness and ability to attend the In-Person Final Round,
 - is among the top three (3) from their school, and
 - satisfies either of the following conditions:
     - is the highest-scoring team in the island group their school belongs to (i.e. Luzon excluding NCR, Visayas, Mindanao) OR in NCR (if the school is based in NCR)
     - is among the top seventeen (17) teams that do not fulfill the previous condition
 
-will be given an invitation to the Online Final Round.
+will be given an invitation to the In-Person Final Round.
 
 Once invited, the team must confirm their attendance by responding to the invitation on or before the specified deadline. Failing to confirm by the deadline will be considered equivalent to declining to attend.
 
-Every time a team that has been invited is disqualified or declines to attend the Online Final Round, invites may be given to newly qualifying teams as per the criteria above.
+Every time a team that has been invited is disqualified or declines to attend the In-Person Final Round, invites may be given to newly qualifying teams as per the criteria above.
 
 If such a situation arises that there are extra slots for another team to participate and no other team can qualify, **additional teams from a university that has reached the maximum number of teams may be given an invitation**.
 
 # In-Person Final Round
 
-The Online Final Round will be on **April 6, 2024**, from **1:00 PM to 6:00 PM**. The full program is included in the official invitation letter, which will include the opening ceremony, company talks, schedule for the practice round, and awarding. 
+The In-Person Final Round will be on **April 6, 2024**, from **1:00 PM to 6:00 PM**. The full program is included in the official invitation letter, which will include the opening ceremony, company talks, schedule for the practice round, and awarding. 
 
 Each team is required to pay a registration fee amounting to Php 250 per person to be paid before the In-Person Final Round.
 
@@ -83,7 +83,7 @@ This fee may be paid through GCash, Paymaya or some other methods which we will 
 
 # Contest Environment
 
-The programming languages for the Online Final Round will be restricted to the following languages:
+The programming languages for the In-Person Final Round will be restricted to the following languages:
 
 - Java (OpenJDK "11.0.4")
   - `javac {filename}`

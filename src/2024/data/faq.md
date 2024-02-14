@@ -32,7 +32,7 @@ A single proper team consists of three (3) team members, each of which is:
 
 For institutions who have not started the semester, participants must be enrolled during the last academic grading period. Note that **all team members must be from the SAME INSTITUTION** and they may be from different degree programs. **Alternates WILL NOT be allowed.**
 
-The contestants must be **Filipino citizens, or officially enrolled at a sponsoring institution in the Philippines** at the time of the contest. Contestants will be required to submit a valid school ID or proof of school registration in order to be eligible for the Online Final Round.
+The contestants must be **Filipino citizens, or officially enrolled at a sponsoring institution in the Philippines** at the time of the contest. Contestants will be required to submit a valid school ID or proof of school registration in order to be eligible for the In-Person Final Round.
 
 # Are there any restrictions on the team name?
 
@@ -155,14 +155,14 @@ Prizes:
 <br />
 <hr />
 
-As discussed in the invitation to the online final round section of the rules and mechanics, the teams that:
+As discussed in the invitation to the In-Person Final round section of the rules and mechanics, the teams that:
 - satisfy all eligibility criteria,
 - have not been disqualified,
-- have confirmed willingness and ability to attend the online final round,
+- have confirmed willingness and ability to attend the In-Person Final round,
 - are among the top three (3) from their school, and
 - are among the top twenty (20) teams satisfying all criteria above
  
-will be given invitations to the online final round.
+will be given invitations to the In-Person Final round.
 
 # If an original team member cannot join the final round, is it possible to replace them with another person from the same institution?
 
