@@ -8,7 +8,7 @@ A single proper team consists of **three (3) team members**, each of which is an
 
 The contestants must be Filipino citizens or officially enrolled at a sponsoring institution in the Philippines at the time of the contest.
 
-Contestants will be required to submit a valid school ID in order to be eligible for the In-Person Final Round. If school ID is unavailable, contestants must provide proof of school registration showing their name and student number along with 1 valid ID.
+Contestants will be required to submit a valid school ID in order to be eligible for the In-Person Final Round. If school ID is unavailable, contestants must provide proof of school registration showing their name and student number along with 2 valid IDs.
 
 # Registration
 
@@ -60,22 +60,24 @@ A team that:
 - satisfies all eligibility criteria,
 - has not been disqualified,
 - has confirmed willingness and ability to attend the In-Person Final Round,
-- is among the top three (3) from their school, and
-- satisfies either of the following conditions:
-    - is the highest-scoring team in the island group their school belongs to (i.e. Luzon excluding NCR, Visayas, Mindanao) OR in NCR (if the school is based in NCR)
-    - is among the top seventeen (17) teams that do not fulfill the previous condition
+- is among the top three (3) placing teams in the Eliminations Round from their academic institution AND is among the top twenty (20) teams who accepted the invitation to the In-Person Final Round.
+- solved at least nine (9) problems correctly during the Eliminations Round
+
 
 will be given an invitation to the In-Person Final Round.
 
+It should be noted that academic institutions that are constituents to a singular university system are treated **INDEPENDENTLY** from one another, and are considered as separate “schools.” 
+
 Once invited, the team must confirm their attendance by responding to the invitation on or before the specified deadline. Failing to confirm by the deadline will be considered equivalent to declining to attend.
 
-Every time a team that has been invited is disqualified or declines to attend the In-Person Final Round, invites may be given to newly qualifying teams as per the criteria above.
+Every time a team that has been invited is disqualified or declines to attend the In-Person Final Round, invites may be given to newly qualifying teams as per the criteria above, in a **top-down** approach. For instance, if the Top 20th team qualifies for the Finals Round, but refuses to participate, the steering committee will proceed to screen the eligibility of the Top 21st team.
+
 
 If such a situation arises that there are extra slots for another team to participate and no other team can qualify, **additional teams from a university that has reached the maximum number of teams may be given an invitation**.
 
 # In-Person Final Round
 
-The In-Person Final Round will be on **April 6, 2024**, from **1:00 PM to 6:00 PM**. The full program is included in the official invitation letter, which will include the opening ceremony, company talks, schedule for the practice round, and awarding. 
+The In-Person Final Round will be on **April 6, 2024**, from **8:00 AM to 8:00 PM**. The full program is included in the official invitation letter, which will include the opening ceremony, company talks, schedule for the practice round, and awarding. 
 
 Each team is required to pay a registration fee amounting to Php 250 per person to be paid before the In-Person Final Round.
 
