@@ -46,7 +46,7 @@ Avoid using special characters or any hard-to-read names. Also, it is strictly p
 <br />
 <hr />
 
-You may view the rules and mechanics of the contest [here](https://docs.google.com/document/d/1eU6x1DzO5A-zo2ff5UTXpKPXeLrIXvyJwlFyAIY8N2E/edit?usp=sharing).
+You may view the rules and mechanics of the contest in the [mechanics page](https://algolympics.upacm.net/2024/mechanics/) or in the [official document file](https://docs.google.com/document/d/1eU6x1DzO5A-zo2ff5UTXpKPXeLrIXvyJwlFyAIY8N2E/edit?usp=sharing).
 
 # Which programming languages are allowed?
 
