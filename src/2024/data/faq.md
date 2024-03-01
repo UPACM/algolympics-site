@@ -17,7 +17,7 @@ For this year, the contest will be split into two: **an online elimination round
 <br />
 <hr />
 
-The online elimination round will run from **February 16, 8:00 PM to February 26, 8:00 PM.** Those who passed will be invited to the final round, which will then be held on **March 30, 2024, 1:00 PM to 6:00 PM**.
+The online elimination round will run from **February 16, 8:00 PM to February 26, 8:00 PM.** Those who passed will be invited to the final round, which will then be held on **April 6, 2024, 8:00 AM to 8:00 PM**.
 
 # Who can join?
 
