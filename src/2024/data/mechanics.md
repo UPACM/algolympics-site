@@ -124,6 +124,12 @@ Contestants are expected to switch off all communication devices aside from thos
 
 A live scoreboard will be available for contestants. The scoreboard will be frozen one (1) hour before the conclusion of the contest.
 
+# Setup
+
+Each computer in the contest environment is outfitted with a Linux operating system with the Ubuntu 22.04 distribution. Each team shall be assigned to a Computer Laboratory within the contest grounds, which will be prepared by the UP ACM Team. The room assignments for each team shall be announced on the day of the Finals event. **There will be different seat assignments for the Practice Round and the Finals Round.**
+
+For each team, there will be **ONE** dedicated computer where contestants may use for coding. Each team will be provided a soft and hard copy of the problem set, as well as a hard copy of their approved reference material.
+
 # House Rules for In-Person Final Round
 1. Lab facilitators should accompany contestants when they need to leave the competition grounds.
 2. Bags should be left with their coaches/accompanying guardian and not be brought inside the labs.
@@ -204,6 +210,10 @@ The penalty is defined differently for the Elimination and Final Rounds.
 3. **Change of username/team name**. The team must not change their Codeforces username/team name at any point in the contest period (from registration until the end of the on-site final round). Any username/team name change is grounds for disqualification.
 4. **Change of Codeforces team**. The team members that make up the Codeforces team must not change for the duration of the competition. Any change in team composition is grounds for immediate disqualification.
 5. **Reporting possible cases**. Any harassment, cheating, or violation of these terms may be reported by email to algolympics@upacm.net.
+6. **Non-compliance with House Rules**. After several warnings, failure to comply with the aforementioned Finals Rounds rules and mechanics may result in disqualification. Proctors hold the right to give warnings whenever unauthorized actions are detected during the competition. This includes, but are not limited to:
+    1. Using more than **ONE** computer for coding and submitting solutions
+    2. Accessing websites that are deemed **NOT** relevant to the contest proper
+    3. Inserting flash drives, CDs, or any other portable media devices to the computer.
 
 # Awards
 
