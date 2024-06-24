@@ -4,6 +4,6 @@ import RedirectedPage from "../components/redirected-page.js"
 
 export default function LiveRedirected() {
   return RedirectedPage({
-    target: `/${globalDetails.currentYear}/live/`,
+    target: `/${globalDetails.currentYear}/algo-${globalDetails.currentYear}-live/`,
   })
 }

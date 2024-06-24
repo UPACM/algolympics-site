@@ -11,7 +11,7 @@ import FinalsScoreboard from "../../2021/components/live/finals-scoreboard.js"
 export default function Live() {
   return (
     <>
-      <AlgolympicsMeta algoYear="2021" pageName="Live" sitePage="/2021/live/" />
+      <AlgolympicsMeta algoYear="2021" pageName="Live" sitePage="/2021/algo-2021-live/" />
       <Layout isIndex={false} contentClass="incompressible" contentId="live">
         <SpacedComponents>
           <Countdown />

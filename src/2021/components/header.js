@@ -127,7 +127,7 @@ export default function Header({ isIndex }) {
               <Link
                 className="navlink live"
                 activeClassName="navlink live"
-                to="/2021/live/"
+                to="/2021/algo-2021-live/"
               >
                 LIVE
               </Link>
