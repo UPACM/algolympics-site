@@ -1,0 +1,32 @@
+import React from "react"
+
+import Layout from "2025/components/layout.js"
+import AlgolympicsMeta from "2025/components/algolympics-meta.js"
+import SpacedComponents from "2025/components/spaced-components.js"
+
+import PrevAlgoProbsets from "2025/components/problems/prev-algo-probsets.js"
+import SampleProblems from "2025/components/problems/sample-problems.js"
+import PracticeRecommendations from "2025/components/problems/practice-recommendations.js"
+
+export default function Problems() {
+  return (
+    <>
+      <AlgolympicsMeta
+        algoYear="2025"
+        pageName="Problem Sets"
+        sitePage="/2025/problems-2025/"
+      />
+      <Layout
+        isIndex={false}
+        contentClass="incompressible"
+        contentId="problems"
+      >
+        <SpacedComponents>
+          <SampleProblems />
+          <PrevAlgoProbsets />
+          <PracticeRecommendations />
+        </SpacedComponents>
+      </Layout>
+    </>
+  )
+}
