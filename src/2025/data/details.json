@@ -14,7 +14,7 @@
   "headerImg": "/2025/assets/img/header-icon.png",
 
   "intro": {
-    "staticImageSrc": "/2023/assets/img/algo-intro.webp"
+    "staticImageSrc": "/2025/assets/img/algo-intro.jpg"
   },
 
   "numbers": [
@@ -36,9 +36,9 @@
   ],
 
   "prizes": {
-    "first": "₱ 12,000",
-    "second": "₱ 9,000",
-    "third": "₱ 6,000"
+    "first": "₱ 15,000",
+    "second": "₱ 12,000",
+    "third": "₱ 9,000"
   },
 
   "winners": {
@@ -60,15 +60,15 @@
     "second": {
       "imgSrc": "",
       "logoSrc": "/logo/admu.webp",
-      "name": "omsim.magis()",
+      "name": "ThatOneEdgeCase",
       "university": "Ateneo de Manila University"
     },
 
     "third": {
       "imgSrc": "",
-      "logoSrc": "/logo/upd.webp",
-      "name": "ChambaBois",
-      "university": "University of the Philippines Diliman"
+      "logoSrc": "/logo/pup.png",
+      "name": "puppuppup",
+      "university": "Polytechnic University of the Philippines - Manila"
     }
   },
 
