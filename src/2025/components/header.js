@@ -4,7 +4,7 @@ import { Link, withPrefix } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCaretDown, faBars } from "@fortawesome/free-solid-svg-icons"
 
-import contestDetails from "2024/data/details.json"
+import contestDetails from "2025/data/details.json"
 
 import "./header.scss"
 
@@ -102,12 +102,14 @@ export default function Header({ isIndex }) {
     <>
       <div className={scrolled || !isIndex ? "header" : "header top"}>
         <div className="wrapper">
-          <Link to="/2024/">
+          <Link to="/2025/">
             <div className="title">
               <img src={withPrefix(contestDetails.headerImg)} alt="Header" />
               <h1>
-                <span className="main-orange-algo">ALGOLYMPICS</span>
-                <span className="main-yellow-algo"> 2024</span>
+                <span className="main-red-algo2025">ALGO</span>
+                <span className="main-orange-algo2025">LYM</span>
+                <span className="main-green-algo2025">PICS</span>
+                <span className="main-blue-algo2025"> 2025</span>
               </h1>
             </div>
           </Link>
@@ -132,21 +134,21 @@ export default function Header({ isIndex }) {
               <Link
                 className="navlink"
                 activeClassName="navlink"
-                to="/2024/mechanics/"
+                to="/2025/mechanics/"
               >
                 Mechanics
               </Link>
               <Link
                 className="navlink"
                 activeClassName="navlink"
-                to="/2024/problems-2024/"
+                to="/2025/problems-2025/"
               >
                 Problems
               </Link>
               <Link
                 className="navlink"
                 activeClassName="navlink"
-                to="/2024/faq/"
+                to="/2025/faq/"
               >
                 FAQ
               </Link>

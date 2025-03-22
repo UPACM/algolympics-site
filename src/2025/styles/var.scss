@@ -3,18 +3,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-@import url('https://fonts.cdnfonts.com/css/beyonders');
+
+
 
 @font-face{
     font-family: 'Arcane Nine';
-    src:local('ArcaneNine.otf')
+    src:url('/fonts/ArcaneNine.otf') format('opentype');
 }
 
 @font-face{
     font-family:'Reef';
     font-style:normal;
     font-weight:400;
-    src:local('Reef.otf')
+    src:url('/fonts/Reef.otf') format('opentype');
 }
 
 
@@ -57,6 +58,11 @@ $acm-bronze: $acm-orange;
 $acm-bronze-dark: #915400;
 $algo-2024-orange: #C67D44;
 $algo-2024-yellow: #DDC156;
+//changes for 2025
+$algo-2025-blue:#004aad;
+$algo-2025-green: #7ed957;
+$algo-2025-red: #d61717;
+$algo-2025-orange: #f19d0e;
 $hidden-border: 1px solid rgba(0,0,0,0);
 $transparent-bg: rgba(0,0,0,0);
 
