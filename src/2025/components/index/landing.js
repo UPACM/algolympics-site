@@ -55,7 +55,11 @@ export default function Landing() {
             alt="Big Algolympics Logo"
           />
           <h1>
-            ALGOLYPMICS 2025
+              {/* Delete the arcane class if needed, this code was a little brute force, sorry future webmaster */}
+              <span className="main-red-algo2025 arcane">ALGO</span>
+              <span className="main-orange-algo2025 arcane">LYM</span>
+              <span className="main-green-algo2025 arcane">PICS</span>
+              <span className="main-blue-algo2025 arcane"> 2025</span>
           </h1>
         </div>
       </div>
