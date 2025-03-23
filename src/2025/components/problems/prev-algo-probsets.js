@@ -1,6 +1,6 @@
 import React from "react"
 import "./prev-algo-probsets.scss"
-import contestDetails from "2024/data/details.json"
+import contestDetails from "2025/data/details.json"
 import { withPrefix } from "gatsby"
 
 function ProbSet({ year, elimsFiles, finalsFiles }) {

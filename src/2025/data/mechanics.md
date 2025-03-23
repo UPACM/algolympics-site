@@ -12,7 +12,7 @@ Contestants will be required to submit a valid school ID in order to be eligible
 
 # Registration
 
-Teams must register through the [provided registration form](http://bit.ly/AlgoRegForm2024). Only 1 member of the team needs to submit the registration for the entire team.
+Teams must register through the [provided registration form](http://bit.ly/AlgoRegForm2025). Only 1 member of the team needs to submit the registration for the entire team.
 
 
 **Ensure that you have access to the email(s) you provide** and that they are regularly checked, as further instructions for the Online Elimination Round as well as the In-Person Final Round will be communicated through the email provided.
@@ -41,7 +41,7 @@ Problem statements will be written in English only. Communication with judges (c
 
 # Online Elimination Round
 
-Prior to the event, a free-to-enter Online Elimination Round will be held online on Codeforces. The Online Elimination Round will consist of at least ten (10) problems and will be open from February 16, 2024 at **8:00 pm** to February 26, 2024 at **8:00 pm** with the expectation that the contestants will solve the tasks during their free time.
+Prior to the event, a free-to-enter Online Elimination Round will be held online on Codeforces. The Online Elimination Round will consist of at least ten (10) problems and will be open from March 22, 2025 at **8:00 pm** to April 1, 2025 at **8:00 pm** with the expectation that the contestants will solve the tasks during their free time.
 
 It is forbidden to use someone else's code and to communicate about the problems with anyone apart from your own team members.
 
@@ -77,7 +77,7 @@ If such a situation arises that there are extra slots for another team to partic
 
 # In-Person Final Round
 
-The In-Person Final Round will be on **April 6, 2024**, from **8:00 AM to 8:00 PM**. The full program is included in the official invitation letter, which will include the opening ceremony, company talks, schedule for the practice round, and awarding. 
+The In-Person Final Round will be on **May 3, 2025**, from **8:00 AM to 8:00 PM**. The full program is included in the official invitation letter, which will include the opening ceremony, company talks, schedule for the practice round, and awarding. 
 
 Each team is required to pay a registration fee amounting to Php 250 per person to be paid before the In-Person Final Round.
 
@@ -185,6 +185,8 @@ If the clarification is deemed valid, the judges will send clarification reports
   up to 3.5 GHz.
 
 Note that these machine specifications may be subject to change.
+
+
 
 # Scoring
 

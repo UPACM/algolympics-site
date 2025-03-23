@@ -159,6 +159,23 @@
     ],
     "previous": [
       {
+        "year": 2024,
+        "elims": {
+          "problems": "",
+          "solutions": "",
+          "solutionSketches": "",
+          "codeSolutions": ""
+        },
+
+        "finals": {
+          "problems": "/2024/problems/finals/2024_ALGOLYMPICS_FINALS_PROBLEM_SET.pdf",
+          "solutions": "",
+          "solutionSketches": "",
+          "codeSolutions": ""
+        }
+      },
+
+      {
         "year": 2023,
         "elims": {
           "problems": "",

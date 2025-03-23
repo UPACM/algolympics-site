@@ -7,7 +7,7 @@ title: "FAQs"
 <br />
 <hr />
 
-Algolympics is an **annual intercollegiate programming competition open to all interested schools, colleges and universities in the Philippines**. With the theme **“Algolympics 2024: Borderlands”** in its eleventh year, the event is brought to you by The Association of Computing Machinery - UP Diliman Student Chapter, co-presented by Samsung Electronics Philippines Corporation and Old St. Labs. This event is also in partnership with Navitaire, Insight Direct, and Expedock. This event is also co-presented by FEU Tech ACM Student Chapter, UP Center for Student Innovation, UP Association of Computer Science Majors, and Google Developer Student Club - Cebu Technological University.
+Algolympics is an **annual intercollegiate programming competition open to all interested schools, colleges and universities in the Philippines**. With the theme **“Algolympics 2025: Jinxed”** in its twelfth year, the event is brought to you by The Association of Computing Machinery - UP Diliman Student Chapter, co-presented by Samsung Electronics Philippines Corporation and Old St. Labs. This event is also in partnership with Navitaire, Insight Direct, and Expedock. This event is also co-presented by FEU Tech ACM Student Chapter, UP Center for Student Innovation, UP Association of Computer Science Majors, and Google Developer Student Club - Cebu Technological University.
 
 
 For this year, the contest will be split into two: **an online elimination round and an In-Person final round**. The elimination round is a free-to-enter round of Algolympics held on Codeforces while the final round is the event where teams that fit the criteria laid out in the rules and mechanics compete for the prize, in exchange for a minimal registration fee.
@@ -17,7 +17,7 @@ For this year, the contest will be split into two: **an online elimination round
 <br />
 <hr />
 
-The online elimination round will run from **February 16, 8:00 PM to February 26, 8:00 PM.** Those who passed will be invited to the final round, which will then be held on **April 6, 2024, 8:00 AM to 8:00 PM**.
+The online elimination round will run from **March 22, 8:00 PM to April 1, 8:00 PM.** Those who passed will be invited to the final round, which will then be held on **May 3, 2025, 8:00 AM to 8:00 PM**.
 
 # Who can join?
 
@@ -46,7 +46,7 @@ Avoid using special characters or any hard-to-read names. Also, it is strictly p
 <br />
 <hr />
 
-You may view the rules and mechanics of the contest in the [mechanics page](https://algolympics.upacm.net/2024/mechanics/) or in the [official document file](https://docs.google.com/document/d/1eU6x1DzO5A-zo2ff5UTXpKPXeLrIXvyJwlFyAIY8N2E/edit?usp=sharing).
+You may view the rules and mechanics of the contest in the [mechanics page](https://algolympics.upacm.net/2025/mechanics/) or in the [official document file](https://docs.google.com/document/d/1IUam6Ancn3Gwu_X7oatR1I_7cwHOHgiFU6vY6IlMAGs/edit?usp=sharing).
 
 # Which programming languages are allowed?
 
@@ -124,19 +124,20 @@ The program flow for the final round will be provided to all participants who qu
 - A detailed program flow for the competition is provided below:
 <table style="margin: 0 auto; width: 60%">
     <tr style="color: #e0c540"><th>Duration (mins)</th> <th>Time</th> <th>Program</th><tr>
-    <tr><td>30</td><td>8:00-8:40</td><td>Registration</td></tr>
-    <tr><td>25</td><td>8:40-9:05</td><td>Opening Ceremony</td></tr>
-    <tr><td>5</td><td>9:05-9:10</td><td>Introduction to Speaker</td></tr>
-    <tr><td>30</td><td>9:10-9:40</td><td>Speaker Talk</td></tr>
-    <tr><td>20</td><td>9:40-10:00</td><td>Q&A</td></tr>
-    <tr><td>5</td><td>10:00-10:05</td><td>Appreciation to Speaker</td></tr>
-    <tr><td>25</td><td>10:05-10:30</td><td>Contest Orientation</td></tr>
-    <tr><td>100</td><td>10:30-12:10</td><td>Practice Round</td></tr>
-    <tr><td>45</td><td>12:10-12:55</td><td>Lunch</td></tr>
-    <tr><td>350</td><td>1:00-6:00</td><td>Contest</td></tr>
-    <tr><td>90</td><td>6:00-7:30</td><td>Consolidation and Integration</td></tr>
-    <tr><td>20</td><td>7:30-7:50</td><td>Awarding Ceremony</td></tr>
-    <tr><td>10</td><td>7:50-8:00</td><td>Closing Ceremony</td></tr>
+    <tr><td>40</td><td>8:00-8:40</td><td>Registration</td></tr>
+    <tr><td>15</td><td>8:40-9:05</td><td>Opening Ceremony</td></tr>
+    <tr><td>35</td><td>9:05-9:40</td><td>Company Talk 1</td></tr>
+    <tr><td>15</td><td>9:40-9:55</td><td>Q&A</td></tr>
+    <tr><td>5</td><td>9:55-10:00</td><td>Appreciation to Speaker</td></tr>
+    <tr><td>15</td><td>10:00-10:15</td><td>Recess Break</td></tr>
+    <tr><td>25</td><td>10:15-10:40</td><td>Contest Orientation</td></tr>
+    <tr><td>90</td><td>10:40-12:10</td><td>Practice Round</td></tr>
+    <tr><td>40</td><td>12:10-12:50</td><td>Lunch</td></tr>
+    <tr><td>310</td><td>12:50-6:00</td><td>Contest</td></tr>
+    <tr><td>10</td><td>6:00-6:10</td><td>Post-Contest Interaction</td></tr>
+    <tr><td>80</td><td>6:10-7:30</td><td>Consolidation and Integration</td></tr>
+    <tr><td>20</td><td>7:30-7:50</td><td>Awarding</td></tr>
+    <tr><td>10</td><td>7:50-8:00</td><td>Closing Remarks</td></tr>
 </table>
 <br/>
 For more information about proctoring and time limits, kindly read through the rules and mechanics.
