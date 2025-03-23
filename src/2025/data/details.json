@@ -77,8 +77,12 @@
       "sponsorName": "Samsung",
       "staticLogoSrc": "/2025/assets/img/sponsors/samsung/Samsung Logo - New.webp",
       "sponsorLink": "https://research.samsung.com/srph"
+    },
+    {
+      "sponsorName": "Old St. Labs",
+      "staticLogoSrc": "/2024/assets/img/sponsors/old st.labs/YEARLONG_Old.St Labs.webp",
+      "sponsorLink": "https://www.old.st/"
     }
-    
   ],
 
   "socials": [
