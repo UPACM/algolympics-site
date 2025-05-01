@@ -82,6 +82,16 @@
       "sponsorName": "Old St. Labs",
       "staticLogoSrc": "/2024/assets/img/sponsors/old st.labs/YEARLONG_Old.St Labs.webp",
       "sponsorLink": "https://www.old.st/"
+    },
+    {
+      "sponsorName": "Amadeus",
+      "staticLogoSrc": "/2025/assets/img/sponsors/amadeus/AmadeusWorkmarkDarkSky.png",
+      "sponsorLink": "https://amadeus.com/en"
+    },
+    {
+      "sponsorName": "Innodata",
+      "staticLogoSrc": "/2025/assets/img/sponsors/innodata/innodatalightlogo.png",
+      "sponsorLink": "https://innodata.com/"
     }
   ],
 
