@@ -4,29 +4,39 @@ title: "Mechanics"
 
 # Eligibility of Participants
 
-A single proper team consists of **three (3) team members**, each of which is an _**undergraduate**_ student from a degree program at the sponsoring institution, has not graduated and is currently officially enrolled at the time of the contest. For institutions who have not started the semester, participants must have been enrolled during the last academic grading period. Note that all team members must be from the same institution. Alternates **WILL NOT** be allowed.
+A single proper team consists of **three (3) team members**, each of which is an ***undergraduate*** student from a degree program at the sponsoring institution, has not graduated, and is currently officially enrolled at the time of the contest. For institutions who have not started the semester, participants must have been enrolled during the last academic grading period. Note that all team members must be from the same institution. Alternates **WILL NOT** be allowed.
 
 The contestants must be Filipino citizens or officially enrolled at a sponsoring institution in the Philippines at the time of the contest.
 
 Contestants will be required to submit a valid school ID in order to be eligible for the In-Person Final Round. If school ID is unavailable, contestants must provide proof of school registration showing their name and student number along with 2 valid IDs.
 
+List of valid IDs includes (but is not limited to):
+- National ID
+- Driver’s License
+- Voter’s ID
+- Social Security System (SSS) ID
+- PhilHealth ID
+- Passport
+- Postal ID
+
 # Registration
 
-Teams must register through the [provided registration form](http://bit.ly/AlgoRegForm2025). Only 1 member of the team needs to submit the registration for the entire team.
+Registration for the online elimination round starts at March 5, 8:00 AM and will end on March 22, 11:59 PM.
 
+Teams must register through the provided registration form. Only 1 member of the team needs to submit the registration for the entire team.
 
 **Ensure that you have access to the email(s) you provide** and that they are regularly checked, as further instructions for the Online Elimination Round as well as the In-Person Final Round will be communicated through the email provided.
 
-The team must have valid Codeforces accounts and a Codeforces team to register. Instructions for submitting these details will be communicated through the email you have provided in the registration form.
+The team members must have valid Codeforces accounts and a Codeforces team to register. Instructions for submitting these details will be communicated through the email you have provided in the registration form.
 
 Note that:
 
 - You may register for an account at https://codeforces.com/
-- You must set your first name and last name in https://codeforces.com/settings/social to your real name before submitting or updating your registration.
+- You must set your first name and last name in https://codeforces.com/settings/social to your **real name** before submitting or updating your registration.
 - You may create a team at https://codeforces.com/teams/new and invite your team members
 - You must join as a Codeforces team that **only** consists of your teammates
 - Your team name **must not** contain any profanity or explicitly inappropriate references (i.e., sexual, political, religious). Invalid team names will be asked to be changed by the organizers. 
-- You **must not** change your username or team name for the duration of the competition
+- You **must not** change your username or team name for the duration of the competition.
 
 There is no limit to the number of teams that may register per school, but the number of finalists may be limited to 3 (details seen below under "Invitation to the In-Person Final Round").
 
@@ -41,9 +51,9 @@ Problem statements will be written in English only. Communication with judges (c
 
 # Online Elimination Round
 
-Prior to the event, a free-to-enter Online Elimination Round will be held online on Codeforces. The Online Elimination Round will consist of at least ten (10) problems and will be open from March 22, 2025 at **8:00 pm** to April 1, 2025 at **8:00 pm** with the expectation that the contestants will solve the tasks during their free time.
+Prior to the event, a free-to-enter Online Elimination Round will be held online on Codeforces. The Online Elimination Round will consist of at least ten (10) problems and will be open from March 14, 2026 at **8:00 pm** to March 23, 2026 at **8:00 pm** with the expectation that the contestants will solve the tasks during their free time.
 
-It is forbidden to use someone else's code and to communicate about the problems with anyone apart from your own team members.
+It is forbidden to use someone else's code and to communicate about the problems with anyone apart from your own team members. Moreover, the use of AI-based tools, such as ChatGPT and the like, are strictly prohibited. Any team suspected of cheating by communicating with unauthorized personnel or using AI-based tools will be subjected to an interview with the judges. Further details will be discussed in the next section.
 
 All programming languages supported by Codeforces are allowed for the Online Elimination Round. Note, however, that the languages available for the In-Person Final Round will be limited to C++, Java, and Python 3 (details seen below under "Contest Environment").
 
@@ -51,18 +61,28 @@ Clarifications pertaining to the problems must be filed by the contestant using 
 
 The team must use the same Codeforces team name and Codeforces accounts submitted to the Algolympics Team.
 
+# Live Interview Phase
+Any team suspected of using AI-based tools in solving the problems during the Online Elimination Round will be subjected to a live interview with the judges. In this interview, the team members will be questioned by the judges on their familiarity with the details of their code. Further questions or tasks may be asked by the judges on a case-by-case basis.
+
+Suspected teams will be sent a survey to schedule their interview via the email provided in their registration form.
+
+A team may be disqualified if they:
+- fail to schedule an interview,
+- fail to attend their interview,
+- have not been able to defend themselves against the judges.
+
+The organizing committee reserves the right to disqualify a team without undergoing the live interview phase should their submissions be deemed undoubtedly guilty of using AI-based tools.
+
 # Invitation to the In-Person Final Round
 
-The organizers will accommodate a maximum of twenty (20) teams for the contest.
+The organizers will accommodate a maximum of twenty-five (25) teams for the contest.
 
-A team that:
-
+A team that: 
 - satisfies all eligibility criteria,
 - has not been disqualified,
 - has confirmed willingness and ability to attend the In-Person Final Round,
-- is among the top three (3) placing teams in the Eliminations Round from their academic institution AND is among the top twenty (20) teams who accepted the invitation to the In-Person Final Round.
+- is among the top three (3) placing teams in the Eliminations Round from their academic institution AND is among the top twenty-five (25) participants who accepted the invitation to the In-Person Final Round, and
 - solved at least nine (9) problems correctly during the Eliminations Round
-
 
 will be given an invitation to the In-Person Final Round.
 
@@ -70,18 +90,19 @@ It should be noted that academic institutions that are constituents to a singula
 
 Once invited, the team must confirm their attendance by responding to the invitation on or before the specified deadline. Failing to confirm by the deadline will be considered equivalent to declining to attend.
 
-Every time a team that has been invited is disqualified or declines to attend the In-Person Final Round, invites may be given to newly qualifying teams as per the criteria above, in a **top-down** approach. For instance, if the Top 20th team qualifies for the Finals Round, but refuses to participate, the steering committee will proceed to screen the eligibility of the Top 21st team.
+Every time a team that has been invited is disqualified or declines to attend the In-Person Final Round, invites may be given to newly qualifying teams as per the criteria above, in a **top-down approach**. For instance, if the Top 20th team qualifies for the Finals Round, but refuses to participate, the organizing committee will proceed to screen the eligibility of the Top 21st team.
 
-
-If such a situation arises that there are extra slots for another team to participate and no other team can qualify, **additional teams from a university that has reached the maximum number of teams may be given an invitation**.
+If such a situation arises in which there are extra slots for another team to participate and no other team can qualify, **additional teams from an academic institution that has reached the maximum number of teams may be given an invitation.**
 
 # In-Person Final Round
 
-The In-Person Final Round will be on **May 3, 2025**, from **8:00 AM to 8:00 PM**. The full program is included in the official invitation letter, which will include the opening ceremony, company talks, schedule for the practice round, and awarding. 
+The In-Person Final Round will be on **May 2, 2026**, from **8:00 AM** to **8:00 PM**. The full program is included in the official invitation letter, which will include the opening ceremony, company talks, schedule for the practice round, and awarding. 
 
-Each team is required to pay a registration fee amounting to Php 250 per person to be paid before the In-Person Final Round.
+Each team is required to pay a registration fee amounting to Php 350 per person to be paid before the In-Person Final Round.
 
-This fee may be paid through GCash, Paymaya or some other methods which we will announce in a timely manner. Options outside of these may also be considered; please contact us.  
+This fee may be paid through GCash, Maya, or in Cash during the event. Options outside of these may also be considered by contacting us regarding the matter.  
+
+Upon entering the venue, each contestant must present a valid ID to the registration booth to verify their identity.
 
 # Contest Environment
 
@@ -99,7 +120,7 @@ The programming languages for the In-Person Final Round will be restricted to th
 
 Note that we can only guarantee that all problems are solvable in C++ and Java.
 
-Each team may have up to one computer (one monitor) per participant.
+Each team may have up to one computer (one monitor).
 
 A participant will be permitted to use the following software throughout the duration of the contest: 
 
@@ -113,10 +134,10 @@ Contestants are allowed to submit reference material for use during the contest 
 
 - Contain up to 20 pages of reference material, typed on single-sided Letter (8x11 inches) or A4 size paper (210x297mm), with pages numbered on the upper right hand corner.
 - May contain algorithms, code listings, hints, or any other notes.
-- Each team member may have an exact copy of the reference material.
+- Each team member may have an **exact** copy of the reference material.
 - The document must have the name of the institution and team on the first page, and must be in PDF form.
 
-All materials and installation will be checked before the contest proper. Final reference material must be submitted **at least a week** before the contest. No hard copies need to be printed. Approved reference material will then be sent to participants on the day of the event. Participants are allowed to have scratch papers that are completely blank. These papers will be checked by proctors before the start of the contest. 
+All materials and installation will be checked before the contest proper. Final reference material must be submitted **at least a week** before the contest. No hard copies need to be printed. Approved reference material will then be sent to participants on the day of the event. Participants are allowed to have scratch papers that are completely blank or may request from the proctors. These papers will be checked by proctors before the start of the contest. 
 
 Apart from the approved reference material, no other materials are allowed. Electronic devices, such as physical calculators, handheld gadgets, and smart watches are similarly not allowed.
 
@@ -124,40 +145,48 @@ Contestants are expected to switch off all communication devices aside from thos
 
 A live scoreboard will be available for contestants. The scoreboard will be frozen one (1) hour before the conclusion of the contest.
 
-# Setup
-
-Each computer in the contest environment is outfitted with a Linux operating system with the Ubuntu 22.04 distribution. Each team shall be assigned to a Computer Laboratory within the contest grounds, which will be prepared by the UP ACM Team. The room assignments for each team shall be announced on the day of the Finals event. **There will be different seat assignments for the Practice Round and the Finals Round.**
-
-For each team, there will be **ONE** dedicated computer where contestants may use for coding. Each team will be provided a soft and hard copy of the problem set, as well as a hard copy of their approved reference material.
-
 # House Rules for In-Person Final Round
+
+Note that house rules will be strictly implemented during the competition proper. These house rules are as follows:
+
 1. Lab facilitators should accompany contestants when they need to leave the competition grounds.
 2. Bags should be left with their coaches/accompanying guardian and not be brought inside the labs.
 3. Scratch papers and pens will be provided during the competition proper.
 4. Eating inside the laboratories is not allowed.
 5. Lunch and snacks will be provided in front of the lecture hall.
 6. No electronic devices are allowed during the competition proper, this includes calculators and cell phones.
-7. No storage devices (USBs, External Hard Drives etc.) are allowed.
-8. Contestants are not allowed to bring any machine readable versions of software or code to the contest area.
-9. After the competition, participants are to accomplish the post-evaluation forms before they leave the competition grounds.
-10. Fair Play - Any form of cheating or dishonesty during the competition will not be tolerated. Teams who are caught cheating or attempting to cheat will be automatically disqualified. Moreover, any act that jeopardizes the competition (e.g. hacking or tampering with equipment, distracting behavior, etc.) is not allowed and will result in disqualification. All teams are expected to uphold the spirit of sportsmanship and fair play.
-11. The organizing committee is not liable for any damages and loss suffered for taking part or not being able to take part in the competition.
-12. The competition organizers reserve the right for rule changes anytime and inform the teams before the implementation.
+7. All communication devices will be submitted to the proctors during the start of the contest and will be returned afterwards.
+8. No storage devices (USBs, External Hard Drives etc.) are allowed.
+9. Contestants are not allowed to bring any machine readable versions of software or code to the contest area.
+10. After the competition, participants are to accomplish the post-evaluation forms before they leave the competition grounds.
+11. Fair Play - Any form of cheating or dishonesty during the competition will not be tolerated. Teams who are caught cheating or attempting to cheat will be automatically disqualified. Moreover, any act that jeopardizes the competition (e.g. hacking or tampering with equipment, distracting behavior, etc.) is not allowed and will result in disqualification. All teams are expected to uphold the spirit of sportsmanship and fair play.
+12. The organizing committee is not liable for any damages and loss suffered for taking part or not being able to take part in the competition.
+13. The competition organizers reserve the right for rule changes anytime and inform the teams before the implementation.
 
 # Proctoring
 
-The contest will be proctored in person, and participants are required to be in the Department of Computer Science (DCS) Labs on the day of the event. 
+The contest will be proctored in-person, and participants are required to be in the Department of Computer Science (DCS) Labs on the day of the event. 
+
 During the entire competition proper, proctors will be monitoring participants at all times. 
+
 Competitors must notify proctors before leaving the competition grounds (the laboratory rooms) to avoid possible disqualifications. Competitors will be accompanied by a proctor when leaving the competition grounds.
+
 Proctors do not have the right to disqualify a team if they violate any of the house rules specified in the **House Rules for In-Person Final Round** section. If any violation has occurred, the matter will be escalated to the required personnel for further discussion and evaluation.
+
 Note that proctoring guidelines may be modified. Changes will be communicated to all registered participants in a timely manner.
+
+# Practice Session
+
+Prior to the contest proper, a practice session will be held for one (1) hour and 30 minutes, in order for the contestants to familiarize themselves with the contest environment, as well as to address any technical or logistical issues that might occur.
+
+The practice session will have at least three (3) problems that they may choose to solve in the allotted time. The team’s performance during the practice session will not affect their score during the contest proper.
 
 
 # In-Person Finals Contest Proper
 
-The contest will have at least eight (8) problems to be solved in the allotted time of five hours. The length of the contest may be altered in the event of unforeseen consequences. Should the contest duration be altered, every attempt will be made to notify contestants in a timely and uniform manner.
+The contest will have at least eight (8) problems to be solved in the allotted time of five hours. The length of the contest may be altered in the event of unforeseen circumstances. Should the contest duration be altered, every attempt will be made to notify contestants in a timely and uniform manner.
 
-Submissions for judging from the teams are called runs. Submissions will be handled using the programming contest management system DOMjudge. Each run will be judged by the judges as either accepted or rejected, using the machines as specified below, and the team will be notified of the results. A rejected run will be reported as one of the following:
+Submissions for judging from the teams are called runs. Submissions will be handled using the programming contest management system: DOMjudge. Each run will be assessed by the judges as either accepted or rejected, using the machines as specified below, and the team will be notified of the results. A rejected run will be reported as one of the following:
 
 - compilation error (the program failed to compile)
   - includes compile time limit exceeded errors,
@@ -178,15 +207,15 @@ If the clarification is deemed valid, the judges will send clarification reports
 - Ubuntu 18.10
 - 2 vCPUs
 - 4 GB Memory
-- Custom 2nd generation Intel Xeon Scalable Processors (Cascade Lake) with a
-  sustained all core Turbo frequency of 3.6GHz and single core turbo frequency of up to
-  3.9GHz or 1st generation Intel Xeon Platinum 8000 series (Skylake-SP) processor with a
-  sustained all core Turbo frequency of up to 3.4GHz, and single core turbo frequency of
-  up to 3.5 GHz.
+- Custom 2nd generation Intel Xeon Scalable Processors (Cascade Lake) with a sustained all core Turbo frequency of 3.6GHz and single core turbo frequency of up to 3.9GHz or 1st generation Intel Xeon Platinum 8000 series (Skylake-SP) processor with a sustained all core Turbo frequency of up to 3.4GHz, and single core turbo frequency of up to 3.5 GHz.
 
 Note that these machine specifications may be subject to change.
 
+# Setup
 
+Each computer in the contest environment is outfitted with a Linux operating system with the Ubuntu 22.04 distribution. Each team shall be assigned to a Computer Laboratory within the contest grounds, which will be prepared by the organizing committee. The room assignments for each team shall be announced on the day of the Finals event. **There will be different seat assignments for the Practice Round and the Finals Round**.
+
+For each team, there will be **ONE** dedicated computer where contestants may use for coding. Each team will be provided a soft and hard copy of the problem set, as well as a hard copy of their approved reference material.
 
 # Scoring
 
@@ -209,21 +238,21 @@ The penalty is defined differently for the Elimination and Final Rounds.
     3. Sharing or using from others, **whether intentionally or unintentionally**, any information about a task, including its content or solution, before the end of a round.
     4. Displaying behavior considered to be disruptive, unethical, or unsportsmanlike.
 2. **Failing to reply**. Teams may be disqualified if they fail to respond to any request for information from the organizing committee related to Algolympics within seven days of our request or a given deadline.
-3. **Change of username/team name**. The team must not change their Codeforces username/team name at any point in the contest period (from registration until the end of the on-site final round). Any username/team name change is grounds for disqualification.
+3. **Change of username/team name**. The team must not change their Codeforces username/team name at any point in the contest period (from registration until the end of the on-site final round) unless prompted by the organizers due to invalidity of initial team name. Any username/team name change is grounds for disqualification.
 4. **Change of Codeforces team**. The team members that make up the Codeforces team must not change for the duration of the competition. Any change in team composition is grounds for immediate disqualification.
 5. **Reporting possible cases**. Any harassment, cheating, or violation of these terms may be reported by email to algolympics@upacm.net.
-6. **Non-compliance with House Rules**. After several warnings, failure to comply with the aforementioned Finals Rounds rules and mechanics may result in disqualification. Proctors hold the right to give warnings whenever unauthorized actions are detected during the competition. This includes, but are not limited to:
+6. **Non-compliance with the House Rules**. After three warnings, failure to comply with the aforementioned Finals Rounds rules and mechanics may result in disqualification. Proctors hold the right to give warnings whenever unauthorized actions are detected during the competition. This includes, but are not limited to:
     1. Using more than **ONE** computer for coding and submitting solutions
-    2. Accessing websites that are deemed **NOT** relevant to the contest proper
-    3. Inserting flash drives, CDs, or any other portable media devices to the computer.
+    2. Accessing online websites that are NOT relevant during the contest proper
+    3. Inserting flash drives, CDs, or any portable media device to the computer
 
 # Awards
 
-Certificates and souvenirs will be given to all the participants while monetary prizes will be given to the top three (3) teams, which are as follows:
+Certificates will be given to all the participants, and monetary prizes and medals will be given to the top three (3) teams, which are as follows:
 
-- Champion team: **PHP 15,000**
-- First runner-up team: **PHP 12,000**
-- Second runner-up team: **PHP 9,000**
+Champion team: **Php 15,000**
+First runner-up team: **Php 12,000**
+Second runner-up team: **Php 9,000**
 
 # Changes to the Rules
 
