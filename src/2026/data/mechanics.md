@@ -250,9 +250,9 @@ The penalty is defined differently for the Elimination and Final Rounds.
 
 Certificates will be given to all the participants, and monetary prizes and medals will be given to the top three (3) teams, which are as follows:
 
-Champion team: **Php 15,000**
-First runner-up team: **Php 12,000**
-Second runner-up team: **Php 9,000**
+- Champion team: **Php 15,000**
+- First runner-up team: **Php 12,000**
+- Second runner-up team: **Php 9,000**
 
 # Changes to the Rules
 
