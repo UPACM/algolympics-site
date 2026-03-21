@@ -1,6 +1,11 @@
 {
-  "currentYear": 2025,
+  "currentYear": 2026,
   "yearsLinks": [
+  {
+    "year": 2026,
+    "link": "/2026",
+    "external": false
+  },
   {
     "year": 2025,
     "link": "/2025",
