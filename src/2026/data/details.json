@@ -81,18 +81,18 @@
     },
     {
       "sponsorName": "Old St. Labs",
-      "staticLogoSrc": "/2024/assets/img/sponsors/old st.labs/YEARLONG_Old.St Labs.webp",
+      "staticLogoSrc": "/2026/assets/img/sponsors/old st.labs/YEARLONG_Old.St Labs.webp",
       "sponsorLink": "https://www.old.st/"
     },
     {
-      "sponsorName": "Amadeus",
-      "staticLogoSrc": "/2026/assets/img/sponsors/amadeus/AmadeusWorkmarkDarkSky.png",
-      "sponsorLink": "https://amadeus.com/en"
+      "sponsorName": "Avaloq",
+      "staticLogoSrc": "/2026/assets/img/sponsors/avaloq/Avaloq.png",
+      "sponsorLink": "https://www.avaloq.com/"
     },
     {
-      "sponsorName": "Innodata",
-      "staticLogoSrc": "/2026/assets/img/sponsors/innodata/innodatalightlogo.png",
-      "sponsorLink": "https://innodata.com/"
+      "sponsorName": "Jane Street",
+      "staticLogoSrc": "/2026/assets/img/sponsors/janestreet/JaneStreet.png",
+      "sponsorLink": "https://www.janestreet.com/"
     }
   ],
 
