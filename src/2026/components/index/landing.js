@@ -47,7 +47,7 @@ export default function Landing() {
         className={opaque ? "scrolled incompressible" : "incompressible"}
         src={withPrefix(contestDetails.landing.staticBgSrc)}
       />
-      <div class="scrollable-indicator"></div>
+      <div className="scrollable-indicator"></div>
       <div id="landing-text" className="incompressible">
         <div className="wrapper">
           <img
@@ -55,11 +55,10 @@ export default function Landing() {
             alt="Big Algolympics Logo"
           />
           <h1>
-              {/* Delete the arcane class if needed, this code was a little brute force, sorry future webmaster */}
-              <span className="main-red-algo2025 arcane">ALGO</span>
-              <span className="main-orange-algo2025 arcane">LYM</span>
-              <span className="main-green-algo2025 arcane">PICS</span>
-              <span className="main-blue-algo2025 arcane"> 2026</span>
+              <span className="main-red-algo2025">ALGO</span>
+              <span className="main-orange-algo2025">LYM</span>
+              <span className="main-green-algo2025">PICS</span>
+              <span className="main-blue-algo2025">2026</span>
           </h1>
         </div>
       </div>

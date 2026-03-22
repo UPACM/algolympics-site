@@ -105,7 +105,7 @@ export default function Header({ isIndex }) {
           <Link to="/2026/">
             <div className="title">
               <img src={withPrefix(contestDetails.headerImg)} alt="Header" />
-              <h1>
+              <h1 className="algo-title-2026">
                 <span className="main-red-algo2025">ALGO</span>
                 <span className="main-orange-algo2025">LYM</span>
                 <span className="main-green-algo2025">PICS</span>
