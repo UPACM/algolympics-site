@@ -17,12 +17,12 @@ export default function RedirectedPage({ target, debug }) {
   return (
     <div className="redirect">
       <img
-        class="redirect-logo"
+        className="redirect-logo"
         src={withPrefix("/" + generalSiteDetails.currentYear + "/assets/img/redirect.webp")}
         alt="This site is currently establishing a connection between the two brain cells of its developer."
       />
-      <h2 class="redirect-text">Redirecting...</h2>
-      <a href={target} class="redirect-link">
+      <h2 className="redirect-text">Redirecting...</h2>
+      <a href={target} className="redirect-link">
         Click here to proceed to the site immediately
       </a>
     </div>
