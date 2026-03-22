@@ -105,11 +105,11 @@ export default function Header({ isIndex }) {
           <Link to="/2025/">
             <div className="title">
               <img src={withPrefix(contestDetails.headerImg)} alt="Header" />
-              <h1>
+              <h1 className="algo-title-2025">
                 <span className="main-red-algo2025">ALGO</span>
                 <span className="main-orange-algo2025">LYM</span>
                 <span className="main-green-algo2025">PICS</span>
-                <span className="main-blue-algo2025"> 2025</span>
+                <span className="main-blue-algo2025">2025</span>
               </h1>
             </div>
           </Link>
