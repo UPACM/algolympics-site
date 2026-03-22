@@ -53,12 +53,13 @@ export default function Landing() {
           <img
             src={withPrefix(contestDetails.landing.bigAlgoLogoSrc)}
             alt="Big Algolympics Logo"
+            style={{ width: 550, maxWidth: "700px", height: "auto", objectFit: "contain"}}
           />
           <h1>
               <span className="main-red-algo2025">ALGO</span>
               <span className="main-orange-algo2025">LYM</span>
               <span className="main-green-algo2025">PICS</span>
-              <span className="main-blue-algo2025">2026</span>
+              <span className="main-blue-algo2025"> 2026</span>
           </h1>
         </div>
       </div>
