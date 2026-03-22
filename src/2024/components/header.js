@@ -150,8 +150,7 @@ export default function Header({ isIndex }) {
               >
                 FAQ
               </Link>
-              {/*Commented out these parts, but please revive them if possible*/}
-              {/*<NavDropdown
+              <NavDropdown
                 name="Archive"
                 links={globalDetails.yearsLinks.map(
                   ({ year, link, external }) => {
@@ -162,7 +161,7 @@ export default function Header({ isIndex }) {
                     }
                   }
                 )}
-              />*/}
+              />
               <a className="navlink" href="https://upacm.github.io/upacm-portal/">
                 UP ACM
                 </a>

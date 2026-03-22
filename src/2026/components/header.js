@@ -105,7 +105,7 @@ export default function Header({ isIndex }) {
           <Link to="/2026/">
             <div className="title">
               <img src={withPrefix(contestDetails.headerImg)} alt="Header" />
-              <h1 className="algo-title-2026">
+              <h1>
                 <span className="main-red-algo2025">ALGO</span>
                 <span className="main-orange-algo2025">LYM</span>
                 <span className="main-green-algo2025">PICS</span>
@@ -152,8 +152,7 @@ export default function Header({ isIndex }) {
               >
                 FAQ
               </Link>
-              {/*Commented out these parts, but please revive them if possible*/}
-              {/*<NavDropdown
+              <NavDropdown
                 name="Archive"
                 links={globalDetails.yearsLinks.map(
                   ({ year, link, external }) => {
@@ -164,7 +163,7 @@ export default function Header({ isIndex }) {
                     }
                   }
                 )}
-              />*/}
+              />
               <a className="navlink" href="https://upacm.github.io/upacm-portal/">
                 UP ACM
                 </a>
